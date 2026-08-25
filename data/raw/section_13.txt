@@ -1,0 +1,176 @@
+===Premium Miniatures===
+Catalyst Game Labs offers multiple online only miniatures that can be ordered from the webstore. These are shipped unassembled, with multiple possible configurations. Additionally the ERIS kit includes a hammerhead torso. 
+
+Table Notes: Name is as listed on packaging. The column denoted "Parts" gives the number of parts per box set for each miniature prior to assembly (the hex base is not included in these numbers). CGL is the license holder not the manufacturer.
+
+{| class="wikitable sortable" style="text-align: center;"
+! Image !! Base  <br/> Number !! Catalog  <br/> Number !! Model !! Name !! Parts !! Manufacturer !! Year !! Material !! Availability !! Notes
+|-
+| 
+| 
+| 36000
+| BL-9-KNT "Clanbuster"
+| ''[[Black Knight]]''
+| 12
+| [[Creative Juggernaut]]
+| 2021
+| Plastic
+| Not available
+| 300 piece Limited Run
+|-
+| 
+| 
+| 36001
+| B Config / K Config <br> TC Config
+| ''[[Stormcrow (Ryoken)|Stormcrow]]''
+| 8
+| [[Creative Juggernaut]]
+| 2021
+| Plastic
+| Reissue as 37021M
+| 300 piece Limited Run
+|-
+| 
+| 
+| 37009M
+| "Grinner"
+| ''[[Wolfhound IIC]]''
+| -
+| [[Monster Fight Club]]
+| 2022
+| Siocast
+| Available
+| 
+|-
+| 
+| 
+| 37010M
+| TC Config
+| ''[[Timber Wolf (Mad Cat)|Timber Wolf]]''
+| -
+| [[Monster Fight Club]]
+| 2022
+| Siocast
+| Available
+| 
+|-
+| 
+| 
+| 37011M
+| 1
+| ''[[Hammerhead (BattleMech)|Hammerhead]]''
+| 14
+| [[Monster Fight Club]]
+| 2022
+| Siocast
+| Available
+| Torsos miscast on initial run, reprints in 37012M
+|-
+| 
+| 
+| 37012M
+| ERS-2N
+| ''[[Eris]]''
+| 10*
+| [[Monster Fight Club]]
+| 2023
+| Siocast
+| Available
+| * 1x 37011M Torso Included 
+|-
+| 
+| 
+| 37013M
+| PHX-1 / -9 / -99 / C 2
+| ''[[Phoenix Hawk]]''
+| 10
+| [[Monster Fight Club]]
+| 2023
+| Siocast
+| Available
+| 
+|-
+| 
+| 
+| 37014M
+| RFL-3N / -5M / -7N / -9T / C 3
+| ''[[Rifleman]]''
+| -
+| [[Monster Fight Club]]
+| 2023
+| Siocast
+| Available
+|
+|-
+| 
+| 
+| 37015M
+| Prime Config / T Config
+| ''[[Mad Dog (Vulture)|Mad Dog]]''
+| 8
+| [[Monster Fight Club]]
+| 2024
+| Siocast
+| Available
+| 
+|-
+| 
+| 
+| 37016M
+| WVR-6R / -3R / -9R / -10R
+| ''[[Wolverine]]''
+| 14
+| [[Monster Fight Club]]
+| 2024
+| Siocast
+| Conventions
+|  
+|-
+| 
+| 
+| 37017M
+| BLR-1G / -6G / C 3
+| ''[[BattleMaster]]''
+| 14
+| [[Monster Fight Club]]
+| 2024
+| Siocast
+| Conventions
+| 
+|-
+| 
+| 
+| 37018M
+| Prime Config / T Config
+| [[Nova Cat (OmniMech)|''Nova Cat'']]
+| 10
+| [[Monster Fight Club]]
+| 2024
+| Siocast
+| Conventions
+| 
+|-
+| 
+| 
+| 37020M
+| BL-9-KNT "Clanbuster"
+| ''[[Black Knight]]''
+| 12
+| [[Monster Fight Club]]
+| 2023
+| Siocast
+| Available
+| Sculpt Differs from 36000
+|-
+| 
+| 
+| 37021M
+| B Config / K Config <br> TC Config
+| ''[[Stormcrow (Ryoken)|Stormcrow]]''
+| 8
+| [[Monster Fight Club]]
+| 2023
+| Siocast
+| Available
+| 
+|}

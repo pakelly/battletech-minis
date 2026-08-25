@@ -237,6 +237,13 @@ select:focus {
     color: var(--text-primary);
 }
 
+.card-source {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+    line-height: 1.3;
+}
+
 .card-alt-name {
     font-size: 0.75rem;
     color: var(--text-secondary);
@@ -378,6 +385,12 @@ select:focus {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 4px;
+}
+
+.detail-source {
+    font-size: 0.9rem;
+    color: var(--accent);
+    margin-bottom: 8px;
 }
 
 .detail-alt-name {

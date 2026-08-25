@@ -62,7 +62,7 @@ function populateYearFilter() {
 }
 
 function populateSourceFilter() {
-    const sources = [...new Set(allMechs.flatMap(m => m.sources || [m.source]).filter(s => s))].sort();
+    const sources = [...new Set(allMechs.map(m => m.source).filter(s => s))].sort();
     sources.forEach(s => {
         const opt = document.createElement('option');
         opt.value = s;
@@ -87,7 +87,7 @@ function saveOwned() {
 }
 
 function getMechId(mech) {
-    return mech.name.toLowerCase().replace(/\s+/g, '-');
+    return (mech.title || mech.name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
 // Filtering
@@ -177,6 +177,8 @@ function renderCards() {
         const weightTagClass = `tag-weight-${(mech.weightClass || 'na').toLowerCase().replace('/', '-')}`;
         const weightTag = `<span class="tag ${weightTagClass}">${weightClass}</span>`;
         
+        const sourceLabel = mech.source || '';
+        
         return `
             <div class="card ${owned ? 'owned' : ''} ${compareSelected ? 'compare-selected' : ''}" data-mech-id="${id}">
                 ${compareBadge}
@@ -186,9 +188,10 @@ function renderCards() {
                 <div class="card-image">${imageHtml}</div>
                 <div class="card-body">
                     <div class="card-name">${mech.name}</div>
+                    <div class="card-source">${sourceLabel}</div>
                     ${altNameHtml}
                     <div class="card-tags">${factionTag}${weightTag}</div>
-                    <div class="card-year">${mech.year || '—'} · ${(mech.sources || [mech.source])[0] || ''}</div>
+                    <div class="card-year">${mech.year || '—'}</div>
                 </div>
             </div>
         `;
@@ -232,15 +235,16 @@ function showDetail(id) {
     
     const altNameHtml = mech.altName ? `<div class="detail-alt-name">aka ${mech.altName}</div>` : '';
     
-    const sources = mech.sources || [mech.source];
-    const sourcesHtml = sources.filter(s => s).map(s => `<li>${s}</li>`).join('');
+    const sources = [mech.source].filter(s => s);
+    const sourcesHtml = sources.map(s => `<li>${s}</li>`).join('');
     
-    const catalogNumbers = mech.catalogNumbers || [mech.catalogNumber];
-    const baseNumbers = mech.baseNumbers || [mech.baseNumber];
+    const catalogNumber = mech.catalogNumber || '';
+    const baseNumber = mech.baseNumber || '';
 
     modalBody.innerHTML = `
         ${imageHtml}
         <div class="detail-name">${mech.name}</div>
+        ${mech.source ? `<div class="detail-source">${mech.source}</div>` : ''}
         ${altNameHtml}
         <div class="card-tags" style="margin-bottom: 16px;">
             <span class="tag ${mech.faction === 'Clan' ? 'tag-faction-clan' : 'tag-faction-is'}">${mech.faction}</span>
@@ -255,12 +259,12 @@ function showDetail(id) {
             <div class="detail-value">${mech.year || '—'}</div>
         </div>
         <div class="detail-section">
-            <div class="detail-label">Base Number(s)</div>
-            <div class="detail-value">${baseNumbers.filter(n => n).join(', ') || '—'}</div>
+            <div class="detail-label">Base Number</div>
+            <div class="detail-value">${baseNumber || '—'}</div>
         </div>
         <div class="detail-section">
-            <div class="detail-label">Catalog Number(s)</div>
-            <div class="detail-value">${catalogNumbers.filter(n => n).join(', ') || '—'}</div>
+            <div class="detail-label">Catalog Number</div>
+            <div class="detail-value">${catalogNumber || '—'}</div>
         </div>
         <div class="detail-section">
             <div class="detail-label">Manufacturer</div>
@@ -340,11 +344,11 @@ function showCompare() {
         { label: 'Weight', get: m => m.weightClass || 'Unknown' },
         { label: 'Model', get: m => m.model || '—' },
         { label: 'Year', get: m => m.year || '—' },
-        { label: 'Base #', get: m => (m.baseNumbers || [m.baseNumber]).filter(n => n).join(', ') || '—' },
-        { label: 'Catalog #', get: m => (m.catalogNumbers || [m.catalogNumber]).filter(n => n).join(', ') || '—' },
+        { label: 'Base #', get: m => m.baseNumber || '—' },
+        { label: 'Catalog #', get: m => m.catalogNumber || '—' },
         { label: 'Manufacturer', get: m => m.manufacturer || '—' },
         { label: 'Material', get: m => m.material || '—' },
-        { label: 'Sources', get: m => (m.sources || [m.source]).filter(s => s).join(', ') || '—' },
+        { label: 'Source', get: m => m.source || '—' },
     ];
 
     const bodyRows = rows.map(row => {

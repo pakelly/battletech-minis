@@ -1,0 +1,237 @@
+===Alpha Strike===
+The following BattleMech miniatures are included in box sets intended for use with the Alpha Strike game system, starting with the 2022 [[Alpha Strike Boxed Set|BattleTech: Alpha Strike]] set. Also included are the later [[BattleTech: Aces (series)|BattleTech: Aces]] box sets.
+
+{| class="wikitable sortable" style="text-align: center;"
+! Image !! Base  <br/> Number !! Catalog  <br/> Number !! Model !! Name !! Parts !! Manufacturer !! Year !! Material !! Box <br/> Set
+|-
+| [[File:Alpha Strike Archer.jpg|40px]]
+| a2
+| 35690
+| ARC-2K / -5R / -9R / -9W
+| ''[[Archer]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Alpha Strike Atlas.jpg|40px]]
+| a1
+| 35690
+| AS7-S
+| ''[[Atlas]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Alpha Strike Blackjack.jpg|40px]]
+| a9
+| 35690
+| BJ-3
+| ''[[Blackjack (BattleMech)|Blackjack]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Alpha Strike Fire Moth.jpg|40px]]
+| a7
+| 35690
+| D Config
+| ''[[Fire Moth (Dasher)|Fire Moth]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Clan Invasion Box - Nova.jpg|40px]]
+| 13
+| 35690
+| Prime Config / T Config
+| ''[[Nova (Black Hawk)|Nova]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Alpha Strike Locust.jpg|40px]]
+| a4
+| 35690
+| LCT-3M
+| ''[[Locust]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Inner Sphere Battle Lance - Phoenix Hawk.jpg|40px]]
+| 17
+| 35690
+| PXH-1 / -9 / -99 / C 2
+| ''[[Phoenix Hawk]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Alpha Strike Pouncer.jpg|40px]]
+| a8
+| 35690
+| Prime Config / T Config <br> W Config
+| ''[[Pouncer]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Clan Invasion Box - Timber Wolf.jpg|40px]]
+| 14
+| 35690
+| Prime Config / T Config
+| ''[[Timber Wolf (Mad Cat)|Timber Wolf]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Inner Sphere Battle Lance - Warhammer.jpg|40px]]
+| 19
+| 35690
+| WHM-6R / -6Rb / -6Rk <br> WHM-8R / -10K / C / C 2
+| ''[[Warhammer]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Alpha Strike Warhawk.jpg|40px]]
+| a5
+| 35690
+| C Config
+| ''[[Warhawk (Masakari)|Warhawk]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Alpha Strike Wasp.jpg|40px]]
+| a3
+| 35690
+| WSP-3W
+| ''[[Wasp]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Alpha Strike Wraith.jpg|40px]]
+| a6
+| 35690
+| TR1 / TR2 / TR5
+| ''[[Wraith (BattleMech)|Wraith]]''
+| 1
+| Catalyst Game Labs
+| 2022
+| Plastic
+| [[Alpha Strike Boxed Set]]
+|-
+| [[File:Aces - Scouring Sands - Kraken.jpg|40px]]
+| 4-55
+| 35490
+| 3
+| ''[[Bane (Kraken)#Variants|Bane]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech Aces: Scouring Sands]]
+|-
+| [[File:Aces - Scouring Sands - Fulcrum.jpg|40px]]
+| 4-56
+| 35490
+| Standard
+| ''[[Fulcrum|Fulcrum Hovertank]]''
+| 2
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech Aces: Scouring Sands]]
+|-
+| [[File:Aces - Scouring Sands - Baboon.jpg|40px]]
+| 4-57
+| 35490
+| 6
+| ''[[Howler (Baboon)#Variants|Howler]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech Aces: Scouring Sands]]
+|-
+| [[File:Aces - Scouring Sands Locust IIC.jpg|40px]]
+| 4-58
+| 35490
+| 4
+| ''[[Locust IIC#Variants|Locust IIC]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech Aces: Scouring Sands]]
+|-
+| [[File:Aces - Scouring Sands - Marauder IIC.jpg|40px]]
+| 4-59
+| 35490
+| 6
+| ''[[Marauder IIC#Variants|Marauder IIC]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech Aces: Scouring Sands]]
+|-
+| [[File:Aces - Scouring Sands - Rifleman C.jpg|40px]]
+| 4-60
+| 35490
+| C 2
+| ''[[Rifleman#Variants|Rifleman]]''
+| 3
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech Aces: Scouring Sands]]
+|-
+| [[File:Aces - Scouring Sands - Summoner.jpg|40px]]
+| 4-61
+| 35490
+| H Config
+| ''[[Summoner (Thor)#Alternate Configurations|Summoner]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech Aces: Scouring Sands]]
+|-
+| [[File:Aces - Scouring Sands - Thunderbolt IIC.jpg|40px]]
+| 4-62
+| 35490
+| 1
+| ''[[Thunderbolt IIC]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech Aces: Scouring Sands]]
+|}

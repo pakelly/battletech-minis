@@ -1,0 +1,157 @@
+===BattleTech Beginner Boxes and BattleTech: A Game of Armored Combat===
+
+The following BattleMech miniatures were included in the [[BattleTech Beginner Box]] and [[BattleTech: A Game of Armored Combat]].  These were molded in gray plastic and then attached to a black plastic hex base.  (In contrast, each plastic miniature prior to this had an integrated base that was molded directly as part of the miniature.)  A small molded number is given on the underside of the base either near the front or back rim (with bottom of the text being oriented towards the model's front side).  The ''Wolverine'' was included in both sets. In addition to a unified (re)design aesthetic, BattleMech miniatures released from these onward utilized a standard 1/265 scale.<ref name=Scale>Line Developer Comment, 03/23/16, https://web.archive.org/web/20230319183217/https://bg.battletech.com/forums/miniatures/a-question-of-scale-51795/msg1195531/#expand</ref>
+
+In 2022, [[BattleTech Beginner Box, Second Edition]] was released with a ''Vindicator'' replacing the ''Wolverine''.
+
+In 2023 the [[BattleTech: Essentials]] boxset was announced for release as part of an exclusivity arrangement with the retailer Target.  This essentially served as another version of the Beginners Box.
+
+Table Notes: The column denoted "Parts" gives the number of parts per box set for each miniature prior to assembly. The column denoted "Catalog Number" can show different product codes if the miniature was available in different boxes.
+
+{| class="wikitable sortable" style="text-align: center;"
+! Image !! Base <br> Number !! Catalog <br> Number !! Model !! Name !! Parts !! Manufacturer !! Year !! Material !! Beginner Box Set
+|-
+| [[File:Beginner Box - Griffin.jpg|40px]] 
+| 1 
+| 35020
+| GRF-1N / -3N / C
+| ''[[Griffin]]''        
+| 1 
+| Catalyst Game Labs 
+| 2019 
+| Plastic 
+| [[BattleTech Beginner Box]]
+|-
+| [[File:A Game of Armored Combat - Wolverine.jpg|40px]] 
+| 2 
+| 35020 <br/> 3500D  
+| WVR-6R / -3R / -9R / -10R
+| ''[[Wolverine (BattleMech)|Wolverine]]'' 
+| 1 
+| Catalyst Game Labs 
+| 2019
+| Plastic 
+| [[BattleTech Beginner Box]] '''or''' <br/> [[BattleTech: A Game of Armored Combat]]
+|-
+| [[File:A Game of Armored Combat - Awesome.jpg|40px]] 
+| 3 
+| 3500D        
+| AWS-8Q / -11H  
+| ''[[Awesome]]''        
+| 1 
+| Catalyst Game Labs 
+| 2019
+| Plastic 
+| [[BattleTech: A Game of Armored Combat]]
+|-
+| [[File:A Game of Armored Combat - Catapult.jpg|40px]] 
+| 4 
+| 3500D        
+| CPLT-C1 / -C1b / -C5A
+| ''[[Catapult]]''       
+| 1 
+| Catalyst Game Labs 
+| 2019
+| Plastic 
+| [[BattleTech: A Game of Armored Combat]]
+|-
+| [[File:A Game of Armored Combat - Thunderbolt.jpg|40px]] 
+| 5 
+| 3500D        
+| TDR-5S / -5Sb / -5Sb2 <br> TDR-7M / -7S / -12R
+| ''[[Thunderbolt]]''    
+| 1 
+| Catalyst Game Labs 
+| 2019
+| Plastic 
+| [[BattleTech: A Game of Armored Combat]]
+|-
+| [[File:A Game of Armored Combat - Commando.jpg|40px]] 
+| 6 
+| 3500D        
+| COM-2D / -9S
+| ''[[Commando]]''       
+| 1 
+| Catalyst Game Labs 
+| 2019
+| Plastic 
+| [[BattleTech: A Game of Armored Combat]]
+|-
+| [[File:A Game of Armored Combat - BattleMaster.jpg|40px]] 
+| 7 
+| 3500D        
+| BLR-1G / -6G / C 3
+| ''[[BattleMaster]]''   
+| 1 
+| Catalyst Game Labs 
+| 2019
+| Plastic 
+| [[BattleTech: A Game of Armored Combat]]
+|-
+| [[File:A Game of Armored Combat - Shadow Hawk.jpg|40px]] 
+| 8 
+| 3500D        
+| SHD-2H / -5R / -7H / C
+| ''[[Shadow Hawk]]''    
+| 1 
+| Catalyst Game Labs 
+| 2019
+| Plastic 
+| [[BattleTech: A Game of Armored Combat]]
+|-
+| [[File:A Game of Armored Combat - Locust.jpg|40px]] 
+| 9 
+| 3500D        
+| LCT-1V / -5M2 / -5M3 / -6M <br> LCT-7S / -7V / -7V2
+| ''[[Locust]]''         
+| 1 
+| Catalyst Game Labs 
+| 2019
+| Plastic 
+| [[BattleTech: A Game of Armored Combat]]
+|-
+| [[File:Beginner Box 2e - Griffin.jpg|40px]] 
+| 1A-2 
+| 35020M 
+| GRF-1N / -3N / -C
+| ''[[Griffin]]''          
+| 1 
+| Catalyst Game Labs 
+| 2022 
+| Plastic 
+| [[BattleTech Beginner Box, Second Edition]]
+|-
+| [[File:Beginner Box 2e - Vindicator.jpg|40px]] 
+| 3-8A 
+| 35020M      
+| VND-1R / -1AA / -1X / -7L
+|  ''[[Vindicator]]''    
+| 1 
+| Catalyst Game Labs 
+| 2022 
+| Plastic 
+| [[BattleTech Beginner Box, Second Edition]]
+|-
+| [[File:Battletech Essentials Centurion Yen Lo Wang.jpg|40px]]  
+| 4-25 
+| 35020E 
+| Yen-Lo-Wang 
+| ''[[Centurion (BattleMech)#Custom Variants|Centurion]]''
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic 
+| [[BattleTech: Essentials]]
+|-
+| [[File:Battletech Essentials Rifleman Legend Killer.jpg|40px]]   
+| 4-26 
+| 35202E 
+| RFL-3N / -5M / -7N / -9T / C 3 <br> Legend Killer / Legend Killer 2
+| ''[[Rifleman#Custom Variants|Rifleman]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic 
+| [[BattleTech: Essentials]]
+|-
+|}

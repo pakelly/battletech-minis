@@ -1,0 +1,889 @@
+===Independent Release ForcePacks===
+Several ForcePacks were released directly through retail following the first [[2019 Clan Invasion Crowdfunding Campaign]].  Many of these had a Mercenaries theme which would mesh with the [[BattleTech Beginner Box, Second Edition]] and the [[2023 Mercenaries Crowdfunding Campaign]].  Note the [[BattleTech: Somerset Strikers ForcePack|Somerset Strikers ForcePack]] was released in the Mercenaries Crowdfunding Campaign and thus included in that section.
+
+Table Notes: The column denoted "Parts" gives the number of parts per box set for each miniature prior to assembly. The column denoted "Catalog Number" can show different product codes if the miniature was available in different boxes.
+
+{| class="wikitable sortable" style="text-align: center;"
+! Image !! Base <br> Number !! Catalog <br> Number !! Model !! Name !! Parts !! Manufacturer !! Year !! Material !! Force Pack
+|-
+| [[File:Wolfs Dragoons Assault Star - Annihilator.jpg|40px]]
+| 3-1 
+| 35739
+| ANH-1A / -2A / -5W / C
+| ''[[Annihilator]]''
+| 1 
+| Catalyst Game Labs
+| 2021
+| Plastic
+| [[Wolf's Dragoons Assault Star]]
+|-
+| [[File:Wolfs Dragoons Assault Star - Archer.jpg|40px]]
+| 3-2 
+| 35739 
+| ARC-2W / C 2  
+| ''[[Archer]]''
+| 1 
+| Catalyst Game Labs
+| 2021
+| Plastic
+| [[Wolf's Dragoons Assault Star]]
+|-
+| [[File:Wolfs Dragoons Assault Star - Blackjack.jpg|40px]]
+| 3-3
+| 35739
+| BJ-2 / C
+| ''[[Blackjack (BattleMech)|Blackjack]]''
+| 1 
+| Catalyst Game Labs
+| 2021
+| Plastic
+| [[Wolf's Dragoons Assault Star]]
+|-
+| [[File:Wolfs Dragoons Assault Star - Rifleman.jpg|40px]]
+| 3-4 
+| 35739 
+| RFL-3N / -5M / -7N / -9T / C 3
+| ''[[Rifleman]]''
+| 1 
+| Catalyst Game Labs
+| 2021
+| Plastic
+| [[Wolf's Dragoons Assault Star]]
+|-
+| [[File:Wolfs Dragoons Assault Star - Timber Wolf.jpg|40px]]
+| 3-5 
+| 35739 
+| Prime Config / T Config
+| ''[[Timber Wolf]]''
+| 1 
+| Catalyst Game Labs
+| 2021
+| Plastic
+| [[Wolf's Dragoons Assault Star]]
+|-
+| [[File:ELH Hunter Lance-Sagittaire.jpg|40px]]
+|  4-7 
+| 35763 
+| SGT-8R / -9D / -14R
+| ''[[Sagittaire]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Eridani Light Horse Hunter Lance]]
+|-
+| [[File:ELH Hunter Lance-Banshee.jpg|40px]]
+|  4-5 
+| 35763 
+| BNC-3S / -12S
+| ''[[Banshee (BattleMech)|Banshee]]''
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Eridani Light Horse Hunter Lance]]
+|-
+| [[File:ELH Hunter Lance-Cyclops.jpg|40px]]
+|  4-6 
+| 35763 
+| CP-11-A / -11-A-DC / -11-G / C
+| ''[[Cyclops]]''
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Eridani Light Horse Hunter Lance]]
+|-
+| [[File:ELH Hunter Lance-Thunderbolt ground.jpg|40px]]
+|  4-8 
+| 35763 
+| TDR-5SE / -9SE / -10SE
+| ''[[Thunderbolt]]''
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Eridani Light Horse Hunter Lance]]
+|-
+| [[File:Hansen's_Roughriders_Battle_Lance_Penetrator.jpg|40px]]
+| 4-3 
+| 35764 
+| PTR-4D / -6S / -6T <br> PTR-8D / -4D Christifori
+| ''[[Penetrator]]''
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Hansen’s Roughriders Battle Lance]]
+|-
+| [[File:Hansen's Roughriders Battle Lance Atlas.jpg|40px]]
+| 4-1 
+| 35764 
+| AS7-D / AS8-K / C
+| ''[[Atlas]]''
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Hansen’s Roughriders Battle Lance]]
+|-
+| [[File:Hansen's Roughriders Battle Lance Enforcer.jpg|40px]]
+| 4-2 
+| 35764 
+| ENF-5D
+| ''[[Enforcer]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Hansen’s Roughriders Battle Lance]]
+|-
+| [[File:Hansen's Roughriders Battle Lance Hatchetman.jpg|40px]]
+| 4-4 
+| 35764 
+| HCT-6D  
+| ''[[Hatchetman]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Hansen’s Roughriders Battle Lance]]
+|-
+|
+| 4-14
+| 35767 
+| GUN-1ERD / -3ERD
+| ''[[Gunslinger (BattleMech)|Gunslinger]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Northwind Highlanders Command Lance]]
+|-
+|
+| 4-16
+| 35767 
+| HGN-732 / -733 / -733C <br> HGN-733P / -740
+| ''[[Highlander]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Northwind Highlanders Command Lance]]
+|-
+|
+| 4-15
+| 35767 
+| GHR-5J  
+| ''[[Grasshopper]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Northwind Highlanders Command Lance]]
+|-
+|
+| 4-13
+| 35767 
+| WHM-7S 
+| ''[[Warhammer]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Northwind Highlanders Command Lance]]
+|-
+| [[File:Kell Hounds Striker Lance Nightsky.jpg|40px]]
+| 4-10
+| 35766 
+| NGS-4S / -5T / -7S
+| ''[[Nightsky]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Kell Hounds Striker Lance]]
+|-
+| [[File:Kell Hounds Striker Lance Wolfhound.jpg|40px]]
+| 4-9 
+| 35766 
+| WLF-1 / -2 / -3S / -6S / -1 Allard
+| ''[[Wolfhound]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Kell Hounds Striker Lance]]
+|-
+| [[File:Kell Hounds Striker Lance Griffin.jpg|40px]]
+| 4-11
+| 35766 
+| GRF-3M  
+| ''[[Griffin]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Kell Hounds Striker Lance]]
+|-
+| [[File:Kell Hounds Striker Lance Crusader.jpg|40px]]
+| 4-12
+| 35766 
+| CRD-5M  
+| ''[[Crusader]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Kell Hounds Striker Lance]]
+|-
+| [[File:Gray Death Legion Heavy Battle Lance Regent.jpg|40px]]
+| 4-18
+| 35765
+| Prime Config
+| ''[[Regent]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Gray Death Legion Heavy Battle Lance]]
+|-
+| [[File:Gray Death Legion Heavy Battle Lance Shadow Hawk.jpg|40px]]
+| 4-20    
+| 35765
+| SHD-2H / -5R / -7H / C 
+| ''[[Shadow Hawk]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Gray Death Legion Heavy Battle Lance]]
+|-
+| [[File:Gray Death Legion Heavy Battle Lance Gargoyle.jpg|40px]]
+| 4-19  
+| 35765
+| C Config
+| ''[[Gargoyle (Man O' War)|Gargoyle]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Gray Death Legion Heavy Battle Lance]]
+|-
+| [[File:Gray Death Legion Heavy Battle Lance Catapult.jpg|40px]]
+| 4-17
+| 35765
+| CPLT-K2K / -K4
+| ''[[Catapult]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Gray Death Legion Heavy Battle Lance]]
+|-
+| 
+| 4-27
+| 35770
+| SPT-N2 / -N1 / -N4
+| ''[[Spartan]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Snord's Irregulars Assault Lance]]
+|-
+|
+| 4-28
+| 35770
+| RFL-3N Rifleman Sneede
+| ''[[Rifleman#Custom Variants|Rifleman]]''
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Snord's Irregulars Assault Lance]]
+|-
+|
+| 4-29
+| 35770
+| HGN-694  
+| ''[[Highlander]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Snord's Irregulars Assault Lance]]
+|-
+|
+| 4-30
+| 35770
+| GLT-3N / -4L / -4P / -5M / -7M
+| ''[[Guillotine]]'' 
+| 1 
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[Snord's Irregulars Assault Lance]]
+|-
+|
+| 4-35 
+| 35775  
+| BKX-7K / -RISC
+| ''[[Battleaxe]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: Proliferation Cycle Pack|Proliferation Cycle Pack]]
+|-
+|
+| 4-37 
+| 35775  
+| BWP-2B 
+| ''[[Ymir (BattleMech)|Ymir]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: Proliferation Cycle Pack|Proliferation Cycle Pack]]
+|-
+|
+| 4-31 
+| 35775  
+| Prime Config
+| ''[[Coyotl]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: Proliferation Cycle Pack|Proliferation Cycle Pack]]
+|-
+|
+| 4-33 
+| 35775  
+| FRB-2E 
+| ''[[Firebee]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: Proliferation Cycle Pack|Proliferation Cycle Pack]]
+|-
+|
+| 4-34
+| 35775 
+| GLD-4R / -7R/SF
+| ''[[Gladiator (BattleMech)|Gladiator]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: Proliferation Cycle Pack|Proliferation Cycle Pack]]
+|-
+|
+| 4-32 
+| 35775  
+| ICR-1S / -2X
+| ''[[Icarus II]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: Proliferation Cycle Pack|Proliferation Cycle Pack]]
+|-
+|
+| 4-36 
+| 35775 
+| MSK-6S 
+| ''[[Mackie]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: Proliferation Cycle Pack|Proliferation Cycle Pack]]
+|-
+|
+| 4-21 
+| 35776 
+| UM-R60L  
+| ''[[UrbanMech]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: UrbanMech Lance|''UrbanMech'' Lance]]
+|-
+|
+| 4-22 
+| 35776 
+| UM-R60 / -R69 / -R80
+| ''[[UrbanMech]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: UrbanMech Lance|''UrbanMech'' Lance]]
+|-
+|
+| 4-23 
+| 35776 
+| UM-R27 
+| ''[[UrbanMech]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: UrbanMech Lance|''UrbanMech'' Lance]]
+|-
+|
+| 4-24 
+| 35776 
+| UM-R68  
+| ''[[UrbanMech]]''
+| 1
+| Catalyst Game Labs
+| 2023
+| Plastic
+| [[BattleTech: UrbanMech Lance|''UrbanMech'' Lance]]
+|-
+|
+| 3-97 
+| 35780
+| AS7-D-H / -DK-H / -D-H Kerensky
+| ''[[Atlas II]]''
+| 1
+| Catalyst Game Labs
+| 2024
+| Plastic
+| [[BattleTech: Star League Command Lance|Star League Command Lance]]
+|-
+|
+| 3-96 
+| 35780 
+| PXH-1b "Special" <br> PXH-1c "Special"
+| ''[[Phoenix Hawk]]''
+| 2
+| Catalyst Game Labs
+| 2024
+| Plastic
+| [[BattleTech: Star League Command Lance|Star League Command Lance]]
+|-
+|
+| 3-98 
+| 35780 
+| TDK-7X / -7Z
+| ''[[Thunder Hawk]]''
+| 1
+| Catalyst Game Labs
+| 2024
+| Plastic
+| [[BattleTech: Star League Command Lance|Star League Command Lance]]
+|-
+|
+| 3-99  
+| 35780
+| ON1-Kb Kerensky
+| ''[[Orion]]''
+| 1
+| Catalyst Game Labs
+| 2024
+| Plastic
+| [[BattleTech: Star League Command Lance|Star League Command Lance]]
+|-
+|
+| 3-91
+| 36012
+|           
+| ''[[Urbanmech|Urbanmech LAM (Mech Mode)]]''     
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech Salvage Box: UrbanMech LAM|Salvage Box: Urbanmech LAM]]
+|-
+|
+| 3-92
+| 36012
+|           
+| ''[[Urbanmech|Urbanmech LAM (AirMech Mode)]]''  
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech Salvage Box: UrbanMech LAM|Salvage Box: Urbanmech LAM]]
+|-
+|
+| 3-90
+| 36012
+|           
+| ''[[Urbanmech|Urbanmech LAM (Aerospace Mode)]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech Salvage Box: UrbanMech LAM|Salvage Box: Urbanmech LAM]]
+|-
+|
+| 4-17
+| 35781
+| 135-K Lifesaver
+| [[Coolant Truck]]
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Second Star League Assault Lance|Second Star League Assault Lance]]
+|-
+|
+| 4-18
+| 35781
+| HEL-3D / -6RISC
+| ''[[Helios (BattleMech)|Helios]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Second Star League Assault Lance|Second Star League Assault Lance]]
+|-
+|
+| 4-19
+| 35781
+| AGS-4D
+| ''[[Argus]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Second Star League Assault Lance|Second Star League Assault Lance]]
+|-
+| 
+| 4-20
+| 35781
+| Prometheus
+| ''[[Dire Wolf (Daishi)|Dire Wolf]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Second Star League Assault Lance|Second Star League Assault Lance]]
+|-
+| 
+| 4-21
+| 35781
+| EMP-6A / -6X
+| ''[[Emperor]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Second Star League Assault Lance|Second Star League Assault Lance]]
+|-
+|
+| 4-22
+| 35771
+| STY-3C / -2C / -4C
+| ''[[Starslayer]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[McCarron's Armored Cavalry Assault Lance]]
+|-
+|
+| 4-23
+| 35771
+| AWS-9Q
+| ''[[Awesome]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[McCarron's Armored Cavalry Assault Lance]]
+|-
+|
+| 4-24
+| 35771
+| BL-6-KNT / BL-6b-KNT <br> BL-7-KNT / BL-18-KNT
+| ''[[Black Knight]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[McCarron's Armored Cavalry Assault Lance]]
+|-
+|
+| 4-25
+| 35771
+| TNZ-N1 / -N2 / -N3
+| ''[[Tian-Zong]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[McCarron's Armored Cavalry Assault Lance]]
+|-
+|
+| 4-26A
+| 35788
+| I Config
+| ''[[Blood Asp]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[Black Remnant Command Lance]]
+|-
+|
+| 4-27A
+| 35788
+| CP-11-H
+| ''[[Cyclops]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[Black Remnant Command Lance]]
+|-
+|
+| 4-28A
+| 35788
+| FLS-8K / -10E
+| ''[[Flashman]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[Black Remnant Command Lance]]
+|-
+| 
+| 4-29A
+| 35788
+| DGR-3F / -4F / -4F/6N <br> DGR-5F / -6FC / -7K / -9D
+| ''[[Dragon Fire]]''
+| 3
+| [[Liya International]]
+| 2024
+| Plastic
+| [[Black Remnant Command Lance]]
+|-
+| 
+| 4-38
+| 35784
+| 1
+| ''[[Hammerhead (BattleMech)|Hammerhead]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Third Star League Strike Team|Third Star League Strike Team]]
+|-
+| 
+| 4-39
+| 35784
+| HVC-P6 / -P7
+| ''[[Havoc (BattleMech)|Havoc]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Third Star League Strike Team|Third Star League Strike Team]]
+|-
+| 
+| 4-40
+| 35784
+| JLP-BD / -C / -IC / -NH / -KA
+| ''[[Jackalope]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Third Star League Strike Team|Third Star League Strike Team]]
+|-
+| 
+| 4-41
+| 35784
+| KTO-19 / -20 / -22
+| ''[[Kintaro]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Third Star League Strike Team|Third Star League Strike Team]]
+|-
+| 
+| 4-42
+| 35784
+| LMT-2R
+| ''[[Lament]]''
+| 1
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Third Star League Strike Team|Third Star League Strike Team]]
+|-
+| 
+| 4-43
+| 35784
+| Standard / Fusion<br/>Armor / RISC
+| ''[[J-27 Ordnance Transport]]''
+| 2
+| [[Liya International]]
+| 2024
+| Plastic
+| [[BattleTech: Third Star League Strike Team|Third Star League Strike Team]]
+|-
+| 
+| 4-44
+| 35787
+| EXC-B2 / -B2b / -B2-RISC
+| ''[[Excalibur (BattleMech)|Excalibur]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech: Third Star League Battle Group|Third Star League Battle Group]]
+|-
+| 
+| 4-45
+| 35787
+| MAL-XT / -XV / -Y-SH-LAZR
+| ''[[Malice]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech: Third Star League Battle Group|Third Star League Battle Group]]
+|-
+| 
+| 4-46
+| 35787
+| PKP-1A
+| ''[[Peacekeeper (BattleMech)|Peacekeeper]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech: Third Star League Battle Group|Third Star League Battle Group]]
+|-
+| 
+| 4-47
+| 35787
+| A Config
+| ''[[Savage Wolf (Mad Cat Mk IV)|Savage Wolf]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech: Third Star League Battle Group|Third Star League Battle Group]]
+|-
+| 
+| 4-48
+| 35787
+| Standard
+| ''[[Savior Repair Vehicle]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech: Third Star League Battle Group|Third Star League Battle Group]]
+|-
+| 
+| 4-49
+| 35787
+| Prime Config / Wendigo-XR
+| ''[[Wendigo (OmniMech)|Wendigo]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[BattleTech: Third Star League Battle Group|Third Star League Battle Group]]
+|-
+| [[File:21st_Centauri_Lancers_Command_Lance_-_Shadow_Cat.jpg|40px]]
+| 4-64
+| 35795
+| I Config
+| ''[[Shadow Cat]]'' 
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[21st Centauri Lancers Command Lance|21st Centauri Lancers Command Lance]]
+|-
+| [[File:21st Centauri Lancers Command Lance - Shockwave.jpg|40px]]
+| 4-65
+| 35795
+| SKW-2F / SKW-6H
+| ''[[Shockwave]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[21st Centauri Lancers Command Lance|21st Centauri Lancers Command Lance]]
+|-
+| [[File:21st_Centauri_Lancers_Command_Lance_-_Stalker.jpg|40px]]
+| 4-66
+| 35795
+| STK-8S
+| ''[[Stalker]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[21st Centauri Lancers Command Lance|21st Centauri Lancers Command Lance]]
+|-
+| [[File:21st Centauri Lancers Command Lance - Jade Hawk.jpg|40px]]
+| 4-63
+| 35795
+| 1 / JHK-03
+| ''[[Jade Hawk]]''
+| 1
+| [[Liya International]]
+| 2025
+| Plastic
+| [[21st Centauri Lancers Command Lance|21st Centauri Lancers Command Lance]]
+|-
+| [[File:Illician Lancers Command Lance Scarabus.jpg|40px]]
+| 4-78
+| 38002
+| SCB-9A / -9T
+| ''[[Scarabus | Scarabus]]''
+| 1
+| [[Liya International]]
+| 2026
+| Plastic
+| [[Illician Lancers Command Lance]]
+|-
+| [[File:Illician Lancers Command Lance Ostroc.jpg|40px]]
+| 4-75
+| 38002
+| OSR-2C / -2D / -3M / -6R
+| ''[[Ostroc | Ostroc]]''
+| 1
+| [[Liya International]]
+| 2026
+| Plastic
+| [[Illician Lancers Command Lance]]
+|-
+| [[File:Illician Lancers Command Lance Ostsol.jpg|40px]]
+| 4-77
+| 38002
+| OTL-9R
+| ''[[Ostsol | Ostsol]]''
+| 1
+| [[Liya International]]
+| 2026
+| Plastic
+| [[Illician Lancers Command Lance]]
+|-
+| [[File:Illician Lancers Command Lance Ostwar.jpg|40px]]
+| 4-76
+| 38002
+| OWR-2M / -3M
+| ''[[Ostwar | Ostwar]]''
+| 1
+| [[Liya International]]
+| 2026
+| Plastic
+| [[Illician Lancers Command Lance]]
+|-
+|}
