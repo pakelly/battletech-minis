@@ -1,4 +1,4 @@
-/* BattleTech Mini Collection App */
+/* BattleTech Mini Collection App v1.2 */
 
 let allMechs = [];
 let filteredMechs = [];
@@ -105,7 +105,9 @@ function applyFilters() {
         if (search) {
             const nameMatch = m.name.toLowerCase().includes(search);
             const altMatch = (m.altName || '').toLowerCase().includes(search);
-            if (!nameMatch && !altMatch) return false;
+            const titleMatch = (m.title || '').toLowerCase().includes(search);
+            const sourceMatch = (m.source || '').toLowerCase().includes(search);
+            if (!nameMatch && !altMatch && !titleMatch && !sourceMatch) return false;
         }
         // Faction
         if (faction && m.faction !== faction) return false;
@@ -115,8 +117,7 @@ function applyFilters() {
         if (year && m.year !== parseInt(year)) return false;
         // Source
         if (source) {
-            const mechSources = m.sources || [m.source];
-            if (!mechSources.some(s => s === source)) return false;
+        if (source && m.source !== source) return false;
         }
         // Owned only
         if (ownedOnly && !ownedSet.has(getMechId(m))) return false;
