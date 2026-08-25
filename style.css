@@ -115,18 +115,27 @@ header h1 {
 
 .filters {
     display: flex;
-    gap: 8px;
+    gap: 6px;
     flex-wrap: wrap;
 }
 
 select {
-    padding: 8px 12px;
+    padding: 6px 28px 6px 10px;
     background: var(--bg-tertiary);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     color: var(--text-primary);
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     cursor: pointer;
+    max-width: 140px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238b949e' d='M6 8L2 4h8z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
 }
 
 select:focus {
@@ -367,6 +376,53 @@ select:focus {
     max-width: 900px;
 }
 
+.variant-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.variant-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s;
+}
+
+.variant-btn:hover {
+    background: var(--bg-hover);
+    border-color: var(--accent);
+}
+
+.variant-count {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    min-width: 50px;
+    text-align: center;
+}
+
+.detail-no-image {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius);
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
 .modal-close {
     position: absolute;
     top: 12px;
@@ -502,17 +558,37 @@ select:focus {
 @media (max-width: 768px) {
     .controls {
         position: static;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 8px 12px;
+        gap: 6px;
     }
     header {
         position: static;
+        padding: 8px 12px;
+    }
+    .filters {
+        gap: 4px;
+    }
+    .filters select {
+        max-width: none;
+        flex: 1 1 calc(50% - 4px);
+        font-size: 0.72rem;
+        padding: 6px 24px 6px 8px;
+    }
+    .view-toggles {
+        justify-content: space-between;
+    }
+    .search-box {
+        min-width: auto;
     }
     .card-grid {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        gap: 12px;
-        padding: 12px;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 10px;
+        padding: 10px;
     }
     .card-image {
-        height: 120px;
+        height: 110px;
     }
 }
 

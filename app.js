@@ -1,4 +1,4 @@
-/* BattleTech Mini Collection App v1.2 */
+/* BattleTech Mini Collection App v1.3 */
 
 let allMechs = [];
 let filteredMechs = [];
@@ -226,13 +226,31 @@ function renderCards() {
 }
 
 // Detail Modal
+let currentDetailId = null;
+
+function findVariants(mech) {
+    // Find other entries with the same base mech name
+    const baseName = mech.name.replace(/ IIC$/, '').trim();
+    return allMechs.filter(m => {
+        const mBase = m.name.replace(/ IIC$/, '').trim();
+        return mBase === baseName;
+    });
+}
+
 function showDetail(id) {
     const mech = allMechs.find(m => getMechId(m) === id);
     if (!mech) return;
+    currentDetailId = id;
+
+    const variants = findVariants(mech);
+    const variantIdx = variants.findIndex(m => getMechId(m) === id);
+    const hasVariants = variants.length > 1;
+    const prevVariant = hasVariants ? variants[(variantIdx - 1 + variants.length) % variants.length] : null;
+    const nextVariant = hasVariants ? variants[(variantIdx + 1) % variants.length] : null;
 
     const imageHtml = mech.imageUrl
         ? `<img src="${mech.imageUrl}" alt="${mech.name}" class="detail-image" onerror="this.style.display='none'">`
-        : '';
+        : '<div class="detail-no-image">🤖</div>';
     
     const altNameHtml = mech.altName ? `<div class="detail-alt-name">aka ${mech.altName}</div>` : '';
     
@@ -242,7 +260,16 @@ function showDetail(id) {
     const catalogNumber = mech.catalogNumber || '';
     const baseNumber = mech.baseNumber || '';
 
+    const variantNav = hasVariants ? `
+        <div class="variant-nav">
+            <button class="variant-btn" onclick="showDetail('${getMechId(prevVariant)}')" title="${prevVariant.title}">‹</button>
+            <span class="variant-count">${variantIdx + 1} / ${variants.length}</span>
+            <button class="variant-btn" onclick="showDetail('${getMechId(nextVariant)}')" title="${nextVariant.title}">›</button>
+        </div>
+    ` : '';
+
     modalBody.innerHTML = `
+        ${variantNav}
         ${imageHtml}
         <div class="detail-name">${mech.name}</div>
         ${mech.source ? `<div class="detail-source">${mech.source}</div>` : ''}
@@ -414,6 +441,19 @@ document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
         detailModal.classList.remove('active');
         compareModal.classList.remove('active');
+    }
+    // Variant navigation
+    if (!detailModal.classList.contains('active') || !currentDetailId) return;
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+        const mech = allMechs.find(m => getMechId(m) === currentDetailId);
+        if (!mech) return;
+        const variants = findVariants(mech);
+        if (variants.length < 2) return;
+        const idx = variants.findIndex(m => getMechId(m) === currentDetailId);
+        const nextIdx = e.key === 'ArrowLeft'
+            ? (idx - 1 + variants.length) % variants.length
+            : (idx + 1) % variants.length;
+        showDetail(getMechId(variants[nextIdx]));
     }
 });
 
