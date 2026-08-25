@@ -14,10 +14,12 @@
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Clan Invasion Box Set / Salvage Box: Clan Invasion"
+        "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+        "Clan Invasion Box Set or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
-        "35030   36001"
+        "35030   36001",
+        "35030 36001"
       ],
       "baseNumbers": [
         "11"
@@ -78,7 +80,7 @@
     {
       "name": "Archer",
       "altName": "",
-      "model": "ARC-2R / -4M / -4M2 / -7C   ''Archer'' C / ARC-2R Morgan",
+      "model": "ARC-2R / -4M / -4M2 / -7C   ''Archer'' C / ARC-2R Morgan / ARC-2R / -4M / -4M2 / -7C Archer C / ARC-2R Morgan",
       "baseNumber": "21",
       "catalogNumber": "35721",
       "year": 2020,
@@ -92,13 +94,15 @@
         "Inner Sphere Command Lance",
         "Legendary MechWarriors Pack / Salvage Box: Legendary",
         "Wolf's Dragoons Assault Star",
-        "Alpha Strike Boxed Set"
+        "Alpha Strike Boxed Set",
+        "Legendary MechWarriors Pack or Salvage Box: Legendary"
       ],
       "catalogNumbers": [
         "35721",
         "35740   36003",
         "35739",
-        "35690"
+        "35690",
+        "35740 36003"
       ],
       "baseNumbers": [
         "21",
@@ -199,7 +203,7 @@
       "parts": "1",
       "sources": [
         "Inner Sphere Direct Fire Lance",
-        "Hansen\u2019s Roughriders Battle Lance",
+        "Hansen’s Roughriders Battle Lance",
         "Alpha Strike Boxed Set"
       ],
       "catalogNumbers": [
@@ -442,7 +446,8 @@
       "parts": "1",
       "sources": [
         "BattleTech: A Game of Armored Combat",
-        "Conventions"
+        "Conventions",
+        "Premium Miniature (Conventions)"
       ],
       "catalogNumbers": [
         "3500D",
@@ -457,24 +462,27 @@
     {
       "name": "Behemoth",
       "altName": "Combat Vehicle",
-      "model": "Standard / Refit / Davion",
+      "model": "Standard / Refit / Davion / 1",
       "baseNumber": "3-27",
       "catalogNumber": "35753",
       "year": 2024,
       "source": "Battlefield Support: Recon & Hunter Lance",
-      "imageFile": "",
-      "imageUrl": "",
+      "imageFile": "Clan Heavy Star - Behemoth.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Star_-_Behemoth.jpg",
       "manufacturer": "Liya International",
       "material": "Plastic",
       "parts": "2",
       "sources": [
-        "Battlefield Support: Recon & Hunter Lance"
+        "Battlefield Support: Recon & Hunter Lance",
+        "Clan Heavy Star"
       ],
       "catalogNumbers": [
-        "35753"
+        "35753",
+        "35730"
       ],
       "baseNumbers": [
-        "3-27"
+        "3-27",
+        "50"
       ],
       "faction": "Clan",
       "weightClass": "Assault"
@@ -496,7 +504,9 @@
         "ComStar Command Level II",
         "McCarron's Armored Cavalry Assault Lance",
         "Not available",
-        "Available"
+        "Available",
+        "Premium Miniature (Not available)",
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "35737",
@@ -535,6 +545,31 @@
       ],
       "faction": "Clan",
       "weightClass": "Medium"
+    },
+    {
+      "name": "Black Python",
+      "altName": "Viper",
+      "model": "(Black Python) 1 (White Raven) 1",
+      "baseNumber": "3-36",
+      "catalogNumber": "35755",
+      "year": 2024,
+      "source": "Clan Cavalry Star",
+      "imageFile": "Clan Cavalry Star - VIper.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Cavalry_Star_-_VIper.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Cavalry Star"
+      ],
+      "catalogNumbers": [
+        "35755"
+      ],
+      "baseNumbers": [
+        "3-36"
+      ],
+      "faction": "",
+      "weightClass": ""
     },
     {
       "name": "Blackjack",
@@ -594,6 +629,31 @@
       ],
       "faction": "Clan",
       "weightClass": "Assault"
+    },
+    {
+      "name": "Bulldog",
+      "altName": "",
+      "model": "Standard / ERLL Plasma / Chemical",
+      "baseNumber": "3-77",
+      "catalogNumber": "35777",
+      "year": 2024,
+      "source": "Battlefield Support: Rifle & Command Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Rifle & Command Lances"
+      ],
+      "catalogNumbers": [
+        "35777"
+      ],
+      "baseNumbers": [
+        "3-77"
+      ],
+      "faction": "",
+      "weightClass": ""
     },
     {
       "name": "Bulldog Medium Tank",
@@ -756,6 +816,31 @@
       ],
       "faction": "Inner Sphere",
       "weightClass": "Medium"
+    },
+    {
+      "name": "Chameleon",
+      "altName": "",
+      "model": "CLN-7V / -8V / -9V",
+      "baseNumber": "3-8",
+      "catalogNumber": "35050",
+      "year": 2024,
+      "source": "Mercenaries Box Set",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Mercenaries Box Set"
+      ],
+      "catalogNumbers": [
+        "35050"
+      ],
+      "baseNumbers": [
+        "3-8"
+      ],
+      "faction": "",
+      "weightClass": ""
     },
     {
       "name": "Charger",
@@ -1225,7 +1310,7 @@
     {
       "name": "Dire Wolf",
       "altName": "Daishi",
-      "model": "Prime Config / E Config   T Config",
+      "model": "Prime Config / E Config   T Config / Prime Config / E Config T Config / Widowmaker",
       "baseNumber": "1",
       "catalogNumber": "35720   36001",
       "year": 2020,
@@ -1238,12 +1323,16 @@
       "sources": [
         "Clan Command Star / Salvage Box: Clan Invasion",
         "Legendary MechWarriors Pack / Salvage Box: Legendary",
-        "Second Star League Assault Lance"
+        "Second Star League Assault Lance",
+        "Clan Command Star or Salvage Box: Clan Invasion",
+        "Legendary MechWarriors Pack or Salvage Box: Legendary"
       ],
       "catalogNumbers": [
         "35720   36001",
         "35740   36003",
-        "35781"
+        "35781",
+        "35720 36001",
+        "35740 36003"
       ],
       "baseNumbers": [
         "1",
@@ -1379,6 +1468,31 @@
       "weightClass": "N/A"
     },
     {
+      "name": "Elemental Battle Armor",
+      "altName": "",
+      "model": "Standard / Fire Elemental III",
+      "baseNumber": "16",
+      "catalogNumber": "35030 35739",
+      "year": 2020,
+      "source": "Clan Invasion Box Set or Clan Elemental Star",
+      "imageFile": "Clan Invasion Box - Elemental Battle Armor.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Invasion_Box_-_Elemental_Battle_Armor.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "2 5",
+      "sources": [
+        "Clan Invasion Box Set or Clan Elemental Star"
+      ],
+      "catalogNumbers": [
+        "35030 35739"
+      ],
+      "baseNumbers": [
+        "16"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
       "name": "Emperor",
       "altName": "",
       "model": "EMP-6A / -6X",
@@ -1418,7 +1532,7 @@
       "parts": "1",
       "sources": [
         "Inner Sphere Urban Lance",
-        "Hansen\u2019s Roughriders Battle Lance",
+        "Hansen’s Roughriders Battle Lance",
         "BattleTech: House Davion Cavalry Lance"
       ],
       "catalogNumbers": [
@@ -1448,7 +1562,9 @@
       "material": "Siocast",
       "parts": "10*",
       "sources": [
-        "Premium Miniature"
+        "Premium Miniature",
+        "Available",
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "37012M"
@@ -1497,10 +1613,12 @@
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Clan Invasion Box Set / Salvage Box: Clan Invasion"
+        "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+        "Clan Invasion Box Set or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
-        "35030   36001"
+        "35030   36001",
+        "35030 36001"
       ],
       "baseNumbers": [
         "15"
@@ -1765,6 +1883,31 @@
       "weightClass": "Medium"
     },
     {
+      "name": "Fulcrum Hovertank",
+      "altName": "",
+      "model": "Standard",
+      "baseNumber": "4-56",
+      "catalogNumber": "35490",
+      "year": 2025,
+      "source": "BattleTech Aces: Scouring Sands",
+      "imageFile": "Aces - Scouring Sands - Fulcrum.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Aces_-_Scouring_Sands_-_Fulcrum.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "BattleTech Aces: Scouring Sands"
+      ],
+      "catalogNumbers": [
+        "35490"
+      ],
+      "baseNumbers": [
+        "4-56"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
       "name": "Galleon",
       "altName": "",
       "model": "GAL-100 / -102 / -103 / -106 GAL-200 / -201 / C",
@@ -1804,11 +1947,13 @@
       "parts": "1",
       "sources": [
         "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
-        "Gray Death Legion Heavy Battle Lance"
+        "Gray Death Legion Heavy Battle Lance",
+        "Clan Heavy Striker Star or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
         "35722   36001",
-        "35765"
+        "35765",
+        "35722 36001"
       ],
       "baseNumbers": [
         "6",
@@ -2058,6 +2203,31 @@
       "weightClass": "Heavy"
     },
     {
+      "name": "Gunsmith",
+      "altName": "",
+      "model": "CH11-NG",
+      "baseNumber": "4-31A",
+      "catalogNumber": "35783",
+      "year": 2025,
+      "source": "BattleTech: House Davion Cavalry Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Davion Cavalry Lance"
+      ],
+      "catalogNumbers": [
+        "35783"
+      ],
+      "baseNumbers": [
+        "4-31A"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
       "name": "Hammerhead",
       "altName": "BattleMech",
       "model": "1",
@@ -2072,7 +2242,8 @@
       "parts": "1",
       "sources": [
         "Third Star League Strike Team",
-        "Available"
+        "Available",
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "35784",
@@ -2124,7 +2295,7 @@
       "parts": "1",
       "sources": [
         "Inner Sphere Heavy Lance",
-        "Hansen\u2019s Roughriders Battle Lance"
+        "Hansen’s Roughriders Battle Lance"
       ],
       "catalogNumbers": [
         "35727",
@@ -2226,10 +2397,12 @@
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Clan Heavy Striker Star / Salvage Box: Clan Invasion"
+        "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+        "Clan Heavy Striker Star or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
-        "35722   36001"
+        "35722   36001",
+        "35722 36001"
       ],
       "baseNumbers": [
         "7"
@@ -2585,10 +2758,12 @@
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Clan Heavy Striker Star / Salvage Box: Clan Invasion"
+        "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+        "Clan Heavy Striker Star or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
-        "35722   36001"
+        "35722   36001",
+        "35722 36001"
       ],
       "baseNumbers": [
         "8"
@@ -2622,8 +2797,33 @@
       "weightClass": "Light"
     },
     {
-      "name": "Inner Sphere Standard",
-      "altName": "Battle Armor",
+      "name": "Inner Sphere Standard <br> Battle Armor",
+      "altName": "",
+      "model": "Standard / Magnetic",
+      "baseNumber": "3-58",
+      "catalogNumber": "35761",
+      "year": 2024,
+      "source": "Inner Sphere Battle Armor Platoon",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "4",
+      "sources": [
+        "Inner Sphere Battle Armor Platoon"
+      ],
+      "catalogNumbers": [
+        "35761"
+      ],
+      "baseNumbers": [
+        "3-58"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
+      "name": "Inner Sphere Standard Battle Armor",
+      "altName": "",
       "model": "Standard / Magnetic",
       "baseNumber": "3-58",
       "catalogNumber": "35761",
@@ -3022,6 +3222,31 @@
       "weightClass": "Assault"
     },
     {
+      "name": "Legionnaire",
+      "altName": "",
+      "model": "LGN-2D / -2K / -2K-RISC",
+      "baseNumber": "4-33A",
+      "catalogNumber": "35783",
+      "year": 2025,
+      "source": "BattleTech: House Davion Cavalry Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "3",
+      "sources": [
+        "BattleTech: House Davion Cavalry Lance"
+      ],
+      "catalogNumbers": [
+        "35783"
+      ],
+      "baseNumbers": [
+        "4-33A"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
       "name": "Linebacker",
       "altName": "",
       "model": "Prime Config / T Config",
@@ -3103,6 +3328,31 @@
       "weightClass": "Light"
     },
     {
+      "name": "Loki Mk II",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "3-72",
+      "catalogNumber": "35769",
+      "year": 2024,
+      "source": "Legendary MechWarriors III Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Legendary MechWarriors III Pack"
+      ],
+      "catalogNumbers": [
+        "35769"
+      ],
+      "baseNumbers": [
+        "3-72"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
       "name": "Longbow",
       "altName": "",
       "model": "LGB-7Q / -10C / -14Q",
@@ -3130,8 +3380,8 @@
     {
       "name": "LRM Carrier",
       "altName": "",
-      "model": "Standard / 3055 Upgrade / C -or- Standard / C",
-      "baseNumber": "3-50 / 3-49",
+      "model": "Standard / 3055 Upgrade / C",
+      "baseNumber": "3-50",
       "catalogNumber": "35759",
       "year": 2024,
       "source": "Battlefield Support: Battle & Fire Lances",
@@ -3192,11 +3442,14 @@
       "parts": "1",
       "sources": [
         "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
-        "Available"
+        "Available",
+        "Clan Heavy Striker Star or Salvage Box: Clan Invasion",
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "35722   36001",
-        "37015M"
+        "37015M",
+        "35722 36001"
       ],
       "baseNumbers": [
         "9"
@@ -3257,7 +3510,7 @@
     {
       "name": "Marauder",
       "altName": "",
-      "model": "MAD-3R / -1R / -2R / -2T   MAD-3L / -3M / -7C / -7R / C",
+      "model": "MAD-3R / -1R / -2R / -2T   MAD-3L / -3M / -7C / -7R / C / MAD-3R / -1R / -2R / -2T MAD-3L / -3M / -7C / -7R / C",
       "baseNumber": "22",
       "catalogNumber": "35721",
       "year": 2020,
@@ -3271,13 +3524,15 @@
         "Inner Sphere Command Lance",
         "Legendary MechWarriors Pack / Salvage Box: Legendary",
         "Legendary MechWarriors II Pack",
-        "Legendary MechWarriors III Pack"
+        "Legendary MechWarriors III Pack",
+        "Legendary MechWarriors Pack or Salvage Box: Legendary"
       ],
       "catalogNumbers": [
         "35721",
         "35740   36003",
         "35768",
-        "35769"
+        "35769",
+        "35740 36003"
       ],
       "baseNumbers": [
         "22",
@@ -3483,10 +3738,12 @@
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Clan Command Star / Salvage Box: Clan Invasion"
+        "Clan Command Star / Salvage Box: Clan Invasion",
+        "Clan Command Star or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
-        "35720   36001"
+        "35720   36001",
+        "35720 36001"
       ],
       "baseNumbers": [
         "2"
@@ -3583,10 +3840,12 @@
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Clan Invasion Box Set / Salvage Box: Clan Invasion"
+        "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+        "Clan Invasion Box Set or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
-        "35030   36001"
+        "35030   36001",
+        "35030 36001"
       ],
       "baseNumbers": [
         "12"
@@ -3670,6 +3929,31 @@
       "weightClass": "Assault"
     },
     {
+      "name": "NightStar",
+      "altName": "",
+      "model": "NSR-9J / -10D",
+      "baseNumber": "93",
+      "catalogNumber": "35733",
+      "year": 2021,
+      "source": "Inner Sphere Heavy Battle Lance",
+      "imageFile": "Inner Sphere Heavy Battle Lance - Nightstar.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Battle_Lance_-_Nightstar.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35733"
+      ],
+      "baseNumbers": [
+        "93"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
       "name": "Nova",
       "altName": "Black Hawk",
       "model": "Prime Config / T Config",
@@ -3684,11 +3968,13 @@
       "parts": "1",
       "sources": [
         "Clan Invasion Box Set / Salvage Box: Clan Invasion",
-        "Alpha Strike Boxed Set"
+        "Alpha Strike Boxed Set",
+        "Clan Invasion Box Set or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
         "35030   36001",
-        "35690"
+        "35690",
+        "35030 36001"
       ],
       "baseNumbers": [
         "13"
@@ -3711,7 +3997,8 @@
       "parts": "1",
       "sources": [
         "Clan Fire Star",
-        "Conventions"
+        "Conventions",
+        "Premium Miniature (Conventions)"
       ],
       "catalogNumbers": [
         "35724",
@@ -3832,7 +4119,7 @@
     {
       "name": "Ostsol",
       "altName": "",
-      "model": "OTL-9R",
+      "model": "OTL-9R / OTL-4D / -8E / -8E3 / -8F / C",
       "baseNumber": "4-77",
       "catalogNumber": "38002",
       "year": 2026,
@@ -3843,13 +4130,16 @@
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Illician Lancers Command Lance"
+        "Illician Lancers Command Lance",
+        "Mercenaries Box Set"
       ],
       "catalogNumbers": [
-        "38002"
+        "38002",
+        "35050"
       ],
       "baseNumbers": [
-        "4-77"
+        "4-77",
+        "3-10"
       ],
       "faction": "Inner Sphere",
       "weightClass": "Medium"
@@ -3983,6 +4273,31 @@
       "weightClass": "Assault"
     },
     {
+      "name": "Pegasus",
+      "altName": "",
+      "model": "Standard / 3058 Upgrade Sealed / MML",
+      "baseNumber": "3-37",
+      "catalogNumber": "35756",
+      "year": 2024,
+      "source": "Battlefield Support: Assault & Cavalry Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Assault & Cavalry Lances"
+      ],
+      "catalogNumbers": [
+        "35756"
+      ],
+      "baseNumbers": [
+        "3-37"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
       "name": "Pegasus Scout Hover Tank",
       "altName": "",
       "model": "Standard / 3058 Upgrade Sealed / MML",
@@ -4014,14 +4329,14 @@
       "baseNumber": "4-3",
       "catalogNumber": "35764",
       "year": 2023,
-      "source": "Hansen\u2019s Roughriders Battle Lance",
+      "source": "Hansen’s Roughriders Battle Lance",
       "imageFile": "Hansen's_Roughriders_Battle_Lance_Penetrator.jpg",
       "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Hansen's_Roughriders_Battle_Lance_Penetrator.jpg",
       "manufacturer": "Catalyst Game Labs",
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Hansen\u2019s Roughriders Battle Lance"
+        "Hansen’s Roughriders Battle Lance"
       ],
       "catalogNumbers": [
         "35764"
@@ -4049,7 +4364,8 @@
         "Inner Sphere Battle Lance",
         "Star League Command Lance",
         "Alpha Strike Boxed Set",
-        "Available"
+        "Available",
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "35723",
@@ -4190,6 +4506,31 @@
       "weightClass": "Medium"
     },
     {
+      "name": "Quickdraw",
+      "altName": "",
+      "model": "QKD-4G / -5M / -9G",
+      "baseNumber": "3-11",
+      "catalogNumber": "35050",
+      "year": 2024,
+      "source": "Mercenaries Box Set",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Mercenaries Box Set"
+      ],
+      "catalogNumbers": [
+        "35050"
+      ],
+      "baseNumbers": [
+        "3-11"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
       "name": "Raven",
       "altName": "",
       "model": "RVN-3L / -4L / -5L",
@@ -4258,7 +4599,7 @@
         "Wolf's Dragoons Assault Star",
         "Snord's Irregulars Assault Lance",
         "BattleTech Aces: Scouring Sands",
-        "Available"
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "35202E",
@@ -4277,6 +4618,31 @@
       ],
       "faction": "Inner Sphere",
       "weightClass": "Medium"
+    },
+    {
+      "name": "Rifleman IIC",
+      "altName": "",
+      "model": "1 / 10",
+      "baseNumber": "3-53",
+      "catalogNumber": "35760",
+      "year": 2024,
+      "source": "Clan Direct Fire Star",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Direct Fire Star"
+      ],
+      "catalogNumbers": [
+        "35760"
+      ],
+      "baseNumbers": [
+        "3-53"
+      ],
+      "faction": "",
+      "weightClass": ""
     },
     {
       "name": "Rokurokubi",
@@ -4302,6 +4668,31 @@
       ],
       "faction": "Inner Sphere",
       "weightClass": "Heavy"
+    },
+    {
+      "name": "SRM Carrier",
+      "altName": "",
+      "model": "Standard / C",
+      "baseNumber": "3-49",
+      "catalogNumber": "35759",
+      "year": 2024,
+      "source": "Battlefield Support: Battle & Fire Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "12",
+      "sources": [
+        "Battlefield Support: Battle & Fire Lances"
+      ],
+      "catalogNumbers": [
+        "35759"
+      ],
+      "baseNumbers": [
+        "3-49"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
     },
     {
       "name": "Sagittaire",
@@ -4518,11 +4909,13 @@
       "parts": "1",
       "sources": [
         "Clan Command Star / Salvage Box: Clan Invasion",
-        "21st Centauri Lancers Command Lance"
+        "21st Centauri Lancers Command Lance",
+        "Clan Command Star or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
         "35720   36001",
-        "35795"
+        "35795",
+        "35720 36001"
       ],
       "baseNumbers": [
         "3",
@@ -4930,13 +5323,16 @@
       "parts": "1",
       "sources": [
         "Clan Command Star / Salvage Box: Clan Invasion",
-        "Reissue as 37021M",
-        "Available"
+        "Available",
+        "Clan Command Star or Salvage Box: Clan Invasion",
+        "Premium Miniature (Reissue as 37021M)",
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "35720   36001",
         "36001",
-        "37021M"
+        "37021M",
+        "35720 36001"
       ],
       "baseNumbers": [
         "4"
@@ -4972,7 +5368,7 @@
     {
       "name": "Summoner",
       "altName": "Thor",
-      "model": "Prime Config / T Config   U Config",
+      "model": "Prime Config / T Config   U Config / Prime Config / T Config U Config",
       "baseNumber": "5",
       "catalogNumber": "35720   36001",
       "year": 2020,
@@ -4984,11 +5380,13 @@
       "parts": "1",
       "sources": [
         "Clan Command Star / Salvage Box: Clan Invasion",
-        "BattleTech Aces: Scouring Sands"
+        "BattleTech Aces: Scouring Sands",
+        "Clan Command Star or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
         "35720   36001",
-        "35490"
+        "35490",
+        "35720 36001"
       ],
       "baseNumbers": [
         "5",
@@ -5206,7 +5604,7 @@
     {
       "name": "Timber Wolf",
       "altName": "Mad Cat",
-      "model": "Prime Config / T Config",
+      "model": "Prime Config / T Config / Pryde",
       "baseNumber": "14",
       "catalogNumber": "35030   36001",
       "year": 2020,
@@ -5223,7 +5621,10 @@
         "Alpha Strike Boxed Set",
         "Mercenary Kickstarter Bonus 100mm Timber Wolf (Mad Cat)",
         "Legendary MechWarriors III Pack",
-        "Available"
+        "Available",
+        "Clan Invasion Box Set or Salvage Box: Clan Invasion",
+        "Legendary MechWarriors Pack or Salvage Box: Legendary",
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "35030   36001",
@@ -5232,7 +5633,9 @@
         "35690",
         "35MTF4",
         "35769",
-        "37010M"
+        "37010M",
+        "35030 36001",
+        "35740 36003"
       ],
       "baseNumbers": [
         "14",
@@ -5329,6 +5732,81 @@
       ],
       "faction": "Inner Sphere",
       "weightClass": "Light"
+    },
+    {
+      "name": "Urbanmech LAM (Aerospace Mode)",
+      "altName": "Aerospace Mode",
+      "model": "",
+      "baseNumber": "3-90",
+      "catalogNumber": "36012",
+      "year": 2024,
+      "source": "Salvage Box: Urbanmech LAM",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Salvage Box: Urbanmech LAM"
+      ],
+      "catalogNumbers": [
+        "36012"
+      ],
+      "baseNumbers": [
+        "3-90"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
+      "name": "Urbanmech LAM (AirMech Mode)",
+      "altName": "AirMech Mode",
+      "model": "",
+      "baseNumber": "3-92",
+      "catalogNumber": "36012",
+      "year": 2024,
+      "source": "Salvage Box: Urbanmech LAM",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Salvage Box: Urbanmech LAM"
+      ],
+      "catalogNumbers": [
+        "36012"
+      ],
+      "baseNumbers": [
+        "3-92"
+      ],
+      "faction": "",
+      "weightClass": ""
+    },
+    {
+      "name": "Urbanmech LAM (Mech Mode)",
+      "altName": "Mech Mode",
+      "model": "",
+      "baseNumber": "3-91",
+      "catalogNumber": "36012",
+      "year": 2024,
+      "source": "Salvage Box: Urbanmech LAM",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Salvage Box: Urbanmech LAM"
+      ],
+      "catalogNumbers": [
+        "36012"
+      ],
+      "baseNumbers": [
+        "3-91"
+      ],
+      "faction": "",
+      "weightClass": ""
     },
     {
       "name": "Valkyrie",
@@ -5494,10 +5972,12 @@
       "material": "Plastic",
       "parts": "1",
       "sources": [
-        "Clan Heavy Striker Star / Salvage Box: Clan Invasion"
+        "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+        "Clan Heavy Striker Star or Salvage Box: Clan Invasion"
       ],
       "catalogNumbers": [
-        "35722   36001"
+        "35722   36001",
+        "35722 36001"
       ],
       "baseNumbers": [
         "10"
@@ -5745,6 +6225,31 @@
       "weightClass": "Assault"
     },
     {
+      "name": "White Raven",
+      "altName": "",
+      "model": "1",
+      "baseNumber": "3-36",
+      "catalogNumber": "35755",
+      "year": 2024,
+      "source": "BattleTech: Clan Cavalry Star",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: Clan Cavalry Star"
+      ],
+      "catalogNumbers": [
+        "35755"
+      ],
+      "baseNumbers": [
+        "3-36"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
       "name": "Whitworth",
       "altName": "",
       "model": "WTH-1 / -2H",
@@ -5814,7 +6319,9 @@
       "material": "Siocast",
       "parts": "-",
       "sources": [
-        "Premium Miniature"
+        "Premium Miniature",
+        "Available",
+        "Premium Miniature (Available)"
       ],
       "catalogNumbers": [
         "37009M"
@@ -5839,7 +6346,8 @@
       "parts": "1",
       "sources": [
         "BattleTech Beginner Box / BattleTech: A Game of Armored Combat",
-        "Conventions"
+        "Conventions",
+        "Premium Miniature (Conventions)"
       ],
       "catalogNumbers": [
         "35020   3500D",
