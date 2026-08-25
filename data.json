@@ -1,0 +1,5930 @@
+{
+  "mechs": [
+    {
+      "name": "Adder",
+      "altName": "Puma",
+      "model": "Prime Config / H Config T Config",
+      "baseNumber": "11",
+      "catalogNumber": "35030   36001",
+      "year": 2020,
+      "source": "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Invasion Box - Adder.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Invasion_Box_-_Adder.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Invasion Box Set / Salvage Box: Clan Invasion"
+      ],
+      "catalogNumbers": [
+        "35030   36001"
+      ],
+      "baseNumbers": [
+        "11"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Akuma",
+      "altName": "",
+      "model": "AKU-2XC",
+      "baseNumber": "4-71",
+      "catalogNumber": "35786",
+      "year": 2026,
+      "source": "BattleTech: House Kurita Command Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Kurita Command Lance"
+      ],
+      "catalogNumbers": [
+        "35786"
+      ],
+      "baseNumbers": [
+        "4-71"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Annihilator",
+      "altName": "",
+      "model": "ANH-1A / -2A / -5W / C",
+      "baseNumber": "3-1",
+      "catalogNumber": "35739",
+      "year": 2021,
+      "source": "Wolf's Dragoons Assault Star",
+      "imageFile": "Wolfs Dragoons Assault Star - Annihilator.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Wolfs_Dragoons_Assault_Star_-_Annihilator.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Wolf's Dragoons Assault Star"
+      ],
+      "catalogNumbers": [
+        "35739"
+      ],
+      "baseNumbers": [
+        "3-1"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Archer",
+      "altName": "",
+      "model": "ARC-2R / -4M / -4M2 / -7C   ''Archer'' C / ARC-2R Morgan",
+      "baseNumber": "21",
+      "catalogNumber": "35721",
+      "year": 2020,
+      "source": "Inner Sphere Command Lance",
+      "imageFile": "Inner Sphere Command Lance - Archer.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Command_Lance_-_Archer.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Command Lance",
+        "Legendary MechWarriors Pack / Salvage Box: Legendary",
+        "Wolf's Dragoons Assault Star",
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35721",
+        "35740   36003",
+        "35739",
+        "35690"
+      ],
+      "baseNumbers": [
+        "21",
+        "25",
+        "3-2",
+        "a2"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Arctic Cheetah",
+      "altName": "Hankyu",
+      "model": "Prime Config / F Config   T Config",
+      "baseNumber": "39",
+      "catalogNumber": "35726",
+      "year": 2021,
+      "source": "Clan Support Star",
+      "imageFile": "Clan Support Star - Arctic Cheetah.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Support_Star_-_Arctic_Cheetah.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Support Star"
+      ],
+      "catalogNumbers": [
+        "35726"
+      ],
+      "baseNumbers": [
+        "39"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Argus",
+      "altName": "",
+      "model": "AGS-4D",
+      "baseNumber": "4-19",
+      "catalogNumber": "35781",
+      "year": 2024,
+      "source": "Second Star League Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Second Star League Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35781"
+      ],
+      "baseNumbers": [
+        "4-19"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Assassin",
+      "altName": "",
+      "model": "ASN-21 / -109",
+      "baseNumber": "3-45",
+      "catalogNumber": "35758",
+      "year": 2024,
+      "source": "Inner Sphere Heavy Recon Lance",
+      "imageFile": "Inner_Sphere_Heavy_Recon_Lance_-_Assassin.JPG",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Recon_Lance_-_Assassin.JPG",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Recon Lance"
+      ],
+      "catalogNumbers": [
+        "35758"
+      ],
+      "baseNumbers": [
+        "3-45"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Atlas",
+      "altName": "",
+      "model": "AS7-D / AS8-K / C",
+      "baseNumber": "35",
+      "catalogNumber": "35725",
+      "year": 2021,
+      "source": "Inner Sphere Direct Fire Lance",
+      "imageFile": "Inner Sphere Direct Fire Lance - Atlas.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Direct_Fire_Lance_-_Atlas.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Direct Fire Lance",
+        "Hansen\u2019s Roughriders Battle Lance",
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35725",
+        "35764",
+        "35690"
+      ],
+      "baseNumbers": [
+        "35",
+        "4-1",
+        "a1"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Atlas II",
+      "altName": "",
+      "model": "AS7-D-H / -DK-H / -D-H Kerensky",
+      "baseNumber": "3-97",
+      "catalogNumber": "35780",
+      "year": 2024,
+      "source": "Star League Command Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Star League Command Lance"
+      ],
+      "catalogNumbers": [
+        "35780"
+      ],
+      "baseNumbers": [
+        "3-97"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Avatar",
+      "altName": "OmniMech",
+      "model": "AV1-O",
+      "baseNumber": "4-67",
+      "catalogNumber": "35785",
+      "year": 2026,
+      "source": "BattleTech: House Kurita Ranger Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Kurita Ranger Lance"
+      ],
+      "catalogNumbers": [
+        "35785"
+      ],
+      "baseNumbers": [
+        "4-67"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Awesome",
+      "altName": "",
+      "model": "AWS-8Q / -11H",
+      "baseNumber": "3",
+      "catalogNumber": "3500D",
+      "year": 2019,
+      "source": "BattleTech: A Game of Armored Combat",
+      "imageFile": "A Game of Armored Combat - Awesome.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/A_Game_of_Armored_Combat_-_Awesome.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: A Game of Armored Combat",
+        "McCarron's Armored Cavalry Assault Lance"
+      ],
+      "catalogNumbers": [
+        "3500D",
+        "35771"
+      ],
+      "baseNumbers": [
+        "3",
+        "4-23"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Axman",
+      "altName": "",
+      "model": "AXM-1N / -5N",
+      "baseNumber": "90",
+      "catalogNumber": "35733",
+      "year": 2021,
+      "source": "Inner Sphere Heavy Battle Lance",
+      "imageFile": "Inner Sphere Heavy Battle Lance - Axman.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Battle_Lance_-_Axman.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Battle Lance",
+        "Somerset Strikers ForcePack"
+      ],
+      "catalogNumbers": [
+        "35733",
+        "35779"
+      ],
+      "baseNumbers": [
+        "90",
+        "3-84"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Bane",
+      "altName": "Kraken",
+      "model": "3",
+      "baseNumber": "4-55",
+      "catalogNumber": "35490",
+      "year": 2024,
+      "source": "BattleTech Aces: Scouring Sands",
+      "imageFile": "Aces - Scouring Sands - Kraken.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Aces_-_Scouring_Sands_-_Kraken.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech Aces: Scouring Sands",
+        "Clan Direct Fire Star"
+      ],
+      "catalogNumbers": [
+        "35490",
+        "35760"
+      ],
+      "baseNumbers": [
+        "4-55",
+        "3-57"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Banshee",
+      "altName": "BattleMech",
+      "model": "BNC-3S / -12S",
+      "baseNumber": "44",
+      "catalogNumber": "35727",
+      "year": 2021,
+      "source": "Inner Sphere Heavy Lance",
+      "imageFile": "Inner Sphere Heavy Lance - Banshee.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Lance_-_Banshee.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Lance",
+        "Eridani Light Horse Hunter Lance"
+      ],
+      "catalogNumbers": [
+        "35727",
+        "35763"
+      ],
+      "baseNumbers": [
+        "44",
+        "4-5"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Battle Cobra",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "40",
+      "catalogNumber": "35726",
+      "year": 2021,
+      "source": "Clan Support Star",
+      "imageFile": "Clan Support Star - Battle Cobra.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Support_Star_-_Battle_Cobra.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Support Star"
+      ],
+      "catalogNumbers": [
+        "35726"
+      ],
+      "baseNumbers": [
+        "40"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Battleaxe",
+      "altName": "",
+      "model": "BKX-7K / -RISC",
+      "baseNumber": "4-35",
+      "catalogNumber": "35775",
+      "year": 2023,
+      "source": "Proliferation Cycle Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Proliferation Cycle Pack"
+      ],
+      "catalogNumbers": [
+        "35775"
+      ],
+      "baseNumbers": [
+        "4-35"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "BattleMaster",
+      "altName": "",
+      "model": "BLR-1G / -6G / C 3",
+      "baseNumber": "7",
+      "catalogNumber": "3500D",
+      "year": 2019,
+      "source": "BattleTech: A Game of Armored Combat",
+      "imageFile": "A Game of Armored Combat - BattleMaster.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/A_Game_of_Armored_Combat_-_BattleMaster.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: A Game of Armored Combat",
+        "Conventions"
+      ],
+      "catalogNumbers": [
+        "3500D",
+        "37017M"
+      ],
+      "baseNumbers": [
+        "7"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Behemoth",
+      "altName": "Combat Vehicle",
+      "model": "Standard / Refit / Davion",
+      "baseNumber": "3-27",
+      "catalogNumber": "35753",
+      "year": 2024,
+      "source": "Battlefield Support: Recon & Hunter Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Recon & Hunter Lance"
+      ],
+      "catalogNumbers": [
+        "35753"
+      ],
+      "baseNumbers": [
+        "3-27"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Black Knight",
+      "altName": "",
+      "model": "BL-6-KNT / BL-6b-KNT   BL-7-KNT / BL-18-KNT",
+      "baseNumber": "57",
+      "catalogNumber": "35737",
+      "year": 2021,
+      "source": "ComStar Command Level II",
+      "imageFile": "ComStar Command Level II - Black Knight.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Command_Level_II_-_Black_Knight.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Command Level II",
+        "McCarron's Armored Cavalry Assault Lance",
+        "Not available",
+        "Available"
+      ],
+      "catalogNumbers": [
+        "35737",
+        "35771",
+        "36000",
+        "37020M"
+      ],
+      "baseNumbers": [
+        "57",
+        "4-24"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Black Lanner",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "41",
+      "catalogNumber": "35726",
+      "year": 2021,
+      "source": "Clan Support Star",
+      "imageFile": "Clan Support Star - Black Lanner.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Support_Star_-_Black_Lanner.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Support Star"
+      ],
+      "catalogNumbers": [
+        "35726"
+      ],
+      "baseNumbers": [
+        "41"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Blackjack",
+      "altName": "BattleMech",
+      "model": "BJ-1 / -5",
+      "baseNumber": "58",
+      "catalogNumber": "35729",
+      "year": 2021,
+      "source": "Inner Sphere Striker Lance",
+      "imageFile": "Inner Sphere Striker Lance - Blackjack.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Striker_Lance_-_Blackjack.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Striker Lance",
+        "Wolf's Dragoons Assault Star",
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35729",
+        "35739",
+        "35690"
+      ],
+      "baseNumbers": [
+        "58",
+        "3-3",
+        "a9"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Blood Asp",
+      "altName": "",
+      "model": "I Config",
+      "baseNumber": "4-26A",
+      "catalogNumber": "35788",
+      "year": 2024,
+      "source": "Black Remnant Command Lance",
+      "imageFile": "Salvage Box Blood Asp (Star Adder) - Blood Asp (Star Adder).jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Salvage_Box_Blood_Asp_(Star_Adder)_-_Blood_Asp_(Star_Adder).jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Black Remnant Command Lance",
+        "Salvage Box: Blood Asp"
+      ],
+      "catalogNumbers": [
+        "35788",
+        "36013"
+      ],
+      "baseNumbers": [
+        "4-26A",
+        "3-89"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Bulldog Medium Tank",
+      "altName": "",
+      "model": "Standard / ERLL Plasma / Chemical",
+      "baseNumber": "3-77",
+      "catalogNumber": "35777",
+      "year": 2024,
+      "source": "Battlefield Support: Rifle & Command Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Rifle & Command Lances"
+      ],
+      "catalogNumbers": [
+        "35777"
+      ],
+      "baseNumbers": [
+        "3-77"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Bushwacker",
+      "altName": "",
+      "model": "BSW-X1 / -X4",
+      "baseNumber": "91",
+      "catalogNumber": "35733",
+      "year": 2021,
+      "source": "Inner Sphere Heavy Battle Lance",
+      "imageFile": "Inner Sphere Heavy Battle Lance - Bushwacker.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Battle_Lance_-_Bushwacker.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Battle Lance",
+        "Somerset Strikers ForcePack"
+      ],
+      "catalogNumbers": [
+        "35733",
+        "35779"
+      ],
+      "baseNumbers": [
+        "91",
+        "3-86"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Caesar",
+      "altName": "BattleMech",
+      "model": "CES-3R / -5R",
+      "baseNumber": "3-12",
+      "catalogNumber": "35050",
+      "year": 2024,
+      "source": "Mercenaries Box Set",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Mercenaries Box Set",
+        "Legendary MechWarriors II Pack"
+      ],
+      "catalogNumbers": [
+        "35050",
+        "35768"
+      ],
+      "baseNumbers": [
+        "3-12",
+        "3-64"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Cataphract",
+      "altName": "",
+      "model": "CTF-3D / -5LL",
+      "baseNumber": "92",
+      "catalogNumber": "35733",
+      "year": 2021,
+      "source": "Inner Sphere Heavy Battle Lance",
+      "imageFile": "Inner Sphere Heavy Battle Lance - Cataphract.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Battle_Lance_-_Cataphract.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35733"
+      ],
+      "baseNumbers": [
+        "92"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Catapult",
+      "altName": "",
+      "model": "CPLT-C1 / -C1b / -C5A",
+      "baseNumber": "4",
+      "catalogNumber": "3500D",
+      "year": 2019,
+      "source": "BattleTech: A Game of Armored Combat",
+      "imageFile": "A Game of Armored Combat - Catapult.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/A_Game_of_Armored_Combat_-_Catapult.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: A Game of Armored Combat",
+        "Gray Death Legion Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "3500D",
+        "35765"
+      ],
+      "baseNumbers": [
+        "4",
+        "4-17"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Centurion",
+      "altName": "BattleMech",
+      "model": "Yen-Lo-Wang",
+      "baseNumber": "4-25",
+      "catalogNumber": "35020E",
+      "year": 2021,
+      "source": "BattleTech: Essentials",
+      "imageFile": "Battletech Essentials Centurion Yen Lo Wang.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Battletech_Essentials_Centurion_Yen_Lo_Wang.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: Essentials",
+        "Inner Sphere Heavy Lance"
+      ],
+      "catalogNumbers": [
+        "35020E",
+        "35727"
+      ],
+      "baseNumbers": [
+        "4-25",
+        "45"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Charger",
+      "altName": "",
+      "model": "CGR-1A1 / C",
+      "baseNumber": "3-48",
+      "catalogNumber": "35758",
+      "year": 2024,
+      "source": "Inner Sphere Heavy Recon Lance",
+      "imageFile": "Inner_Sphere_Heavy_Recon_Lance_-_Charger.JPG",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Recon_Lance_-_Charger.JPG",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Recon Lance",
+        "Legendary MechWarriors II Pack"
+      ],
+      "catalogNumbers": [
+        "35758",
+        "35768"
+      ],
+      "baseNumbers": [
+        "3-48",
+        "3-66"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Chimera",
+      "altName": "BattleMech",
+      "model": "CMA-1S",
+      "baseNumber": "4-68",
+      "catalogNumber": "35785",
+      "year": 2026,
+      "source": "BattleTech: House Kurita Ranger Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "BattleTech: House Kurita Ranger Lance"
+      ],
+      "catalogNumbers": [
+        "35785"
+      ],
+      "baseNumbers": [
+        "4-68"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Cicada",
+      "altName": "",
+      "model": "CDA-2A / -4A",
+      "baseNumber": "3-20",
+      "catalogNumber": "35752",
+      "year": 2024,
+      "source": "Inner Sphere Pursuit Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Pursuit Lance"
+      ],
+      "catalogNumbers": [
+        "35752"
+      ],
+      "baseNumbers": [
+        "3-20"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Clint",
+      "altName": "",
+      "model": "CLNT-2-3T / -2-3U / -2-3UL CLNT-3-3T / -3-4T",
+      "baseNumber": "3-21",
+      "catalogNumber": "35752",
+      "year": 2024,
+      "source": "Inner Sphere Pursuit Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Pursuit Lance"
+      ],
+      "catalogNumbers": [
+        "35752"
+      ],
+      "baseNumbers": [
+        "3-21"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Commando",
+      "altName": "",
+      "model": "COM-2D / -9S",
+      "baseNumber": "6",
+      "catalogNumber": "3500D",
+      "year": 2019,
+      "source": "BattleTech: A Game of Armored Combat",
+      "imageFile": "A Game of Armored Combat - Commando.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/A_Game_of_Armored_Combat_-_Commando.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: A Game of Armored Combat"
+      ],
+      "catalogNumbers": [
+        "3500D"
+      ],
+      "baseNumbers": [
+        "6"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Condor",
+      "altName": "Combat Vehicle",
+      "model": "Standard / LAC / Ultra",
+      "baseNumber": "3-38",
+      "catalogNumber": "35756",
+      "year": 2024,
+      "source": "Battlefield Support: Assault & Cavalry Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Assault & Cavalry Lances"
+      ],
+      "catalogNumbers": [
+        "35756"
+      ],
+      "baseNumbers": [
+        "3-38"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Conjurer",
+      "altName": "Hellhound",
+      "model": "1",
+      "baseNumber": "73",
+      "catalogNumber": "35732",
+      "year": 2021,
+      "source": "Clan Striker Star",
+      "imageFile": "Clan Striker Star - Conjurer.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Striker_Star_-_Conjurer.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Striker Star"
+      ],
+      "catalogNumbers": [
+        "35732"
+      ],
+      "baseNumbers": [
+        "73"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Coolant Truck",
+      "altName": "",
+      "model": "135-K Lifesaver",
+      "baseNumber": "4-17",
+      "catalogNumber": "35781",
+      "year": 2024,
+      "source": "Second Star League Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Second Star League Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35781"
+      ],
+      "baseNumbers": [
+        "4-17"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Cougar",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "30",
+      "catalogNumber": "35724",
+      "year": 2021,
+      "source": "Clan Fire Star",
+      "imageFile": "Clan Fire Star - Cougar.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Fire_Star_-_Cougar.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Fire Star"
+      ],
+      "catalogNumbers": [
+        "35724"
+      ],
+      "baseNumbers": [
+        "30"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Coyotl",
+      "altName": "",
+      "model": "Prime Config",
+      "baseNumber": "4-31",
+      "catalogNumber": "35775",
+      "year": 2023,
+      "source": "Proliferation Cycle Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Proliferation Cycle Pack"
+      ],
+      "catalogNumbers": [
+        "35775"
+      ],
+      "baseNumbers": [
+        "4-31"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Crab",
+      "altName": "",
+      "model": "CRB-27 / -27b / -20 / -30 / -54",
+      "baseNumber": "80",
+      "catalogNumber": "35738",
+      "year": 2021,
+      "source": "ComStar Battle Level II",
+      "imageFile": "ComStar Battle Level II - Crab.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Battle_Level_II_-_Crab.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Battle Level II"
+      ],
+      "catalogNumbers": [
+        "35738"
+      ],
+      "baseNumbers": [
+        "80"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Crockett",
+      "altName": "",
+      "model": "CRK-5003-1 / -5003-0 / -5003-2   CRK-5003-3 / -5003-CJ / -5006-1",
+      "baseNumber": "81",
+      "catalogNumber": "35738",
+      "year": 2021,
+      "source": "ComStar Battle Level II",
+      "imageFile": "ComStar Battle Level II - Crockett.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Battle_Level_II_-_Crockett.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Battle Level II"
+      ],
+      "catalogNumbers": [
+        "35738"
+      ],
+      "baseNumbers": [
+        "81"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Crossbow",
+      "altName": "OmniMech",
+      "model": "Prime Config / T Config",
+      "baseNumber": "86",
+      "catalogNumber": "35728",
+      "year": 2021,
+      "source": "Clan Heavy Battle Star",
+      "imageFile": "Clan Heavy Battle Star - Crossbow.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Battle_Star_-_Crossbow.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Battle Star"
+      ],
+      "catalogNumbers": [
+        "35728"
+      ],
+      "baseNumbers": [
+        "86"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Crusader",
+      "altName": "",
+      "model": "CRD-3R / -8R / -9R / -10S",
+      "baseNumber": "36",
+      "catalogNumber": "35725",
+      "year": 2021,
+      "source": "Inner Sphere Direct Fire Lance",
+      "imageFile": "Inner Sphere Direct Fire Lance - Crusader.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Direct_Fire_Lance_-_Crusader.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Direct Fire Lance",
+        "Kell Hounds Striker Lance"
+      ],
+      "catalogNumbers": [
+        "35725",
+        "35766"
+      ],
+      "baseNumbers": [
+        "36",
+        "4-12"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Cyclops",
+      "altName": "",
+      "model": "CP-10-Z / -11-A / -11-A-DC   CP-11-G / C",
+      "baseNumber": "98",
+      "catalogNumber": "35736",
+      "year": 2021,
+      "source": "Inner Sphere Support Lance",
+      "imageFile": "Inner Sphere Support Lance - Cyclops.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Support_Lance_-_Cyclops.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Support Lance",
+        "Eridani Light Horse Hunter Lance",
+        "Black Remnant Command Lance"
+      ],
+      "catalogNumbers": [
+        "35736",
+        "35763",
+        "35788"
+      ],
+      "baseNumbers": [
+        "98",
+        "4-6",
+        "4-27A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Demolisher",
+      "altName": "",
+      "model": "Standard / Mk I / Mk II   Fuel Cell / Reinforced",
+      "baseNumber": "3-39",
+      "catalogNumber": "35756",
+      "year": 2024,
+      "source": "Battlefield Support: Assault & Cavalry Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Assault & Cavalry Lances"
+      ],
+      "catalogNumbers": [
+        "35756"
+      ],
+      "baseNumbers": [
+        "3-39"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Dervish",
+      "altName": "",
+      "model": "DV-6M / -7D / -11DK",
+      "baseNumber": "3-23",
+      "catalogNumber": "35752",
+      "year": 2024,
+      "source": "Inner Sphere Pursuit Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Pursuit Lance"
+      ],
+      "catalogNumbers": [
+        "35752"
+      ],
+      "baseNumbers": [
+        "3-23"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Devastator",
+      "altName": "",
+      "model": "DVS-2 / -2-EC / -11",
+      "baseNumber": "3-13",
+      "catalogNumber": "35050",
+      "year": 2024,
+      "source": "Mercenaries Box Set",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Mercenaries Box Set",
+        "Legendary MechWarriors II Pack"
+      ],
+      "catalogNumbers": [
+        "35050",
+        "35768"
+      ],
+      "baseNumbers": [
+        "3-13",
+        "3-65"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Dire Wolf",
+      "altName": "Daishi",
+      "model": "Prime Config / E Config   T Config",
+      "baseNumber": "1",
+      "catalogNumber": "35720   36001",
+      "year": 2020,
+      "source": "Clan Command Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Command Star - Dire Wolf.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Command_Star_-_Dire_Wolf.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Command Star / Salvage Box: Clan Invasion",
+        "Legendary MechWarriors Pack / Salvage Box: Legendary",
+        "Second Star League Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35720   36001",
+        "35740   36003",
+        "35781"
+      ],
+      "baseNumbers": [
+        "1",
+        "26",
+        "4-20"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Dragon",
+      "altName": "",
+      "model": "DRG-1N / -12K",
+      "baseNumber": "99",
+      "catalogNumber": "35736",
+      "year": 2021,
+      "source": "Inner Sphere Support Lance",
+      "imageFile": "Inner Sphere Support Lance - Dragon.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Support_Lance_-_Dragon.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Support Lance"
+      ],
+      "catalogNumbers": [
+        "35736"
+      ],
+      "baseNumbers": [
+        "99"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Dragon Fire",
+      "altName": "",
+      "model": "DGR-3F / -4F / -4F/6N   DGR-5F / -6FC / -7K / -9D",
+      "baseNumber": "4-29A",
+      "catalogNumber": "35788",
+      "year": 2024,
+      "source": "Black Remnant Command Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "3",
+      "sources": [
+        "Black Remnant Command Lance"
+      ],
+      "catalogNumbers": [
+        "35788"
+      ],
+      "baseNumbers": [
+        "4-29A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Drillson",
+      "altName": "",
+      "model": "Standard / ICE / C / MML",
+      "baseNumber": "3-83",
+      "catalogNumber": "35778",
+      "year": 2024,
+      "source": "Battlefield Support: Heavy Battle & Sweep Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Heavy Battle & Sweep Lances"
+      ],
+      "catalogNumbers": [
+        "35778"
+      ],
+      "baseNumbers": [
+        "3-83"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Ebon Jaguar",
+      "altName": "Cauldron-Born",
+      "model": "Prime Config / T Config",
+      "baseNumber": "87",
+      "catalogNumber": "35728",
+      "year": 2021,
+      "source": "Clan Heavy Battle Star",
+      "imageFile": "Clan Heavy Battle Star - Ebon Jaguar.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Battle_Star_-_Ebon_Jaguar.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Battle Star"
+      ],
+      "catalogNumbers": [
+        "35728"
+      ],
+      "baseNumbers": [
+        "87"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Elemental",
+      "altName": "Battle Armor",
+      "model": "Standard / Fire Elemental III",
+      "baseNumber": "16",
+      "catalogNumber": "35030   35739",
+      "year": 2020,
+      "source": "Clan Invasion Box Set / Clan Elemental Star",
+      "imageFile": "Clan Invasion Box - Elemental Battle Armor.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Invasion_Box_-_Elemental_Battle_Armor.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "2 <br/> 5",
+      "sources": [
+        "Clan Invasion Box Set / Clan Elemental Star"
+      ],
+      "catalogNumbers": [
+        "35030   35739"
+      ],
+      "baseNumbers": [
+        "16"
+      ],
+      "faction": "Clan",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Emperor",
+      "altName": "",
+      "model": "EMP-6A / -6X",
+      "baseNumber": "4-21",
+      "catalogNumber": "35781",
+      "year": 2024,
+      "source": "Second Star League Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Second Star League Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35781"
+      ],
+      "baseNumbers": [
+        "4-21"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Enforcer",
+      "altName": "",
+      "model": "ENF-4R / -5R",
+      "baseNumber": "59",
+      "catalogNumber": "35735",
+      "year": 2021,
+      "source": "Inner Sphere Urban Lance",
+      "imageFile": "Inner Sphere Urban Lance - Enforcer.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Urban_Lance_-_Enforcer.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Urban Lance",
+        "Hansen\u2019s Roughriders Battle Lance",
+        "BattleTech: House Davion Cavalry Lance"
+      ],
+      "catalogNumbers": [
+        "35735",
+        "35764",
+        "35783"
+      ],
+      "baseNumbers": [
+        "59",
+        "4-2",
+        "4-30A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Eris",
+      "altName": "",
+      "model": "ERS-2N",
+      "baseNumber": "",
+      "catalogNumber": "37012M",
+      "year": 2023,
+      "source": "Premium Miniature",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Monster Fight Club",
+      "material": "Siocast",
+      "parts": "10*",
+      "sources": [
+        "Premium Miniature"
+      ],
+      "catalogNumbers": [
+        "37012M"
+      ],
+      "baseNumbers": [],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy",
+      "availability": "Available"
+    },
+    {
+      "name": "Excalibur",
+      "altName": "BattleMech",
+      "model": "EXC-B2 / -B2b / -B2-RISC",
+      "baseNumber": "4-44",
+      "catalogNumber": "35787",
+      "year": 2025,
+      "source": "Third Star League Battle Group",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Battle Group"
+      ],
+      "catalogNumbers": [
+        "35787"
+      ],
+      "baseNumbers": [
+        "4-44"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Executioner",
+      "altName": "Gladiator",
+      "model": "Prime Config / T Config",
+      "baseNumber": "15",
+      "catalogNumber": "35030   36001",
+      "year": 2020,
+      "source": "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Invasion Box - Executioner.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Invasion_Box_-_Executioner.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Invasion Box Set / Salvage Box: Clan Invasion"
+      ],
+      "catalogNumbers": [
+        "35030   36001"
+      ],
+      "baseNumbers": [
+        "15"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Exterminator",
+      "altName": "",
+      "model": "EXT-4D / -4C / -7X",
+      "baseNumber": "60",
+      "catalogNumber": "35737",
+      "year": 2021,
+      "source": "ComStar Command Level II",
+      "imageFile": "ComStar Command Level II - Exterminator.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Command_Level_II_-_Exterminator.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Command Level II"
+      ],
+      "catalogNumbers": [
+        "35737"
+      ],
+      "baseNumbers": [
+        "60"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Falconer",
+      "altName": "",
+      "model": "FLC-8R",
+      "baseNumber": "4-35A",
+      "catalogNumber": "35782",
+      "year": 2025,
+      "source": "BattleTech: House Davion Heavy Battle Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Davion Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35782"
+      ],
+      "baseNumbers": [
+        "4-35A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Fire Falcon",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "94",
+      "catalogNumber": "35734",
+      "year": 2021,
+      "source": "Clan Ad Hoc Star",
+      "imageFile": "Clan Ad Hoc Star - Fire Falcon.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Ad_Hoc_Star_-_Fire_Falcon.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Ad Hoc Star"
+      ],
+      "catalogNumbers": [
+        "35734"
+      ],
+      "baseNumbers": [
+        "94"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Fire Moth",
+      "altName": "Dasher",
+      "model": "Prime Config / T Config",
+      "baseNumber": "31",
+      "catalogNumber": "35724",
+      "year": 2021,
+      "source": "Clan Fire Star",
+      "imageFile": "Clan Fire Star - Fire Moth.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Fire_Star_-_Fire_Moth.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Fire Star",
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35724",
+        "35690"
+      ],
+      "baseNumbers": [
+        "31",
+        "a7"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Firebee",
+      "altName": "",
+      "model": "FRB-2E",
+      "baseNumber": "4-33",
+      "catalogNumber": "35775",
+      "year": 2023,
+      "source": "Proliferation Cycle Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Proliferation Cycle Pack"
+      ],
+      "catalogNumbers": [
+        "35775"
+      ],
+      "baseNumbers": [
+        "4-33"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Firefly",
+      "altName": "",
+      "model": "FFL-4B / -4C /-4D /-5A",
+      "baseNumber": "3-7",
+      "catalogNumber": "35050",
+      "year": 2024,
+      "source": "Mercenaries Box Set",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Mercenaries Box Set"
+      ],
+      "catalogNumbers": [
+        "35050"
+      ],
+      "baseNumbers": [
+        "3-7"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Firestarter",
+      "altName": "",
+      "model": "FS9-H / -A / -N \"Mirage II\"",
+      "baseNumber": "3-18",
+      "catalogNumber": "35751",
+      "year": 2024,
+      "source": "Inner Sphere Recon Lance",
+      "imageFile": "Inner Sphere Recon Lance - Firestarter.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Recon_Lance_-_Firestarter.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Recon Lance"
+      ],
+      "catalogNumbers": [
+        "35751"
+      ],
+      "baseNumbers": [
+        "3-18"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Flashman",
+      "altName": "",
+      "model": "FLS-8K / -10E",
+      "baseNumber": "82",
+      "catalogNumber": "35738",
+      "year": 2021,
+      "source": "ComStar Battle Level II",
+      "imageFile": "ComStar Battle Level II - Flashman.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Battle_Level_II_-_Flashman.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Battle Level II",
+        "Black Remnant Command Lance"
+      ],
+      "catalogNumbers": [
+        "35738",
+        "35788"
+      ],
+      "baseNumbers": [
+        "82",
+        "4-28A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Flea",
+      "altName": "",
+      "model": "FLE-16 / -20 / -21",
+      "baseNumber": "3-6",
+      "catalogNumber": "35050",
+      "year": 2024,
+      "source": "Mercenaries Box Set",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Mercenaries Box Set"
+      ],
+      "catalogNumbers": [
+        "35050"
+      ],
+      "baseNumbers": [
+        "3-6"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Fulcrum",
+      "altName": "",
+      "model": "Standard",
+      "baseNumber": "4-56",
+      "catalogNumber": "35490",
+      "year": 2025,
+      "source": "BattleTech Aces: Scouring Sands",
+      "imageFile": "Aces - Scouring Sands - Fulcrum.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Aces_-_Scouring_Sands_-_Fulcrum.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "BattleTech Aces: Scouring Sands"
+      ],
+      "catalogNumbers": [
+        "35490"
+      ],
+      "baseNumbers": [
+        "4-56"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Galleon",
+      "altName": "",
+      "model": "GAL-100 / -102 / -103 / -106 GAL-200 / -201 / C",
+      "baseNumber": "3-14",
+      "catalogNumber": "35050",
+      "year": 2024,
+      "source": "Mercenaries Box Set",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Mercenaries Box Set"
+      ],
+      "catalogNumbers": [
+        "35050"
+      ],
+      "baseNumbers": [
+        "3-14"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Gargoyle",
+      "altName": "Man O' War",
+      "model": "Prime Config / T Config",
+      "baseNumber": "6",
+      "catalogNumber": "35722   36001",
+      "year": 2020,
+      "source": "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Heavy Striker Star - Gargoyle.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Striker_Star_-_Gargoyle.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+        "Gray Death Legion Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35722   36001",
+        "35765"
+      ],
+      "baseNumbers": [
+        "6",
+        "4-19"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Gladiator",
+      "altName": "BattleMech",
+      "model": "GLD-4R / -7R/SF",
+      "baseNumber": "4-34",
+      "catalogNumber": "35775",
+      "year": 2023,
+      "source": "Proliferation Cycle Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Proliferation Cycle Pack"
+      ],
+      "catalogNumbers": [
+        "35775"
+      ],
+      "baseNumbers": [
+        "4-34"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Goliath",
+      "altName": "",
+      "model": "GOL-1H / -3M / -3M2 GOL-7K / -7R / C",
+      "baseNumber": "3-42",
+      "catalogNumber": "35757",
+      "year": 2024,
+      "source": "Inner Sphere Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35757"
+      ],
+      "baseNumbers": [
+        "3-42"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Grand Dragon",
+      "altName": "",
+      "model": "DRG-10K",
+      "baseNumber": "4-72",
+      "catalogNumber": "35786",
+      "year": 2026,
+      "source": "BattleTech: House Kurita Command Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Kurita Command Lance"
+      ],
+      "catalogNumbers": [
+        "35786"
+      ],
+      "baseNumbers": [
+        "4-72"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Grasshopper",
+      "altName": "",
+      "model": "GHR-5H / -8K",
+      "baseNumber": "46",
+      "catalogNumber": "35727",
+      "year": 2021,
+      "source": "Inner Sphere Heavy Lance",
+      "imageFile": "Inner Sphere Heavy Lance - Grasshopper.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Lance_-_Grasshopper.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Lance",
+        "Northwind Highlanders Command Lance"
+      ],
+      "catalogNumbers": [
+        "35727",
+        "35767"
+      ],
+      "baseNumbers": [
+        "46",
+        "4-15"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Griffin",
+      "altName": "",
+      "model": "GRF-1N / -3N / C",
+      "baseNumber": "1",
+      "catalogNumber": "35020",
+      "year": 2019,
+      "source": "BattleTech Beginner Box",
+      "imageFile": "Beginner Box - Griffin.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Beginner_Box_-_Griffin.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech Beginner Box",
+        "BattleTech Beginner Box, Second Edition",
+        "Kell Hounds Striker Lance",
+        "Legendary MechWarriors III Pack"
+      ],
+      "catalogNumbers": [
+        "35020",
+        "35020M",
+        "35766",
+        "35769"
+      ],
+      "baseNumbers": [
+        "1",
+        "1A-2",
+        "4-11",
+        "3-70"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Griffin IIC",
+      "altName": "",
+      "model": "1",
+      "baseNumber": "3-34",
+      "catalogNumber": "35755",
+      "year": 2024,
+      "source": "Clan Cavalry Star",
+      "imageFile": "Clan Cavalry Star - Griffin IIC.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Cavalry_Star_-_Griffin_IIC.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Cavalry Star"
+      ],
+      "catalogNumbers": [
+        "35755"
+      ],
+      "baseNumbers": [
+        "3-34"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Grizzly",
+      "altName": "",
+      "model": "1 / 3",
+      "baseNumber": "3-54",
+      "catalogNumber": "35760",
+      "year": 2024,
+      "source": "Clan Direct Fire Star",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Direct Fire Star"
+      ],
+      "catalogNumbers": [
+        "35760"
+      ],
+      "baseNumbers": [
+        "3-54"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Guillotine",
+      "altName": "",
+      "model": "GLT-3N / -4L / -4P / -5M / -7M",
+      "baseNumber": "83",
+      "catalogNumber": "35738",
+      "year": 2021,
+      "source": "ComStar Battle Level II",
+      "imageFile": "ComStar Battle Level II - Guillotine.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Battle_Level_II_-_Guillotine.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Battle Level II",
+        "Snord's Irregulars Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35738",
+        "35770"
+      ],
+      "baseNumbers": [
+        "83",
+        "4-30"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Gunslinger",
+      "altName": "BattleMech",
+      "model": "GUN-1ERD / -3ERD",
+      "baseNumber": "4-14",
+      "catalogNumber": "35767",
+      "year": 2023,
+      "source": "Northwind Highlanders Command Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Northwind Highlanders Command Lance"
+      ],
+      "catalogNumbers": [
+        "35767"
+      ],
+      "baseNumbers": [
+        "4-14"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Hammerhead",
+      "altName": "BattleMech",
+      "model": "1",
+      "baseNumber": "4-38",
+      "catalogNumber": "35784",
+      "year": 2022,
+      "source": "Third Star League Strike Team",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Strike Team",
+        "Available"
+      ],
+      "catalogNumbers": [
+        "35784",
+        "37011M"
+      ],
+      "baseNumbers": [
+        "4-38"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Hatamoto-Chi",
+      "altName": "",
+      "model": "HTM-27T / -26T / -30T",
+      "baseNumber": "3-87",
+      "catalogNumber": "35779",
+      "year": 2024,
+      "source": "Somerset Strikers ForcePack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Somerset Strikers ForcePack"
+      ],
+      "catalogNumbers": [
+        "35779"
+      ],
+      "baseNumbers": [
+        "3-87"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Hatchetman",
+      "altName": "",
+      "model": "HCT-3F / -8S",
+      "baseNumber": "47",
+      "catalogNumber": "35727",
+      "year": 2021,
+      "source": "Inner Sphere Heavy Lance",
+      "imageFile": "Inner Sphere Heavy Lance - Hatchetman.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Lance_-_Hatchetman.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Lance",
+        "Hansen\u2019s Roughriders Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35727",
+        "35764"
+      ],
+      "baseNumbers": [
+        "47",
+        "4-4"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Havoc",
+      "altName": "BattleMech",
+      "model": "HVC-P6 / -P7",
+      "baseNumber": "4-39",
+      "catalogNumber": "35784",
+      "year": 2024,
+      "source": "Third Star League Strike Team",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Strike Team"
+      ],
+      "catalogNumbers": [
+        "35784"
+      ],
+      "baseNumbers": [
+        "4-39"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Hel",
+      "altName": "Loki Mk II",
+      "model": "Prime Config / T Config",
+      "baseNumber": "3-72",
+      "catalogNumber": "35769",
+      "year": 2024,
+      "source": "Legendary MechWarriors III Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Legendary MechWarriors III Pack"
+      ],
+      "catalogNumbers": [
+        "35769"
+      ],
+      "baseNumbers": [
+        "3-72"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Helios",
+      "altName": "BattleMech",
+      "model": "HEL-3D / -6RISC",
+      "baseNumber": "4-18",
+      "catalogNumber": "35781",
+      "year": 2024,
+      "source": "Second Star League Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Second Star League Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35781"
+      ],
+      "baseNumbers": [
+        "4-18"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Hellbringer",
+      "altName": "Loki",
+      "model": "Prime Config / T Config",
+      "baseNumber": "7",
+      "catalogNumber": "35722   36001",
+      "year": 2020,
+      "source": "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Heavy Striker Star - Hellbringer.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Striker_Star_-_Hellbringer.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Striker Star / Salvage Box: Clan Invasion"
+      ],
+      "catalogNumbers": [
+        "35722   36001"
+      ],
+      "baseNumbers": [
+        "7"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Hellion",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "95",
+      "catalogNumber": "35734",
+      "year": 2021,
+      "source": "Clan Ad Hoc Star",
+      "imageFile": "Clan Ad Hoc Star - Hellion.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Ad_Hoc_Star_-_Hellion.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Ad Hoc Star"
+      ],
+      "catalogNumbers": [
+        "35734"
+      ],
+      "baseNumbers": [
+        "95"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Hellspawn",
+      "altName": "",
+      "model": "HSN-7D / -8E",
+      "baseNumber": "4-32A",
+      "catalogNumber": "35783",
+      "year": 2025,
+      "source": "BattleTech: House Davion Cavalry Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Davion Cavalry Lance"
+      ],
+      "catalogNumbers": [
+        "35783"
+      ],
+      "baseNumbers": [
+        "4-32A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Hermes II",
+      "altName": "",
+      "model": "HER-2S / -5S / -5SA / -5Sr / -7A",
+      "baseNumber": "3-22",
+      "catalogNumber": "35752",
+      "year": 2024,
+      "source": "Inner Sphere Pursuit Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Pursuit Lance"
+      ],
+      "catalogNumbers": [
+        "35752"
+      ],
+      "baseNumbers": [
+        "3-22"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Hetzer",
+      "altName": "",
+      "model": "Standard / AC/10 / LB-X  Fuel Cell / Clan",
+      "baseNumber": "3-76",
+      "catalogNumber": "35777",
+      "year": 2024,
+      "source": "Battlefield Support: Rifle & Command Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Rifle & Command Lances"
+      ],
+      "catalogNumbers": [
+        "35777"
+      ],
+      "baseNumbers": [
+        "3-76"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Highlander",
+      "altName": "",
+      "model": "HGN-732 / -733 / -733C   HGN-733P / -740",
+      "baseNumber": "61",
+      "catalogNumber": "35737",
+      "year": 2021,
+      "source": "ComStar Command Level II",
+      "imageFile": "ComStar Command Level II - Highlander.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Command_Level_II_-_Highlander.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Command Level II",
+        "Northwind Highlanders Command Lance",
+        "Snord's Irregulars Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35737",
+        "35767",
+        "35770"
+      ],
+      "baseNumbers": [
+        "61",
+        "4-16",
+        "4-29"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Highlander IIC",
+      "altName": "",
+      "model": "1 / 3 / 4",
+      "baseNumber": "3-56",
+      "catalogNumber": "35760",
+      "year": 2024,
+      "source": "Clan Direct Fire Star",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Direct Fire Star"
+      ],
+      "catalogNumbers": [
+        "35760"
+      ],
+      "baseNumbers": [
+        "3-56"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Hoplite",
+      "altName": "",
+      "model": "HOP-4D / -4C / -5C",
+      "baseNumber": "3-41",
+      "catalogNumber": "35757",
+      "year": 2024,
+      "source": "Inner Sphere Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35757"
+      ],
+      "baseNumbers": [
+        "3-41"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Horned Owl",
+      "altName": "Peregrine",
+      "model": "1 / 5",
+      "baseNumber": "74",
+      "catalogNumber": "35732",
+      "year": 2021,
+      "source": "Clan Striker Star",
+      "imageFile": "Clan Striker Star - Horned Owl.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Striker_Star_-_Horned_Owl.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Striker Star"
+      ],
+      "catalogNumbers": [
+        "35732"
+      ],
+      "baseNumbers": [
+        "74"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Howler",
+      "altName": "Baboon",
+      "model": "1",
+      "baseNumber": "78",
+      "catalogNumber": "35734",
+      "year": 2021,
+      "source": "Clan Ad Hoc Star",
+      "imageFile": "Clan Ad Hoc Star - Howler.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Ad_Hoc_Star_-_Howler.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Ad Hoc Star",
+        "BattleTech Aces: Scouring Sands"
+      ],
+      "catalogNumbers": [
+        "35734",
+        "35490"
+      ],
+      "baseNumbers": [
+        "78",
+        "4-57"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Hunchback",
+      "altName": "",
+      "model": "HBK-4G / -5M / -5N / -6N / -7S / C   HBK-4G Shakir / -4G Hohiro",
+      "baseNumber": "62",
+      "catalogNumber": "35735",
+      "year": 2021,
+      "source": "Inner Sphere Urban Lance",
+      "imageFile": "Inner Sphere Urban Lance - Hunchback.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Urban_Lance_-_Hunchback.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Urban Lance"
+      ],
+      "catalogNumbers": [
+        "35735"
+      ],
+      "baseNumbers": [
+        "62"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Hunchback IIC",
+      "altName": "",
+      "model": "1",
+      "baseNumber": "48",
+      "catalogNumber": "35730",
+      "year": 2021,
+      "source": "Clan Heavy Star",
+      "imageFile": "Clan Heavy Star - Hunchback IIC.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Star_-_Hunchback_IIC.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Star"
+      ],
+      "catalogNumbers": [
+        "35730"
+      ],
+      "baseNumbers": [
+        "48"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Huntsman",
+      "altName": "Nobori-nin",
+      "model": "Prime Config / T Config",
+      "baseNumber": "88",
+      "catalogNumber": "35728",
+      "year": 2021,
+      "source": "Clan Heavy Battle Star",
+      "imageFile": "Clan Heavy Battle Star - Huntsman.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Battle_Star_-_Huntsman.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Battle Star"
+      ],
+      "catalogNumbers": [
+        "35728"
+      ],
+      "baseNumbers": [
+        "88"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Icarus II",
+      "altName": "",
+      "model": "ICR-1S / -2X",
+      "baseNumber": "4-32",
+      "catalogNumber": "35775",
+      "year": 2023,
+      "source": "Proliferation Cycle Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Proliferation Cycle Pack"
+      ],
+      "catalogNumbers": [
+        "35775"
+      ],
+      "baseNumbers": [
+        "4-32"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Ice Ferret",
+      "altName": "Fenris",
+      "model": "Prime Config / T Config",
+      "baseNumber": "8",
+      "catalogNumber": "35722   36001",
+      "year": 2020,
+      "source": "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Heavy Striker Star - Ice Ferret.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Striker_Star_-_Ice_Ferret.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Striker Star / Salvage Box: Clan Invasion"
+      ],
+      "catalogNumbers": [
+        "35722   36001"
+      ],
+      "baseNumbers": [
+        "8"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Incubus",
+      "altName": "Vixen",
+      "model": "1 / 9",
+      "baseNumber": "75",
+      "catalogNumber": "35732",
+      "year": 2021,
+      "source": "Clan Striker Star",
+      "imageFile": "Clan Striker Star - Incubus.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Striker_Star_-_Incubus.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Striker Star"
+      ],
+      "catalogNumbers": [
+        "35732"
+      ],
+      "baseNumbers": [
+        "75"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Inner Sphere Standard",
+      "altName": "Battle Armor",
+      "model": "Standard / Magnetic",
+      "baseNumber": "3-58",
+      "catalogNumber": "35761",
+      "year": 2024,
+      "source": "Inner Sphere Battle Armor Platoon",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "4",
+      "sources": [
+        "Inner Sphere Battle Armor Platoon"
+      ],
+      "catalogNumbers": [
+        "35761"
+      ],
+      "baseNumbers": [
+        "3-58"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "J-27 Ordnance Transport",
+      "altName": "",
+      "model": "Standard / Fusion Armor / RISC",
+      "baseNumber": "4-43",
+      "catalogNumber": "35784",
+      "year": 2024,
+      "source": "Third Star League Strike Team",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Third Star League Strike Team"
+      ],
+      "catalogNumbers": [
+        "35784"
+      ],
+      "baseNumbers": [
+        "4-43"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "J. Edgar",
+      "altName": "",
+      "model": "Standard / Chemical / ICE Light PPC / Machine Gun X-Pulse",
+      "baseNumber": "3-82",
+      "catalogNumber": "35778",
+      "year": 2024,
+      "source": "Battlefield Support: Heavy Battle & Sweep Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Heavy Battle & Sweep Lances"
+      ],
+      "catalogNumbers": [
+        "35778"
+      ],
+      "baseNumbers": [
+        "3-82"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Jackalope",
+      "altName": "",
+      "model": "JLP-BD / -C / -IC / -NH / -KA",
+      "baseNumber": "4-40",
+      "catalogNumber": "35784",
+      "year": 2024,
+      "source": "Third Star League Strike Team",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Strike Team"
+      ],
+      "catalogNumbers": [
+        "35784"
+      ],
+      "baseNumbers": [
+        "4-40"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Jade Hawk",
+      "altName": "",
+      "model": "1 / JHK-03",
+      "baseNumber": "4-63",
+      "catalogNumber": "35795",
+      "year": 2025,
+      "source": "21st Centauri Lancers Command Lance",
+      "imageFile": "21st Centauri Lancers Command Lance - Jade Hawk.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/21st_Centauri_Lancers_Command_Lance_-_Jade_Hawk.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "21st Centauri Lancers Command Lance"
+      ],
+      "catalogNumbers": [
+        "35795"
+      ],
+      "baseNumbers": [
+        "4-63"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "JagerMech",
+      "altName": "",
+      "model": "JM6-S / -DD / -DDa JM7-D / -DD",
+      "baseNumber": "3-31",
+      "catalogNumber": "35754",
+      "year": 2024,
+      "source": "Inner Sphere Security Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Security Lance"
+      ],
+      "catalogNumbers": [
+        "35754"
+      ],
+      "baseNumbers": [
+        "3-31"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Javelin",
+      "altName": "",
+      "model": "JVN-10N / -12N",
+      "baseNumber": "3-17",
+      "catalogNumber": "35751",
+      "year": 2024,
+      "source": "Inner Sphere Recon Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Recon Lance"
+      ],
+      "catalogNumbers": [
+        "35751"
+      ],
+      "baseNumbers": [
+        "3-17"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Jenner",
+      "altName": "",
+      "model": "JR7-D / -K / -N",
+      "baseNumber": "63",
+      "catalogNumber": "35729",
+      "year": 2021,
+      "source": "Inner Sphere Striker Lance",
+      "imageFile": "Inner Sphere Striker Lance - Jenner.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Striker_Lance_-_Jenner.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Striker Lance"
+      ],
+      "catalogNumbers": [
+        "35729"
+      ],
+      "baseNumbers": [
+        "63"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Jenner IIC",
+      "altName": "",
+      "model": "1",
+      "baseNumber": "3-33",
+      "catalogNumber": "35755",
+      "year": 2024,
+      "source": "Clan Cavalry Star",
+      "imageFile": "Clan Cavalry Star - Jenner IIC.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Cavalry_Star_-_Jenner_IIC.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Cavalry Star"
+      ],
+      "catalogNumbers": [
+        "35755"
+      ],
+      "baseNumbers": [
+        "3-33"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "King Crab",
+      "altName": "",
+      "model": "KGC-000 / -000b / -0000 / -011",
+      "baseNumber": "64",
+      "catalogNumber": "35737",
+      "year": 2021,
+      "source": "ComStar Command Level II",
+      "imageFile": "ComStar Command Level II - King Crab.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Command_Level_II_-_King_Crab.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Command Level II"
+      ],
+      "catalogNumbers": [
+        "35737"
+      ],
+      "baseNumbers": [
+        "64"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Kingfisher",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "89",
+      "catalogNumber": "35728",
+      "year": 2021,
+      "source": "Clan Heavy Battle Star",
+      "imageFile": "Clan Heavy Battle Star - Kingfisher.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Battle_Star_-_Kingfisher.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Battle Star"
+      ],
+      "catalogNumbers": [
+        "35728"
+      ],
+      "baseNumbers": [
+        "89"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Kintaro",
+      "altName": "",
+      "model": "KTO-19 / -20 / -22",
+      "baseNumber": "4-41",
+      "catalogNumber": "35784",
+      "year": 2024,
+      "source": "Third Star League Strike Team",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Strike Team"
+      ],
+      "catalogNumbers": [
+        "35784"
+      ],
+      "baseNumbers": [
+        "4-41"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Kit Fox",
+      "altName": "Uller",
+      "model": "Prime Config / T Config",
+      "baseNumber": "32",
+      "catalogNumber": "35724",
+      "year": 2021,
+      "source": "Clan Fire Star",
+      "imageFile": "Clan Fire Star - Kit Fox.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Fire_Star_-_Kit_Fox.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Fire Star"
+      ],
+      "catalogNumbers": [
+        "35724"
+      ],
+      "baseNumbers": [
+        "32"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Kodiak",
+      "altName": "",
+      "model": "1 / 6",
+      "baseNumber": "96",
+      "catalogNumber": "35734",
+      "year": 2021,
+      "source": "Clan Ad Hoc Star",
+      "imageFile": "Clan Ad Hoc Star - Kodiak.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Ad_Hoc_Star_-_Kodiak.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Ad Hoc Star"
+      ],
+      "catalogNumbers": [
+        "35734"
+      ],
+      "baseNumbers": [
+        "96"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Lament",
+      "altName": "",
+      "model": "LMT-2R",
+      "baseNumber": "4-42",
+      "catalogNumber": "35784",
+      "year": 2024,
+      "source": "Third Star League Strike Team",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Strike Team"
+      ],
+      "catalogNumbers": [
+        "35784"
+      ],
+      "baseNumbers": [
+        "4-42"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Lancelot",
+      "altName": "",
+      "model": "LNC25-01 / -01sl / -01X / -02   LNC25-03 / -07 / -08 / -09",
+      "baseNumber": "84",
+      "catalogNumber": "35738",
+      "year": 2021,
+      "source": "ComStar Battle Level II",
+      "imageFile": "ComStar Battle Level II - Lancelot.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Battle_Level_II_-_Lancelot.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Battle Level II"
+      ],
+      "catalogNumbers": [
+        "35738"
+      ],
+      "baseNumbers": [
+        "84"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Linebacker",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "42",
+      "catalogNumber": "35726",
+      "year": 2021,
+      "source": "Clan Support Star",
+      "imageFile": "Clan Support Star - Linebacker.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Support_Star_-_Linebacker.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Support Star"
+      ],
+      "catalogNumbers": [
+        "35726"
+      ],
+      "baseNumbers": [
+        "42"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Locust",
+      "altName": "",
+      "model": "LCT-1V / -5M2 / -5M3 / -6M   LCT-7S / -7V / -7V2",
+      "baseNumber": "9",
+      "catalogNumber": "3500D",
+      "year": 2019,
+      "source": "BattleTech: A Game of Armored Combat",
+      "imageFile": "A Game of Armored Combat - Locust.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/A_Game_of_Armored_Combat_-_Locust.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: A Game of Armored Combat",
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "3500D",
+        "35690"
+      ],
+      "baseNumbers": [
+        "9",
+        "a4"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Locust IIC",
+      "altName": "",
+      "model": "4",
+      "baseNumber": "4-58",
+      "catalogNumber": "35490",
+      "year": 2024,
+      "source": "BattleTech Aces: Scouring Sands",
+      "imageFile": "Aces - Scouring Sands Locust IIC.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Aces_-_Scouring_Sands_Locust_IIC.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech Aces: Scouring Sands",
+        "Clan Cavalry Star"
+      ],
+      "catalogNumbers": [
+        "35490",
+        "35755"
+      ],
+      "baseNumbers": [
+        "4-58",
+        "3-32"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Longbow",
+      "altName": "",
+      "model": "LGB-7Q / -10C / -14Q",
+      "baseNumber": "53",
+      "catalogNumber": "35731",
+      "year": 2021,
+      "source": "Inner Sphere Fire Lance",
+      "imageFile": "Inner Sphere Fire Lance - Longbow.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Fire_Lance_-_Longbow.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Fire Lance"
+      ],
+      "catalogNumbers": [
+        "35731"
+      ],
+      "baseNumbers": [
+        "53"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "LRM Carrier",
+      "altName": "",
+      "model": "Standard / 3055 Upgrade / C -or- Standard / C",
+      "baseNumber": "3-50 / 3-49",
+      "catalogNumber": "35759",
+      "year": 2024,
+      "source": "Battlefield Support: Battle & Fire Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "12",
+      "sources": [
+        "Battlefield Support: Battle & Fire Lances"
+      ],
+      "catalogNumbers": [
+        "35759"
+      ],
+      "baseNumbers": [
+        "3-50 / 3-49"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Mackie",
+      "altName": "",
+      "model": "MSK-6S",
+      "baseNumber": "4-36",
+      "catalogNumber": "35775",
+      "year": 2023,
+      "source": "Proliferation Cycle Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Proliferation Cycle Pack"
+      ],
+      "catalogNumbers": [
+        "35775"
+      ],
+      "baseNumbers": [
+        "4-36"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Mad Dog",
+      "altName": "Vulture",
+      "model": "Prime Config / T Config",
+      "baseNumber": "9",
+      "catalogNumber": "35722   36001",
+      "year": 2020,
+      "source": "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Heavy Striker Star - Mad Dog.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Striker_Star_-_Mad_Dog.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+        "Available"
+      ],
+      "catalogNumbers": [
+        "35722   36001",
+        "37015M"
+      ],
+      "baseNumbers": [
+        "9"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Malice",
+      "altName": "",
+      "model": "MAL-XT / -XV / -Y-SH-LAZR",
+      "baseNumber": "4-45",
+      "catalogNumber": "35787",
+      "year": 2025,
+      "source": "Third Star League Battle Group",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Battle Group"
+      ],
+      "catalogNumbers": [
+        "35787"
+      ],
+      "baseNumbers": [
+        "4-45"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Manticore",
+      "altName": "",
+      "model": "Standard / XL",
+      "baseNumber": "3-52",
+      "catalogNumber": "35759",
+      "year": 2024,
+      "source": "Battlefield Support: Battle & Fire Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Battle & Fire Lances"
+      ],
+      "catalogNumbers": [
+        "35759"
+      ],
+      "baseNumbers": [
+        "3-52"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Marauder",
+      "altName": "",
+      "model": "MAD-3R / -1R / -2R / -2T   MAD-3L / -3M / -7C / -7R / C",
+      "baseNumber": "22",
+      "catalogNumber": "35721",
+      "year": 2020,
+      "source": "Inner Sphere Command Lance",
+      "imageFile": "Inner Sphere Command Lance - Marauder.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Command_Lance_-_Marauder.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Command Lance",
+        "Legendary MechWarriors Pack / Salvage Box: Legendary",
+        "Legendary MechWarriors II Pack",
+        "Legendary MechWarriors III Pack"
+      ],
+      "catalogNumbers": [
+        "35721",
+        "35740   36003",
+        "35768",
+        "35769"
+      ],
+      "baseNumbers": [
+        "22",
+        "27",
+        "3-67",
+        "3-68"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Marauder II",
+      "altName": "",
+      "model": "MAD-5A / -6A / C",
+      "baseNumber": "37",
+      "catalogNumber": "35725",
+      "year": 2021,
+      "source": "Inner Sphere Direct Fire Lance",
+      "imageFile": "Inner Sphere Direct Fire Lance - Marauder II.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Direct_Fire_Lance_-_Marauder_II.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Direct Fire Lance",
+        "Legendary MechWarriors III Pack"
+      ],
+      "catalogNumbers": [
+        "35725",
+        "35769"
+      ],
+      "baseNumbers": [
+        "37",
+        "3-73"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Marauder IIC",
+      "altName": "",
+      "model": "1 / 10",
+      "baseNumber": "49",
+      "catalogNumber": "35730",
+      "year": 2021,
+      "source": "Clan Heavy Star",
+      "imageFile": "Clan Heavy Star - Marauder IIC.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Star_-_Marauder_IIC.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Star",
+        "BattleTech Aces: Scouring Sands"
+      ],
+      "catalogNumbers": [
+        "35730",
+        "35490"
+      ],
+      "baseNumbers": [
+        "49",
+        "4-59"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "MASH Truck",
+      "altName": "",
+      "model": "Standard / ICE / AMS",
+      "baseNumber": "3-60",
+      "catalogNumber": "35762",
+      "year": 2024,
+      "source": "Battlefield Support: Objectives",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Objectives"
+      ],
+      "catalogNumbers": [
+        "35762"
+      ],
+      "baseNumbers": [
+        "3-60"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Mauler",
+      "altName": "",
+      "model": "MAL-1R / -1K / -1KX / -1PT5 MAL-1Y / -3K / -4R / -C LMN-1PT5 / DCMS-MX90-D",
+      "baseNumber": "3-85",
+      "catalogNumber": "35779",
+      "year": 2024,
+      "source": "Somerset Strikers ForcePack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Somerset Strikers ForcePack"
+      ],
+      "catalogNumbers": [
+        "35779"
+      ],
+      "baseNumbers": [
+        "3-85"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Maxim",
+      "altName": "",
+      "model": "Standard / Escort",
+      "baseNumber": "3-15",
+      "catalogNumber": "35050",
+      "year": 2024,
+      "source": "Mercenaries Box Set",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Mercenaries Box Set"
+      ],
+      "catalogNumbers": [
+        "35050"
+      ],
+      "baseNumbers": [
+        "3-15"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Mercury",
+      "altName": "BattleMech",
+      "model": "MCY-99 / -98 / -97 / -105",
+      "baseNumber": "65",
+      "catalogNumber": "35737",
+      "year": 2021,
+      "source": "ComStar Command Level II",
+      "imageFile": "ComStar Command Level II - Mercury.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Command_Level_II_-_Mercury.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Command Level II"
+      ],
+      "catalogNumbers": [
+        "35737"
+      ],
+      "baseNumbers": [
+        "65"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Merlin",
+      "altName": "BattleMech",
+      "model": "MLN-1A / -1D / C",
+      "baseNumber": "3-46",
+      "catalogNumber": "35758",
+      "year": 2024,
+      "source": "Inner Sphere Heavy Recon Lance",
+      "imageFile": "Inner_Sphere_Heavy_Recon_Lance_-_Merlin.JPG",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Recon_Lance_-_Merlin.JPG",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Recon Lance"
+      ],
+      "catalogNumbers": [
+        "35758"
+      ],
+      "baseNumbers": [
+        "3-46"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Mist Lynx",
+      "altName": "Koshi",
+      "model": "Prime Config / T Config",
+      "baseNumber": "2",
+      "catalogNumber": "35720   36001",
+      "year": 2020,
+      "source": "Clan Command Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Command Star - Mist Lynx.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Command_Star_-_Mist_Lynx.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Command Star / Salvage Box: Clan Invasion"
+      ],
+      "catalogNumbers": [
+        "35720   36001"
+      ],
+      "baseNumbers": [
+        "2"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Mobile HQ",
+      "altName": "",
+      "model": "Standard / ICE / Browning",
+      "baseNumber": "3-59",
+      "catalogNumber": "35762",
+      "year": 2024,
+      "source": "Battlefield Support: Objectives",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Battlefield Support: Objectives"
+      ],
+      "catalogNumbers": [
+        "35762"
+      ],
+      "baseNumbers": [
+        "3-59"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Mobile Long Tom",
+      "altName": "",
+      "model": "LT-MOB-25 / -25F",
+      "baseNumber": "3-61 / 3-62",
+      "catalogNumber": "35762",
+      "year": 2024,
+      "source": "Battlefield Support: Objectives",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Objectives"
+      ],
+      "catalogNumbers": [
+        "35762"
+      ],
+      "baseNumbers": [
+        "3-61 / 3-62"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Mongoose",
+      "altName": "",
+      "model": "MON-66 / -66b / -67   MON-76 / -96 / C / C 2",
+      "baseNumber": "85",
+      "catalogNumber": "35738",
+      "year": 2021,
+      "source": "ComStar Battle Level II",
+      "imageFile": "ComStar Battle Level II - Mongoose.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Battle_Level_II_-_Mongoose.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Battle Level II"
+      ],
+      "catalogNumbers": [
+        "35738"
+      ],
+      "baseNumbers": [
+        "85"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Mongrel",
+      "altName": "Grendel",
+      "model": "Prime Config / T Config",
+      "baseNumber": "12",
+      "catalogNumber": "35030   36001",
+      "year": 2020,
+      "source": "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Invasion Box - Mongrel.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Invasion_Box_-_Mongrel.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Invasion Box Set / Salvage Box: Clan Invasion"
+      ],
+      "catalogNumbers": [
+        "35030   36001"
+      ],
+      "baseNumbers": [
+        "12"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Night Gyr",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "43",
+      "catalogNumber": "35726",
+      "year": 2021,
+      "source": "Clan Support Star",
+      "imageFile": "Clan Support Star - Night Gyr.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Support_Star_-_Night_Gyr.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Support Star"
+      ],
+      "catalogNumbers": [
+        "35726"
+      ],
+      "baseNumbers": [
+        "43"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Nightsky",
+      "altName": "",
+      "model": "NGS-4S / -5T / -7S",
+      "baseNumber": "4-10",
+      "catalogNumber": "35766",
+      "year": 2023,
+      "source": "Kell Hounds Striker Lance",
+      "imageFile": "Kell Hounds Striker Lance Nightsky.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Kell_Hounds_Striker_Lance_Nightsky.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Kell Hounds Striker Lance"
+      ],
+      "catalogNumbers": [
+        "35766"
+      ],
+      "baseNumbers": [
+        "4-10"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Nightstar",
+      "altName": "",
+      "model": "NSR-9J / -10D",
+      "baseNumber": "93",
+      "catalogNumber": "35733",
+      "year": 2021,
+      "source": "Inner Sphere Heavy Battle Lance",
+      "imageFile": "Inner Sphere Heavy Battle Lance - Nightstar.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Heavy_Battle_Lance_-_Nightstar.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35733"
+      ],
+      "baseNumbers": [
+        "93"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Nova",
+      "altName": "Black Hawk",
+      "model": "Prime Config / T Config",
+      "baseNumber": "13",
+      "catalogNumber": "35030   36001",
+      "year": 2020,
+      "source": "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Invasion Box - Nova.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Invasion_Box_-_Nova.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35030   36001",
+        "35690"
+      ],
+      "baseNumbers": [
+        "13"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Nova Cat",
+      "altName": "OmniMech",
+      "model": "Prime Config / T Config",
+      "baseNumber": "33",
+      "catalogNumber": "35724",
+      "year": 2021,
+      "source": "Clan Fire Star",
+      "imageFile": "Clan Fire Star - Nova Cat.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Fire_Star_-_Nova_Cat.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Fire Star",
+        "Conventions"
+      ],
+      "catalogNumbers": [
+        "35724",
+        "37018M"
+      ],
+      "baseNumbers": [
+        "33"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Ontos",
+      "altName": "",
+      "model": "Standard / Chemical Laser",
+      "baseNumber": "3-26",
+      "catalogNumber": "35753",
+      "year": 2024,
+      "source": "Battlefield Support: Recon & Hunter Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Recon & Hunter Lance"
+      ],
+      "catalogNumbers": [
+        "35753"
+      ],
+      "baseNumbers": [
+        "3-26"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Orion",
+      "altName": "",
+      "model": "ON1-K / -Kb / C 2",
+      "baseNumber": "38",
+      "catalogNumber": "35725",
+      "year": 2021,
+      "source": "Inner Sphere Direct Fire Lance",
+      "imageFile": "Inner Sphere Direct Fire Lance - Orion.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Direct_Fire_Lance_-_Orion.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Direct Fire Lance",
+        "Star League Command Lance"
+      ],
+      "catalogNumbers": [
+        "35725",
+        "35780"
+      ],
+      "baseNumbers": [
+        "38",
+        "3-99"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Ostroc",
+      "altName": "",
+      "model": "OSR-2C / -2D / -3M / -6R",
+      "baseNumber": "4-75",
+      "catalogNumber": "38002",
+      "year": 2024,
+      "source": "Illician Lancers Command Lance",
+      "imageFile": "Illician Lancers Command Lance Ostroc.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Illician_Lancers_Command_Lance_Ostroc.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Illician Lancers Command Lance",
+        "Inner Sphere Heavy Recon Lance"
+      ],
+      "catalogNumbers": [
+        "38002",
+        "35758"
+      ],
+      "baseNumbers": [
+        "4-75",
+        "3-47"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Ostscout",
+      "altName": "",
+      "model": "OTT-7J / -7Jb / -7K / -8J / -12R",
+      "baseNumber": "3-16",
+      "catalogNumber": "35751",
+      "year": 2024,
+      "source": "Inner Sphere Recon Lance",
+      "imageFile": "Inner Sphere Recon Lance - Ostscout.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Recon_Lance_-_Ostscout.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Recon Lance"
+      ],
+      "catalogNumbers": [
+        "35751"
+      ],
+      "baseNumbers": [
+        "3-16"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Ostsol",
+      "altName": "",
+      "model": "OTL-9R",
+      "baseNumber": "4-77",
+      "catalogNumber": "38002",
+      "year": 2026,
+      "source": "Illician Lancers Command Lance",
+      "imageFile": "Illician Lancers Command Lance Ostsol.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Illician_Lancers_Command_Lance_Ostsol.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Illician Lancers Command Lance"
+      ],
+      "catalogNumbers": [
+        "38002"
+      ],
+      "baseNumbers": [
+        "4-77"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Ostwar",
+      "altName": "",
+      "model": "OWR-2M / -3M",
+      "baseNumber": "4-76",
+      "catalogNumber": "38002",
+      "year": 2026,
+      "source": "Illician Lancers Command Lance",
+      "imageFile": "Illician Lancers Command Lance Ostwar.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Illician_Lancers_Command_Lance_Ostwar.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Illician Lancers Command Lance"
+      ],
+      "catalogNumbers": [
+        "38002"
+      ],
+      "baseNumbers": [
+        "4-76"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Pack Hunter",
+      "altName": "",
+      "model": "1 / 4 / 5",
+      "baseNumber": "97",
+      "catalogNumber": "35734",
+      "year": 2021,
+      "source": "Clan Ad Hoc Star",
+      "imageFile": "Clan Ad Hoc Star - Pack Hunter.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Ad_Hoc_Star_-_Pack_Hunter.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Ad Hoc Star"
+      ],
+      "catalogNumbers": [
+        "35734"
+      ],
+      "baseNumbers": [
+        "97"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Panther",
+      "altName": "",
+      "model": "PNT-9R / -10K / -10KA   PNT-14R / -C / -CA",
+      "baseNumber": "66",
+      "catalogNumber": "35729",
+      "year": 2021,
+      "source": "Inner Sphere Striker Lance",
+      "imageFile": "Inner Sphere Striker Lance - Panther.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Striker_Lance_-_Panther.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Striker Lance",
+        "BattleTech: House Kurita Ranger Lance"
+      ],
+      "catalogNumbers": [
+        "35729",
+        "35785"
+      ],
+      "baseNumbers": [
+        "66",
+        "4-69"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Patton",
+      "altName": "",
+      "model": "Standard / Taurian / XL",
+      "baseNumber": "3-80",
+      "catalogNumber": "35778",
+      "year": 2024,
+      "source": "Battlefield Support: Heavy Battle & Sweep Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Heavy Battle & Sweep Lances"
+      ],
+      "catalogNumbers": [
+        "35778"
+      ],
+      "baseNumbers": [
+        "3-80"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Peacekeeper",
+      "altName": "BattleMech",
+      "model": "PKP-1A",
+      "baseNumber": "4-46",
+      "catalogNumber": "35787",
+      "year": 2025,
+      "source": "Third Star League Battle Group",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Battle Group"
+      ],
+      "catalogNumbers": [
+        "35787"
+      ],
+      "baseNumbers": [
+        "4-46"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Pegasus Scout Hover Tank",
+      "altName": "",
+      "model": "Standard / 3058 Upgrade Sealed / MML",
+      "baseNumber": "3-37",
+      "catalogNumber": "35756",
+      "year": 2024,
+      "source": "Battlefield Support: Assault & Cavalry Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Assault & Cavalry Lances"
+      ],
+      "catalogNumbers": [
+        "35756"
+      ],
+      "baseNumbers": [
+        "3-37"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Penetrator",
+      "altName": "",
+      "model": "PTR-4D / -6S / -6T   PTR-8D / -4D Christifori",
+      "baseNumber": "4-3",
+      "catalogNumber": "35764",
+      "year": 2023,
+      "source": "Hansen\u2019s Roughriders Battle Lance",
+      "imageFile": "Hansen's_Roughriders_Battle_Lance_Penetrator.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Hansen's_Roughriders_Battle_Lance_Penetrator.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Hansen\u2019s Roughriders Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35764"
+      ],
+      "baseNumbers": [
+        "4-3"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Phoenix Hawk",
+      "altName": "",
+      "model": "PHX-1 / -9 / -99 / C 2",
+      "baseNumber": "17",
+      "catalogNumber": "35723",
+      "year": 2020,
+      "source": "Inner Sphere Battle Lance",
+      "imageFile": "Inner Sphere Battle Lance - Phoenix Hawk.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Battle_Lance_-_Phoenix_Hawk.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Battle Lance",
+        "Star League Command Lance",
+        "Alpha Strike Boxed Set",
+        "Available"
+      ],
+      "catalogNumbers": [
+        "35723",
+        "35780",
+        "35690",
+        "37013M"
+      ],
+      "baseNumbers": [
+        "17",
+        "3-96"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Phoenix Hawk IIC",
+      "altName": "",
+      "model": "1",
+      "baseNumber": "3-55",
+      "catalogNumber": "35760",
+      "year": 2024,
+      "source": "Clan Direct Fire Star",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Direct Fire Star"
+      ],
+      "catalogNumbers": [
+        "35760"
+      ],
+      "baseNumbers": [
+        "3-55"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Pike",
+      "altName": "Combat Vehicle",
+      "model": "Standard / LB-X",
+      "baseNumber": "3-81",
+      "catalogNumber": "35778",
+      "year": 2024,
+      "source": "Battlefield Support: Heavy Battle & Sweep Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Heavy Battle & Sweep Lances"
+      ],
+      "catalogNumbers": [
+        "35778"
+      ],
+      "baseNumbers": [
+        "3-81"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Pillager",
+      "altName": "",
+      "model": "PLG-3Z / -6Z",
+      "baseNumber": "3-44",
+      "catalogNumber": "35757",
+      "year": 2024,
+      "source": "Inner Sphere Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35757"
+      ],
+      "baseNumbers": [
+        "3-44"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Piranha",
+      "altName": "",
+      "model": "1 / 2 / 5",
+      "baseNumber": "76",
+      "catalogNumber": "35732",
+      "year": 2021,
+      "source": "Clan Striker Star",
+      "imageFile": "Clan Striker Star - Piranha.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Striker_Star_-_Piranha.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Striker Star"
+      ],
+      "catalogNumbers": [
+        "35732"
+      ],
+      "baseNumbers": [
+        "76"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Pouncer",
+      "altName": "",
+      "model": "Prime Config / T Config   W Config",
+      "baseNumber": "a8",
+      "catalogNumber": "35690",
+      "year": 2022,
+      "source": "Alpha Strike Boxed Set",
+      "imageFile": "Alpha Strike Pouncer.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Alpha_Strike_Pouncer.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35690"
+      ],
+      "baseNumbers": [
+        "a8"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Raven",
+      "altName": "",
+      "model": "RVN-3L / -4L / -5L",
+      "baseNumber": "67",
+      "catalogNumber": "35735",
+      "year": 2021,
+      "source": "Inner Sphere Urban Lance",
+      "imageFile": "Inner Sphere Urban Lance - Raven.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Urban_Lance_-_Raven.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Urban Lance"
+      ],
+      "catalogNumbers": [
+        "35735"
+      ],
+      "baseNumbers": [
+        "67"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Regent",
+      "altName": "",
+      "model": "Prime Config",
+      "baseNumber": "4-18",
+      "catalogNumber": "35765",
+      "year": 2023,
+      "source": "Gray Death Legion Heavy Battle Lance",
+      "imageFile": "Gray Death Legion Heavy Battle Lance Regent.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Gray_Death_Legion_Heavy_Battle_Lance_Regent.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Gray Death Legion Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35765"
+      ],
+      "baseNumbers": [
+        "4-18"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Rifleman",
+      "altName": "",
+      "model": "RFL-3N / -5M / -7N / -9T / C 3   Legend Killer / Legend Killer 2",
+      "baseNumber": "4-26",
+      "catalogNumber": "35202E",
+      "year": 2020,
+      "source": "BattleTech: Essentials",
+      "imageFile": "Battletech Essentials Rifleman Legend Killer.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Battletech_Essentials_Rifleman_Legend_Killer.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: Essentials",
+        "Inner Sphere Battle Lance",
+        "Wolf's Dragoons Assault Star",
+        "Snord's Irregulars Assault Lance",
+        "BattleTech Aces: Scouring Sands",
+        "Available"
+      ],
+      "catalogNumbers": [
+        "35202E",
+        "35723",
+        "35739",
+        "35770",
+        "35490",
+        "37014M"
+      ],
+      "baseNumbers": [
+        "4-26",
+        "18",
+        "3-4",
+        "4-28",
+        "4-60"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Rokurokubi",
+      "altName": "",
+      "model": "RK-4T",
+      "baseNumber": "4-73",
+      "catalogNumber": "35786",
+      "year": 2026,
+      "source": "BattleTech: House Kurita Command Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "3",
+      "sources": [
+        "BattleTech: House Kurita Command Lance"
+      ],
+      "catalogNumbers": [
+        "35786"
+      ],
+      "baseNumbers": [
+        "4-73"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Sagittaire",
+      "altName": "",
+      "model": "SGT-8R / -9D / -14R",
+      "baseNumber": "4-7",
+      "catalogNumber": "35763",
+      "year": 2023,
+      "source": "Eridani Light Horse Hunter Lance",
+      "imageFile": "ELH Hunter Lance-Sagittaire.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ELH_Hunter_Lance-Sagittaire.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Eridani Light Horse Hunter Lance"
+      ],
+      "catalogNumbers": [
+        "35763"
+      ],
+      "baseNumbers": [
+        "4-7"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Savage Wolf",
+      "altName": "Mad Cat Mk IV",
+      "model": "A Config",
+      "baseNumber": "4-47",
+      "catalogNumber": "35787",
+      "year": 2025,
+      "source": "Third Star League Battle Group",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Battle Group"
+      ],
+      "catalogNumbers": [
+        "35787"
+      ],
+      "baseNumbers": [
+        "4-47"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Savannah Master",
+      "altName": "",
+      "model": "Standard / Reflective",
+      "baseNumber": "3-75",
+      "catalogNumber": "36011",
+      "year": 2024,
+      "source": "Salvage Box: Savannah Master",
+      "imageFile": "Salvage_Box_Savannah_Master_-_Savannah_Master.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Salvage_Box_Savannah_Master_-_Savannah_Master.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Salvage Box: Savannah Master"
+      ],
+      "catalogNumbers": [
+        "36011"
+      ],
+      "baseNumbers": [
+        "3-75"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Savior Repair Vehicle",
+      "altName": "",
+      "model": "Standard",
+      "baseNumber": "4-48",
+      "catalogNumber": "35787",
+      "year": 2025,
+      "source": "Third Star League Battle Group",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Battle Group"
+      ],
+      "catalogNumbers": [
+        "35787"
+      ],
+      "baseNumbers": [
+        "4-48"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Scarabus",
+      "altName": "",
+      "model": "SCB-9A / -9T",
+      "baseNumber": "4-78",
+      "catalogNumber": "38002",
+      "year": 2026,
+      "source": "Illician Lancers Command Lance",
+      "imageFile": "Illician Lancers Command Lance Scarabus.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Illician_Lancers_Command_Lance_Scarabus.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Illician Lancers Command Lance"
+      ],
+      "catalogNumbers": [
+        "38002"
+      ],
+      "baseNumbers": [
+        "4-78"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Schrek",
+      "altName": "",
+      "model": "Standard / XL",
+      "baseNumber": "3-40",
+      "catalogNumber": "35756",
+      "year": 2024,
+      "source": "Battlefield Support: Assault & Cavalry Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Assault & Cavalry Lances"
+      ],
+      "catalogNumbers": [
+        "35756"
+      ],
+      "baseNumbers": [
+        "3-40"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Scorpion",
+      "altName": "BattleMech",
+      "model": "SCP-1N / -1BR / -1O SCP-2N / -12S / C",
+      "baseNumber": "3-30",
+      "catalogNumber": "35754",
+      "year": 2024,
+      "source": "Inner Sphere Security Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Security Lance"
+      ],
+      "catalogNumbers": [
+        "35754"
+      ],
+      "baseNumbers": [
+        "3-30"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Sentinel",
+      "altName": "",
+      "model": "STN-3L / -3K / -3M / -6S",
+      "baseNumber": "68",
+      "catalogNumber": "35737",
+      "year": 2021,
+      "source": "ComStar Command Level II",
+      "imageFile": "ComStar Command Level II - Sentinel.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/ComStar_Command_Level_II_-_Sentinel.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "ComStar Command Level II"
+      ],
+      "catalogNumbers": [
+        "35737"
+      ],
+      "baseNumbers": [
+        "68"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Shadow Cat",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "3",
+      "catalogNumber": "35720   36001",
+      "year": 2020,
+      "source": "Clan Command Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Command Star - Shadow Cat.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Command_Star_-_Shadow_Cat.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Command Star / Salvage Box: Clan Invasion",
+        "21st Centauri Lancers Command Lance"
+      ],
+      "catalogNumbers": [
+        "35720   36001",
+        "35795"
+      ],
+      "baseNumbers": [
+        "3",
+        "4-64"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Shadow Hawk",
+      "altName": "",
+      "model": "SHD-2H / -5R / -7H / C",
+      "baseNumber": "8",
+      "catalogNumber": "3500D",
+      "year": 2019,
+      "source": "BattleTech: A Game of Armored Combat",
+      "imageFile": "A Game of Armored Combat - Shadow Hawk.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/A_Game_of_Armored_Combat_-_Shadow_Hawk.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: A Game of Armored Combat",
+        "Gray Death Legion Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "3500D",
+        "35765"
+      ],
+      "baseNumbers": [
+        "8",
+        "4-20"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Shadow Hawk IIC",
+      "altName": "",
+      "model": "1 / 11",
+      "baseNumber": "3-35",
+      "catalogNumber": "35755",
+      "year": 2024,
+      "source": "Clan Cavalry Star",
+      "imageFile": "Clan Cavalry Star - Shadow Hawk IIC.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Cavalry_Star_-_Shadow_Hawk_IIC.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Cavalry Star"
+      ],
+      "catalogNumbers": [
+        "35755"
+      ],
+      "baseNumbers": [
+        "3-35"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Shilone",
+      "altName": "",
+      "model": "SL-17 / -17R",
+      "baseNumber": "71-4",
+      "catalogNumber": "36004",
+      "year": 2021,
+      "source": "Salvage Box: Shilone''",
+      "imageFile": "Salvage Box Shilone - Shilone.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Salvage_Box_Shilone_-_Shilone.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Salvage Box: Shilone''"
+      ],
+      "catalogNumbers": [
+        "36004"
+      ],
+      "baseNumbers": [
+        "71-4"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Shiro",
+      "altName": "BattleMech",
+      "model": "SH-1V",
+      "baseNumber": "4-74",
+      "catalogNumber": "35786",
+      "year": 2026,
+      "source": "BattleTech: House Kurita Command Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Kurita Command Lance"
+      ],
+      "catalogNumbers": [
+        "35786"
+      ],
+      "baseNumbers": [
+        "4-74"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Shockwave",
+      "altName": "",
+      "model": "SKW-2F / SKW-6H",
+      "baseNumber": "4-65",
+      "catalogNumber": "35795",
+      "year": 2025,
+      "source": "21st Centauri Lancers Command Lance",
+      "imageFile": "21st Centauri Lancers Command Lance - Shockwave.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/21st_Centauri_Lancers_Command_Lance_-_Shockwave.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "21st Centauri Lancers Command Lance"
+      ],
+      "catalogNumbers": [
+        "35795"
+      ],
+      "baseNumbers": [
+        "4-65"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Shogun",
+      "altName": "",
+      "model": "SHG-2F / -2E / -3E / C 2 / C 3",
+      "baseNumber": "3-43",
+      "catalogNumber": "35757",
+      "year": 2024,
+      "source": "Inner Sphere Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35757"
+      ],
+      "baseNumbers": [
+        "3-43"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Skulker",
+      "altName": "Combat Vehicle",
+      "model": "Standard / X-5 / Mk. II / C",
+      "baseNumber": "3-24",
+      "catalogNumber": "35753",
+      "year": 2024,
+      "source": "Battlefield Support: Recon & Hunter Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Recon & Hunter Lance"
+      ],
+      "catalogNumbers": [
+        "35753"
+      ],
+      "baseNumbers": [
+        "3-24"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "SM1 Tank Destroyer",
+      "altName": "",
+      "model": "SM1 / SM1B",
+      "baseNumber": "3-63",
+      "catalogNumber": "35768",
+      "year": 2024,
+      "source": "Legendary MechWarriors II Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Legendary MechWarriors II Pack"
+      ],
+      "catalogNumbers": [
+        "35768"
+      ],
+      "baseNumbers": [
+        "3-63"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Spartan",
+      "altName": "",
+      "model": "SPT-N2 / -N1 / -N4",
+      "baseNumber": "4-27",
+      "catalogNumber": "35770",
+      "year": 2023,
+      "source": "Snord's Irregulars Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Snord's Irregulars Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35770"
+      ],
+      "baseNumbers": [
+        "4-27"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Spector",
+      "altName": "",
+      "model": "SPR-5F / -6F",
+      "baseNumber": "3-19",
+      "catalogNumber": "35751",
+      "year": 2024,
+      "source": "Inner Sphere Recon Lance",
+      "imageFile": "Inner Sphere Recon Lance - Spector.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Recon_Lance_-_Spector.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Recon Lance"
+      ],
+      "catalogNumbers": [
+        "35751"
+      ],
+      "baseNumbers": [
+        "3-19"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Spider",
+      "altName": "",
+      "model": "SDR-5V / -7M / -8M / -9M",
+      "baseNumber": "100",
+      "catalogNumber": "35736",
+      "year": 2021,
+      "source": "Inner Sphere Support Lance",
+      "imageFile": "Inner Sphere Support Lance - Spider.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Support_Lance_-_Spider.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Support Lance"
+      ],
+      "catalogNumbers": [
+        "35736"
+      ],
+      "baseNumbers": [
+        "100"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Stalker",
+      "altName": "",
+      "model": "STK-3F / -9F",
+      "baseNumber": "54",
+      "catalogNumber": "35731",
+      "year": 2021,
+      "source": "Inner Sphere Fire Lance",
+      "imageFile": "Inner Sphere Fire Lance - Stalker.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Fire_Lance_-_Stalker.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Fire Lance",
+        "21st Centauri Lancers Command Lance"
+      ],
+      "catalogNumbers": [
+        "35731",
+        "35795"
+      ],
+      "baseNumbers": [
+        "54",
+        "4-66"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Starslayer",
+      "altName": "",
+      "model": "STY-3C / -2C / -4C",
+      "baseNumber": "4-22",
+      "catalogNumber": "35771",
+      "year": 2024,
+      "source": "McCarron's Armored Cavalry Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "McCarron's Armored Cavalry Assault Lance",
+        "Mercenaries Box Set"
+      ],
+      "catalogNumbers": [
+        "35771",
+        "35050"
+      ],
+      "baseNumbers": [
+        "4-22",
+        "3-9"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Stinger",
+      "altName": "",
+      "model": "STG-3R / -6G / -6R / -6S",
+      "baseNumber": "23",
+      "catalogNumber": "35721",
+      "year": 2020,
+      "source": "Inner Sphere Command Lance",
+      "imageFile": "Inner Sphere Command Lance - Stinger.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Command_Lance_-_Stinger.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Command Lance"
+      ],
+      "catalogNumbers": [
+        "35721"
+      ],
+      "baseNumbers": [
+        "23"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Stone Rhino",
+      "altName": "Behemoth",
+      "model": "1",
+      "baseNumber": "50",
+      "catalogNumber": "35730",
+      "year": 2021,
+      "source": "Clan Heavy Star",
+      "imageFile": "Clan Heavy Star - Behemoth.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Star_-_Behemoth.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Star"
+      ],
+      "catalogNumbers": [
+        "35730"
+      ],
+      "baseNumbers": [
+        "50"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Stormcrow",
+      "altName": "Ryoken",
+      "model": "Prime Config / H Config T Config",
+      "baseNumber": "4",
+      "catalogNumber": "35720   36001",
+      "year": 2020,
+      "source": "Clan Command Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Command Star - Stormcrow.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Command_Star_-_Stormcrow.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Command Star / Salvage Box: Clan Invasion",
+        "Reissue as 37021M",
+        "Available"
+      ],
+      "catalogNumbers": [
+        "35720   36001",
+        "36001",
+        "37021M"
+      ],
+      "baseNumbers": [
+        "4"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "SturmFeur",
+      "altName": "",
+      "model": "Standard / Cell",
+      "baseNumber": "3-78",
+      "catalogNumber": "35777",
+      "year": 2024,
+      "source": "Battlefield Support: Rifle & Command Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Rifle & Command Lances"
+      ],
+      "catalogNumbers": [
+        "35777"
+      ],
+      "baseNumbers": [
+        "3-78"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Summoner",
+      "altName": "Thor",
+      "model": "Prime Config / T Config   U Config",
+      "baseNumber": "5",
+      "catalogNumber": "35720   36001",
+      "year": 2020,
+      "source": "Clan Command Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Command Star - Summoner.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Command_Star_-_Summoner.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Command Star / Salvage Box: Clan Invasion",
+        "BattleTech Aces: Scouring Sands"
+      ],
+      "catalogNumbers": [
+        "35720   36001",
+        "35490"
+      ],
+      "baseNumbers": [
+        "5",
+        "4-61"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Supernova",
+      "altName": "",
+      "model": "1 / 5",
+      "baseNumber": "51",
+      "catalogNumber": "35730",
+      "year": 2021,
+      "source": "Clan Heavy Star",
+      "imageFile": "Clan Heavy Star - Supernova.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Star_-_Supernova.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Star"
+      ],
+      "catalogNumbers": [
+        "35730"
+      ],
+      "baseNumbers": [
+        "51"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Templar",
+      "altName": "",
+      "model": "TLR1-O / -ORISC",
+      "baseNumber": "4-36A",
+      "catalogNumber": "35782",
+      "year": 2025,
+      "source": "BattleTech: House Davion Heavy Battle Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Davion Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35782"
+      ],
+      "baseNumbers": [
+        "4-36A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Thanatos",
+      "altName": "",
+      "model": "TNS-4S / -7D / -7D2",
+      "baseNumber": "4-34A",
+      "catalogNumber": "35782",
+      "year": 2025,
+      "source": "BattleTech: House Davion Heavy Battle Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Davion Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "35782"
+      ],
+      "baseNumbers": [
+        "4-34A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Thug",
+      "altName": "",
+      "model": "THG-11E / -11Eb / -13U   THG-11E Marita",
+      "baseNumber": "79",
+      "catalogNumber": "35736",
+      "year": 2021,
+      "source": "Inner Sphere Support Lance",
+      "imageFile": "Inner Sphere Support Lance - Thug.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Support_Lance_-_Thug.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Support Lance"
+      ],
+      "catalogNumbers": [
+        "35736"
+      ],
+      "baseNumbers": [
+        "79"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Thunder Hawk",
+      "altName": "",
+      "model": "TDK-7X / -7Z",
+      "baseNumber": "3-98",
+      "catalogNumber": "35780",
+      "year": 2024,
+      "source": "Star League Command Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Star League Command Lance"
+      ],
+      "catalogNumbers": [
+        "35780"
+      ],
+      "baseNumbers": [
+        "3-98"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Thunderbolt",
+      "altName": "",
+      "model": "TDR-5S / -5Sb / -5Sb2   TDR-7M / -7S / -12R",
+      "baseNumber": "5",
+      "catalogNumber": "3500D",
+      "year": 2019,
+      "source": "BattleTech: A Game of Armored Combat",
+      "imageFile": "A Game of Armored Combat - Thunderbolt.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/A_Game_of_Armored_Combat_-_Thunderbolt.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: A Game of Armored Combat",
+        "Eridani Light Horse Hunter Lance",
+        "BattleTech: House Davion Heavy Battle Lance"
+      ],
+      "catalogNumbers": [
+        "3500D",
+        "35763",
+        "35782"
+      ],
+      "baseNumbers": [
+        "5",
+        "4-8",
+        "4-37A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Thunderbolt IIC",
+      "altName": "",
+      "model": "1",
+      "baseNumber": "4-62",
+      "catalogNumber": "35490",
+      "year": 2025,
+      "source": "BattleTech Aces: Scouring Sands",
+      "imageFile": "Aces - Scouring Sands - Thunderbolt IIC.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Aces_-_Scouring_Sands_-_Thunderbolt_IIC.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech Aces: Scouring Sands"
+      ],
+      "catalogNumbers": [
+        "35490"
+      ],
+      "baseNumbers": [
+        "4-62"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Tian-Zong",
+      "altName": "",
+      "model": "TNZ-N1 / -N2 / -N3",
+      "baseNumber": "4-25",
+      "catalogNumber": "35771",
+      "year": 2024,
+      "source": "McCarron's Armored Cavalry Assault Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "McCarron's Armored Cavalry Assault Lance"
+      ],
+      "catalogNumbers": [
+        "35771"
+      ],
+      "baseNumbers": [
+        "4-25"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Timber Wolf",
+      "altName": "Mad Cat",
+      "model": "Prime Config / T Config",
+      "baseNumber": "14",
+      "catalogNumber": "35030   36001",
+      "year": 2020,
+      "source": "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Invasion Box - Timber Wolf.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Invasion_Box_-_Timber_Wolf.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Invasion Box Set / Salvage Box: Clan Invasion",
+        "Legendary MechWarriors Pack / Salvage Box: Legendary",
+        "Wolf's Dragoons Assault Star",
+        "Alpha Strike Boxed Set",
+        "Mercenary Kickstarter Bonus 100mm Timber Wolf (Mad Cat)",
+        "Legendary MechWarriors III Pack",
+        "Available"
+      ],
+      "catalogNumbers": [
+        "35030   36001",
+        "35740   36003",
+        "35739",
+        "35690",
+        "35MTF4",
+        "35769",
+        "37010M"
+      ],
+      "baseNumbers": [
+        "14",
+        "28",
+        "3-5",
+        "1-1",
+        "3-71"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Trebuchet",
+      "altName": "",
+      "model": "TBT-5N / -9N",
+      "baseNumber": "55",
+      "catalogNumber": "35731",
+      "year": 2021,
+      "source": "Inner Sphere Fire Lance",
+      "imageFile": "Inner Sphere Fire Lance - Trebuchet.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Fire_Lance_-_Trebuchet.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Fire Lance"
+      ],
+      "catalogNumbers": [
+        "35731"
+      ],
+      "baseNumbers": [
+        "55"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Turkina",
+      "altName": "",
+      "model": "Prime Config / T Config",
+      "baseNumber": "72",
+      "catalogNumber": "35728",
+      "year": 2021,
+      "source": "Clan Heavy Battle Star",
+      "imageFile": "Clan Heavy Battle Star - Turkina.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Battle_Star_-_Turkina.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Battle Star"
+      ],
+      "catalogNumbers": [
+        "35728"
+      ],
+      "baseNumbers": [
+        "72"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "UrbanMech",
+      "altName": "",
+      "model": "UM-R60 / -R69 / -R80",
+      "baseNumber": "29",
+      "catalogNumber": "36002",
+      "year": 2020,
+      "source": "Salvage Box: UrbanMech",
+      "imageFile": "Salvage Box UrbanMech - UrbanMech.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Salvage_Box_UrbanMech_-_UrbanMech.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Salvage Box: UrbanMech",
+        "''UrbanMech'' Lance",
+        "Salvage Box: Urbanmech LAM"
+      ],
+      "catalogNumbers": [
+        "36002",
+        "35776",
+        "36012"
+      ],
+      "baseNumbers": [
+        "29",
+        "4-21",
+        "4-22",
+        "4-23",
+        "4-24",
+        "3-91",
+        "3-92",
+        "3-90"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Valkyrie",
+      "altName": "",
+      "model": "VLK-QA / -QD / -QDD   VLK-QD6 / -QD8 / C",
+      "baseNumber": "24",
+      "catalogNumber": "35721",
+      "year": 2020,
+      "source": "Inner Sphere Command Lance",
+      "imageFile": "Inner Sphere Command Lance - Valkyrie.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Command_Lance_-_Valkyrie.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Command Lance"
+      ],
+      "catalogNumbers": [
+        "35721"
+      ],
+      "baseNumbers": [
+        "24"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Vapor Eagle",
+      "altName": "Goshawk",
+      "model": "1 / 3",
+      "baseNumber": "77",
+      "catalogNumber": "35732",
+      "year": 2021,
+      "source": "Clan Striker Star",
+      "imageFile": "Clan Striker Star - Vapor Eagle.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Striker_Star_-_Vapor_Eagle.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Striker Star"
+      ],
+      "catalogNumbers": [
+        "35732"
+      ],
+      "baseNumbers": [
+        "77"
+      ],
+      "faction": "Clan",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Vedette",
+      "altName": "",
+      "model": "Standard / NETC / LB-X / Armor",
+      "baseNumber": "3-51",
+      "catalogNumber": "35759",
+      "year": 2024,
+      "source": "Battlefield Support: Battle & Fire Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Battle & Fire Lances"
+      ],
+      "catalogNumbers": [
+        "35759"
+      ],
+      "baseNumbers": [
+        "3-51"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Venom",
+      "altName": "",
+      "model": "SDR-9K",
+      "baseNumber": "4-70",
+      "catalogNumber": "35785",
+      "year": 2026,
+      "source": "BattleTech: House Kurita Ranger Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech: House Kurita Ranger Lance"
+      ],
+      "catalogNumbers": [
+        "35785"
+      ],
+      "baseNumbers": [
+        "4-70"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Victor",
+      "altName": "",
+      "model": "VTR-9B / -9D / -9K / -10D / -12D / C",
+      "baseNumber": "69",
+      "catalogNumber": "35735",
+      "year": 2021,
+      "source": "Inner Sphere Urban Lance",
+      "imageFile": "Inner Sphere Urban Lance - Victor.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Urban_Lance_-_Victor.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Urban Lance"
+      ],
+      "catalogNumbers": [
+        "35735"
+      ],
+      "baseNumbers": [
+        "69"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Vindicator",
+      "altName": "",
+      "model": "VND-1R / -1AA / -1X / -7L",
+      "baseNumber": "3-8A",
+      "catalogNumber": "35020M",
+      "year": 2022,
+      "source": "BattleTech Beginner Box, Second Edition",
+      "imageFile": "Beginner Box 2e - Vindicator.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Beginner_Box_2e_-_Vindicator.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech Beginner Box, Second Edition"
+      ],
+      "catalogNumbers": [
+        "35020M"
+      ],
+      "baseNumbers": [
+        "3-8A"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Viper",
+      "altName": "Dragonfly",
+      "model": "Prime Config / T Config",
+      "baseNumber": "10",
+      "catalogNumber": "35722   36001",
+      "year": 2020,
+      "source": "Clan Heavy Striker Star / Salvage Box: Clan Invasion",
+      "imageFile": "Clan Heavy Striker Star - Viper.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Striker_Star_-_Viper.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Striker Star / Salvage Box: Clan Invasion"
+      ],
+      "catalogNumbers": [
+        "35722   36001"
+      ],
+      "baseNumbers": [
+        "10"
+      ],
+      "faction": "Clan",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Visigoth",
+      "altName": "",
+      "model": "Prime Config",
+      "baseNumber": "3-74",
+      "catalogNumber": "36010",
+      "year": 2024,
+      "source": "Salvage Box: Visigoth",
+      "imageFile": "Salvage_Box_Visigoth_-_Visigoth.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Salvage_Box_Visigoth_-_Visigoth.jpg",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Salvage Box: Visigoth"
+      ],
+      "catalogNumbers": [
+        "36010"
+      ],
+      "baseNumbers": [
+        "3-74"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Von Luckner",
+      "altName": "",
+      "model": "VNL-K65N / -K90",
+      "baseNumber": "3-79",
+      "catalogNumber": "35777",
+      "year": 2024,
+      "source": "Battlefield Support: Rifle & Command Lances",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Rifle & Command Lances"
+      ],
+      "catalogNumbers": [
+        "35777"
+      ],
+      "baseNumbers": [
+        "3-79"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Vulcan",
+      "altName": "BattleMech",
+      "model": "VT-2T / -5M / -5S VT-5Sr / -6M / -7T",
+      "baseNumber": "3-28",
+      "catalogNumber": "35754",
+      "year": 2024,
+      "source": "Inner Sphere Security Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Security Lance"
+      ],
+      "catalogNumbers": [
+        "35754"
+      ],
+      "baseNumbers": [
+        "3-28"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Warhammer",
+      "altName": "",
+      "model": "WHM-6R / -6Rb / -6Rk   WHM-8R / -10K / C / C 2",
+      "baseNumber": "19",
+      "catalogNumber": "35723",
+      "year": 2020,
+      "source": "Inner Sphere Battle Lance",
+      "imageFile": "Inner Sphere Battle Lance - Warhammer.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Battle_Lance_-_Warhammer.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Battle Lance",
+        "Northwind Highlanders Command Lance",
+        "Alpha Strike Boxed Set",
+        "Legendary MechWarriors III Pack"
+      ],
+      "catalogNumbers": [
+        "35723",
+        "35767",
+        "35690",
+        "35769"
+      ],
+      "baseNumbers": [
+        "19",
+        "4-13",
+        "3-69"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Warhammer IIC",
+      "altName": "",
+      "model": "1",
+      "baseNumber": "52",
+      "catalogNumber": "35730",
+      "year": 2021,
+      "source": "Clan Heavy Star",
+      "imageFile": "Clan Heavy Star - Warhammer IIC.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Heavy_Star_-_Warhammer_IIC.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Heavy Star"
+      ],
+      "catalogNumbers": [
+        "35730"
+      ],
+      "baseNumbers": [
+        "52"
+      ],
+      "faction": "Clan",
+      "weightClass": "Heavy"
+    },
+    {
+      "name": "Warhawk",
+      "altName": "Masakari",
+      "model": "Prime Config / T Config",
+      "baseNumber": "34",
+      "catalogNumber": "35724",
+      "year": 2021,
+      "source": "Clan Fire Star",
+      "imageFile": "Clan Fire Star - Warhawk.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Clan_Fire_Star_-_Warhawk.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Clan Fire Star",
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35724",
+        "35690"
+      ],
+      "baseNumbers": [
+        "34",
+        "a5"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Warrior",
+      "altName": "Combat Vehicle",
+      "model": "H-7 / -7F",
+      "baseNumber": "3-25",
+      "catalogNumber": "35753",
+      "year": 2024,
+      "source": "Battlefield Support: Recon & Hunter Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "2",
+      "sources": [
+        "Battlefield Support: Recon & Hunter Lance"
+      ],
+      "catalogNumbers": [
+        "35753"
+      ],
+      "baseNumbers": [
+        "3-25"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "N/A"
+    },
+    {
+      "name": "Wasp",
+      "altName": "",
+      "model": "WSP-1A / -5A / C",
+      "baseNumber": "20",
+      "catalogNumber": "35723",
+      "year": 2020,
+      "source": "Inner Sphere Battle Lance",
+      "imageFile": "Inner Sphere Battle Lance - Wasp.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Battle_Lance_-_Wasp.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Battle Lance",
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35723",
+        "35690"
+      ],
+      "baseNumbers": [
+        "20",
+        "a3"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Wendigo",
+      "altName": "OmniMech",
+      "model": "Prime Config / Wendigo-XR",
+      "baseNumber": "4-49",
+      "catalogNumber": "35787",
+      "year": 2025,
+      "source": "Third Star League Battle Group",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Third Star League Battle Group"
+      ],
+      "catalogNumbers": [
+        "35787"
+      ],
+      "baseNumbers": [
+        "4-49"
+      ],
+      "faction": "Clan",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Whitworth",
+      "altName": "",
+      "model": "WTH-1 / -2H",
+      "baseNumber": "3-29",
+      "catalogNumber": "35754",
+      "year": 2024,
+      "source": "Inner Sphere Security Lance",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Liya International",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Security Lance"
+      ],
+      "catalogNumbers": [
+        "35754"
+      ],
+      "baseNumbers": [
+        "3-29"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Wolfhound",
+      "altName": "",
+      "model": "WLF-1 / -2 / -3S / -6S / -1 Allard",
+      "baseNumber": "70",
+      "catalogNumber": "35729",
+      "year": 2021,
+      "source": "Inner Sphere Striker Lance",
+      "imageFile": "Inner Sphere Striker Lance - Wolfhound.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Striker_Lance_-_Wolfhound.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Striker Lance",
+        "Kell Hounds Striker Lance",
+        "Somerset Strikers ForcePack"
+      ],
+      "catalogNumbers": [
+        "35729",
+        "35766",
+        "35779"
+      ],
+      "baseNumbers": [
+        "70",
+        "4-9",
+        "3-88"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Light"
+    },
+    {
+      "name": "Wolfhound IIC",
+      "altName": "",
+      "model": "\"Grinner\"",
+      "baseNumber": "",
+      "catalogNumber": "37009M",
+      "year": 2022,
+      "source": "Premium Miniature",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Monster Fight Club",
+      "material": "Siocast",
+      "parts": "-",
+      "sources": [
+        "Premium Miniature"
+      ],
+      "catalogNumbers": [
+        "37009M"
+      ],
+      "baseNumbers": [],
+      "faction": "Clan",
+      "weightClass": "Light",
+      "availability": "Available"
+    },
+    {
+      "name": "Wolverine",
+      "altName": "BattleMech",
+      "model": "WVR-6R / -3R / -9R / -10R",
+      "baseNumber": "2",
+      "catalogNumber": "35020   3500D",
+      "year": 2019,
+      "source": "BattleTech Beginner Box / BattleTech: A Game of Armored Combat",
+      "imageFile": "A Game of Armored Combat - Wolverine.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/A_Game_of_Armored_Combat_-_Wolverine.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "BattleTech Beginner Box / BattleTech: A Game of Armored Combat",
+        "Conventions"
+      ],
+      "catalogNumbers": [
+        "35020   3500D",
+        "37016M"
+      ],
+      "baseNumbers": [
+        "2"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Wraith",
+      "altName": "BattleMech",
+      "model": "TR1 / TR2 / TR5",
+      "baseNumber": "a6",
+      "catalogNumber": "35690",
+      "year": 2022,
+      "source": "Alpha Strike Boxed Set",
+      "imageFile": "Alpha Strike Wraith.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Alpha_Strike_Wraith.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Alpha Strike Boxed Set"
+      ],
+      "catalogNumbers": [
+        "35690"
+      ],
+      "baseNumbers": [
+        "a6"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Medium"
+    },
+    {
+      "name": "Ymir",
+      "altName": "BattleMech",
+      "model": "BWP-2B",
+      "baseNumber": "4-37",
+      "catalogNumber": "35775",
+      "year": 2023,
+      "source": "Proliferation Cycle Pack",
+      "imageFile": "",
+      "imageUrl": "",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Proliferation Cycle Pack"
+      ],
+      "catalogNumbers": [
+        "35775"
+      ],
+      "baseNumbers": [
+        "4-37"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    },
+    {
+      "name": "Zeus",
+      "altName": "",
+      "model": "ZEU-5S / -5T / -6S / -6T / -9S / -11S",
+      "baseNumber": "56",
+      "catalogNumber": "35731",
+      "year": 2021,
+      "source": "Inner Sphere Fire Lance",
+      "imageFile": "Inner Sphere Fire Lance - Zeus.jpg",
+      "imageUrl": "https://www.sarna.net/wiki/Special:FilePath/Inner_Sphere_Fire_Lance_-_Zeus.jpg",
+      "manufacturer": "Catalyst Game Labs",
+      "material": "Plastic",
+      "parts": "1",
+      "sources": [
+        "Inner Sphere Fire Lance"
+      ],
+      "catalogNumbers": [
+        "35731"
+      ],
+      "baseNumbers": [
+        "56"
+      ],
+      "faction": "Inner Sphere",
+      "weightClass": "Assault"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BattleTech Mini Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header>
+            <h1>🤖 BattleTech Mini Collection</h1>
+            <div class="stats" id="collectionStats">
+                <span id="totalCount">Loading...</span>
+                <span id="ownedCount"></span>
+            </div>
+        </header>
+
+        <!-- Controls Bar -->
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search mech name..." />
+            </div>
+            <div class="filters">
+                <select id="factionFilter">
+                    <option value="">All Factions</option>
+                    <option value="Inner Sphere">Inner Sphere</option>
+                    <option value="Clan">Clan</option>
+                </select>
+                <select id="weightFilter">
+                    <option value="">All Weights</option>
+                    <option value="Light">Light</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Heavy">Heavy</option>
+                    <option value="Assault">Assault</option>
+                    <option value="N/A">Vehicles/Other</option>
+                </select>
+                <select id="yearFilter">
+                    <option value="">All Years</option>
+                </select>
+                <select id="sourceFilter">
+                    <option value="">All Sources</option>
+                </select>
+                <select id="sortSelect">
+                    <option value="name">Sort: Name</option>
+                    <option value="year">Sort: Year</option>
+                    <option value="weightClass">Sort: Weight</option>
+                    <option value="faction">Sort: Faction</option>
+                </select>
+            </div>
+            <div class="view-toggles">
+                <label class="owned-only">
+                    <input type="checkbox" id="ownedOnlyFilter"> Owned Only
+                </label>
+                <button id="compareBtn" class="btn-compare" disabled>Compare (0)</button>
+            </div>
+        </div>
+
+        <!-- Card Grid -->
+        <main>
+            <div class="card-grid" id="cardGrid"></div>
+        </main>
+
+        <!-- Detail Modal -->
+        <div class="modal-overlay" id="detailModal">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div id="modalBody"></div>
+            </div>
+        </div>
+
+        <!-- Compare Modal -->
+        <div class="modal-overlay" id="compareModal">
+            <div class="modal-content modal-wide">
+                <button class="modal-close" id="compareClose">&times;</button>
+                <div id="compareBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
