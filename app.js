@@ -1,10 +1,18 @@
-/* BattleTech Mini Collection App v1.3 */
+/* BattleTech Mini Collection App v1.4 */
 
 let allMechs = [];
 let filteredMechs = [];
 let ownedSet = new Set();
 let compareSet = new Set();
 let compareMode = false;
+
+// Rarity mode state
+let rarityData = null;
+let rarityFilteredMechs = [];
+let rarityCurrentEra = '3028';
+let rarityCurrentFaction = '';
+let raritySortColumn = 'name';
+let raritySortDir = 'asc';
 
 const STORAGE_KEY = 'bt-minis-owned';
 
@@ -27,8 +35,307 @@ const compareModal = document.getElementById('compareModal');
 const compareBody = document.getElementById('compareBody');
 const compareClose = document.getElementById('compareClose');
 
+// Mode toggle elements
+const modeCollection = document.getElementById('modeCollection');
+const modeRarity = document.getElementById('modeRarity');
+const body = document.body;
+
+// Rarity DOM elements
+const raritySearchInput = document.getElementById('raritySearchInput');
+const rarityEraSelect = document.getElementById('rarityEraSelect');
+const rarityFactionSelect = document.getElementById('rarityFactionSelect');
+const rarityWeightFilter = document.getElementById('rarityWeightFilter');
+const raritySortSelect = document.getElementById('raritySortSelect');
+const rarityTableContainer = document.getElementById('rarityTableContainer');
+
 // Weight class order for sorting
 const WEIGHT_ORDER = { 'Light': 0, 'Medium': 1, 'Heavy': 2, 'Assault': 3, 'N/A': 4, 'Unknown': 5 };
+
+// ==================== MODE TOGGLE ====================
+
+function setMode(mode) {
+    if (mode === 'rarity') {
+        body.classList.remove('body-mode-collection');
+        body.classList.add('body-mode-rarity');
+        modeCollection.classList.remove('active');
+        modeRarity.classList.add('active');
+        // Lazy load rarity data
+        if (!rarityData) {
+            loadRarityData();
+        } else {
+            renderRarityTable();
+        }
+    } else {
+        body.classList.remove('body-mode-rarity');
+        body.classList.add('body-mode-collection');
+        modeCollection.classList.add('active');
+        modeRarity.classList.remove('active');
+    }
+}
+
+modeCollection.addEventListener('click', () => setMode('collection'));
+modeRarity.addEventListener('click', () => setMode('rarity'));
+
+// ==================== RARITY MODE ====================
+
+// Faction display names mapping (short names for dropdown)
+const FACTION_DISPLAY = {
+    'Star League 2750': 'Star League',
+    'Capellan Confederation (House Liao): 3028-3039': 'Liao (Capellan)',
+    'Capellan Confederation (House Liao): 3050-3057': 'Liao (Capellan)',
+    'Draconis Combine (House Kurita): 3028-3039': 'Kurita (Draconis)',
+    'Draconis Combine (House Kurita): 3050-3057': 'Kurita (Draconis)',
+    'Federated Suns (House Davion): 3028-3039': 'Davion (Federated Suns)',
+    'Federated Suns (House Davion): 3050-3057': 'Davion (Federated Suns)',
+    'Free Rasalhague Republic: 3039-3050': 'FRR (Free Rasalhague)',
+    'Free Worlds League (House Marik): 3028-3039': 'Marik (Free Worlds)',
+    'Free Worlds League (House Marik): 3050-3057': 'Marik (Free Worlds)',
+    'Lyran Commonwealth (House Steiner): 3028-3039': 'Steiner (Lyran)',
+    'Lyran Commonwealth (House Steiner): 3050': 'Steiner (Lyran)',
+    'Lyran Commonwealth (House Steiner): 3057': 'Steiner (Lyran)',
+    'St. Ives Compact: 3039-3050': 'St. Ives Compact',
+    'Mercenary / Periphery General: 3028-3050': 'Mercenary / Periphery',
+    'Magistracy Of Canopus: 3028-3050': 'Canopus (Magistracy)',
+    'Outworlds Alliance: 3028-3050': 'Outworlds Alliance',
+    'Taurian Concordat: 3028-3050': 'Taurian Concordat'
+};
+
+async function loadRarityData() {
+    try {
+        rarityTableContainer.innerHTML = '<div class="empty-state"><h3>Loading rarity data...</h3></div>';
+        const response = await fetch('xotl-rarity.json');
+        rarityData = await response.json();
+        populateRarityFactions();
+        renderRarityTable();
+    } catch (err) {
+        rarityTableContainer.innerHTML = `<div class="empty-state"><h3>Error loading rarity data</h3><p>${err.message}</p></div>`;
+    }
+}
+
+// Map era value to the column keys we care about
+function getEraColumnKeys(era) {
+    // Returns the possible column key patterns for an era
+    const eraMap = {
+        '2750': ['Regular', 'Royal'],
+        '3028': ['3028'],
+        '3039': ['3039'],
+        '3050': ['3050', 'A/B (3050)', 'C/D/F (3050)'],
+        '3057': ['A/B (3057)', 'C/D/F (3057)']
+    };
+    return eraMap[era] || [era];
+}
+
+// For a given era, determine which factions are available and what columns they show
+function getFactionsForEra(era) {
+    if (!rarityData) return [];
+    
+    const eraColKeys = getEraColumnKeys(era);
+    const factions = [];
+    
+    for (const section of rarityData.sections) {
+        const cols = section.era_columns.filter(c => eraColKeys.includes(c));
+        if (cols.length > 0) {
+            factions.push({
+                faction: section.faction,
+                displayName: FACTION_DISPLAY[section.faction] || section.faction,
+                columns: cols
+            });
+        }
+    }
+    return factions;
+}
+
+function populateRarityFactions() {
+    const factions = getFactionsForEra(rarityCurrentEra);
+    rarityFactionSelect.innerHTML = '';
+    
+    const allOption = document.createElement('option');
+    allOption.value = '';
+    allOption.textContent = 'All Factions';
+    rarityFactionSelect.appendChild(allOption);
+    
+    for (const f of factions) {
+        const opt = document.createElement('option');
+        opt.value = f.faction;
+        opt.textContent = f.displayName;
+        rarityFactionSelect.appendChild(opt);
+    }
+}
+
+function getWeightClass(tonnage) {
+    if (tonnage <= 35) return 'Light';
+    if (tonnage <= 55) return 'Medium';
+    if (tonnage <= 75) return 'Heavy';
+    return 'Assault';
+}
+
+function rarityClassForValue(val) {
+    if (val === undefined || val === null) return 'na';
+    if (val <= 3) return 'rare';
+    if (val <= 6) return 'uncommon';
+    return 'common';
+}
+
+function renderRarityTable() {
+    if (!rarityData) return;
+    
+    const search = raritySearchInput.value.toLowerCase().trim();
+    const weightFilterVal = rarityWeightFilter.value;
+    const factions = getFactionsForEra(rarityCurrentEra);
+    
+    // Filter factions based on dropdown
+    const visibleFactions = rarityCurrentFaction 
+        ? factions.filter(f => f.faction === rarityCurrentFaction)
+        : factions;
+    
+    // Build column list: each faction × its columns for this era
+    const columns = [];
+    for (const f of visibleFactions) {
+        for (const col of f.columns) {
+            columns.push({
+                faction: f.faction,
+                factionDisplay: f.displayName,
+                column: col,
+                key: `${f.faction}|||${col}`
+            });
+        }
+    }
+    
+    // Filter mechs
+    rarityFilteredMechs = rarityData.mechs.filter(m => {
+        // Search
+        if (search) {
+            const nameMatch = (m.name || '').toLowerCase().includes(search);
+            const variantMatch = (m.variant || '').toLowerCase().includes(search);
+            if (!nameMatch && !variantMatch) return false;
+        }
+        // Weight
+        if (weightFilterVal) {
+            const wc = getWeightClass(m.tonnage);
+            if (wc !== weightFilterVal) return false;
+        }
+        // Must have data for at least one visible faction/column
+        const hasData = visibleFactions.some(f => {
+            const sec = m.sections[f.faction];
+            if (!sec) return false;
+            return f.columns.some(c => sec[c] !== undefined);
+        });
+        if (!hasData && visibleFactions.length > 0) return false;
+        return true;
+    });
+    
+    // Sort
+    rarityFilteredMechs.sort((a, b) => {
+        let cmp = 0;
+        if (raritySortColumn === 'name') {
+            cmp = (a.name || '').localeCompare(b.name || '');
+        } else if (raritySortColumn === 'tonnage') {
+            cmp = (a.tonnage || 0) - (b.tonnage || 0);
+        } else if (raritySortColumn === 'availability') {
+            // Sort by availability in the first visible column (or selected faction)
+            const refKey = columns.length > 0 ? columns[0] : null;
+            if (refKey) {
+                const aVal = (a.sections[refKey.faction] || {})[refKey.column];
+                const bVal = (b.sections[refKey.faction] || {})[refKey.column];
+                // N/A goes to bottom
+                const aNum = aVal === undefined ? -1 : aVal;
+                const bNum = bVal === undefined ? -1 : bVal;
+                cmp = aNum - bNum;
+            }
+        } else {
+            // Could be a column key for sorting by specific faction/column
+            const parts = raritySortColumn.split('|||');
+            if (parts.length === 2) {
+                const aVal = (a.sections[parts[0]] || {})[parts[1]];
+                const bVal = (b.sections[parts[0]] || {})[parts[1]];
+                const aNum = aVal === undefined ? -1 : aVal;
+                const bNum = bVal === undefined ? -1 : bVal;
+                cmp = aNum - bNum;
+            }
+        }
+        return raritySortDir === 'asc' ? cmp : -cmp;
+    });
+    
+    if (rarityFilteredMechs.length === 0) {
+        rarityTableContainer.innerHTML = '<div class="empty-state"><h3>No mechs found</h3><p>Try adjusting your filters</p></div>';
+        return;
+    }
+    
+    // Build table
+    const sortClass = raritySortDir === 'asc' ? 'sorted-asc' : 'sorted-desc';
+    
+    let html = '<table class="rarity-table"><thead><tr>';
+    // First column: mech name
+    const nameSortClass = raritySortColumn === 'name' ? ` class="sortable ${sortClass}"` : ' class="sortable"';
+    html += `<th${nameSortClass} data-sort="name">Mech</th>`;
+    // Tonnage column
+    const tonSortClass = raritySortColumn === 'tonnage' ? ` class="sortable ${sortClass}"` : ' class="sortable"';
+    html += `<th${tonSortClass} data-sort="tonnage">Tons</th>`;
+    // Faction columns
+    for (const col of columns) {
+        const colSortClass = raritySortColumn === col.key ? ` class="sortable ${sortClass}"` : ' class="sortable"';
+        const colLabel = col.column.replace(/\(\d+\)/, '').trim();
+        const factionShort = col.factionDisplay.split(' (')[0];
+        html += `<th${colSortClass} data-sort="${col.key}" title="${col.factionDisplay} — ${col.column}">${factionShort}<br><span style="font-size:0.65rem;opacity:0.7">${colLabel}</span></th>`;
+    }
+    html += '</tr></thead><tbody>';
+    
+    for (const mech of rarityFilteredMechs) {
+        html += '<tr>';
+        html += `<td>${mech.variant || ''} — ${mech.name || ''}</td>`;
+        html += `<td style="text-align:center;color:var(--text-secondary)">${mech.tonnage || '—'}</td>`;
+        for (const col of columns) {
+            const val = (mech.sections[col.faction] || {})[col.column];
+            const cls = rarityClassForValue(val);
+            if (val === undefined || val === null) {
+                html += `<td><span class="rarity-cell na">—</span></td>`;
+            } else {
+                html += `<td><span class="rarity-cell ${cls}">${val}</span></td>`;
+            }
+        }
+        html += '</tr>';
+    }
+    
+    html += '</tbody></table>';
+    rarityTableContainer.innerHTML = html;
+    
+    // Attach sort listeners to headers
+    rarityTableContainer.querySelectorAll('th[data-sort]').forEach(th => {
+        th.addEventListener('click', () => {
+            const sortKey = th.dataset.sort;
+            if (raritySortColumn === sortKey) {
+                raritySortDir = raritySortDir === 'asc' ? 'desc' : 'asc';
+            } else {
+                raritySortColumn = sortKey;
+                raritySortDir = 'asc';
+            }
+            renderRarityTable();
+        });
+    });
+}
+
+// Rarity event listeners
+raritySearchInput.addEventListener('input', renderRarityTable);
+rarityWeightFilter.addEventListener('change', renderRarityTable);
+raritySortSelect.addEventListener('change', () => {
+    raritySortColumn = raritySortSelect.value;
+    raritySortDir = 'asc';
+    renderRarityTable();
+});
+
+rarityEraSelect.addEventListener('change', () => {
+    rarityCurrentEra = rarityEraSelect.value;
+    rarityCurrentFaction = '';
+    populateRarityFactions();
+    renderRarityTable();
+});
+
+rarityFactionSelect.addEventListener('change', () => {
+    rarityCurrentFaction = rarityFactionSelect.value;
+    renderRarityTable();
+});
+
+// ==================== COLLECTION MODE (unchanged) ====================
 
 // Load data
 async function loadData() {
