@@ -3,8 +3,6 @@
 let allMechs = [];
 let filteredMechs = [];
 let ownedSet = new Set();
-let compareSet = new Set();
-let compareMode = false;
 
 const STORAGE_KEY = 'bt-minis-owned';
 
@@ -17,15 +15,11 @@ const yearFilter = document.getElementById('yearFilter');
 const sourceFilter = document.getElementById('sourceFilter');
 const sortSelect = document.getElementById('sortSelect');
 const ownedOnlyFilter = document.getElementById('ownedOnlyFilter');
-const compareBtn = document.getElementById('compareBtn');
 const totalCount = document.getElementById('totalCount');
 const ownedCount = document.getElementById('ownedCount');
 const detailModal = document.getElementById('detailModal');
 const modalBody = document.getElementById('modalBody');
 const modalClose = document.getElementById('modalClose');
-const compareModal = document.getElementById('compareModal');
-const compareBody = document.getElementById('compareBody');
-const compareClose = document.getElementById('compareClose');
 
 // Weight class order for sorting
 const WEIGHT_ORDER = { 'Light': 0, 'Medium': 1, 'Heavy': 2, 'Assault': 3, 'N/A': 4, 'Unknown': 5 };
@@ -161,8 +155,6 @@ function renderCards() {
     cardGrid.innerHTML = filteredMechs.map(mech => {
         const id = getMechId(mech);
         const owned = ownedSet.has(id);
-        const compareSelected = compareSet.has(id);
-        const compareBadge = compareSelected ? `<div class="card-compare-badge">${[...compareSet].indexOf(id) + 1}</div>` : '';
         
         const imageHtml = mech.imageUrl
             ? `<img src="${mech.imageUrl}" alt="${mech.name}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'no-image\\'>🤖</div>'">`
@@ -181,8 +173,7 @@ function renderCards() {
         const sourceLabel = mech.source || '';
         
         return `
-            <div class="card ${owned ? 'owned' : ''} ${compareSelected ? 'compare-selected' : ''}" data-mech-id="${id}">
-                ${compareBadge}
+            <div class="card ${owned ? 'owned' : ''}" data-mech-id="${id}">
                 <div class="card-checkbox">
                     <input type="checkbox" ${owned ? 'checked' : ''} data-mech-id="${id}" class="owned-checkbox" onclick="event.stopPropagation()">
                 </div>
@@ -202,11 +193,7 @@ function renderCards() {
     document.querySelectorAll('.card').forEach(card => {
         card.addEventListener('click', () => {
             const id = card.dataset.mechId;
-            if (compareMode) {
-                toggleCompare(id);
-            } else {
-                showDetail(id);
-            }
+            showDetail(id);
         });
     });
 
@@ -331,83 +318,6 @@ function showDetail(id) {
     detailModal.classList.add('active');
 }
 
-// Compare Mode
-function toggleCompare(id) {
-    if (compareSet.has(id)) {
-        compareSet.delete(id);
-    } else {
-        if (compareSet.size >= 6) {
-            alert('Maximum 6 mechs for comparison');
-            return;
-        }
-        compareSet.add(id);
-    }
-    updateCompareButton();
-    renderCards();
-}
-
-function updateCompareButton() {
-    const count = compareSet.size;
-    compareBtn.textContent = `Compare (${count})`;
-    compareBtn.disabled = count < 2;
-    compareBtn.classList.toggle('active', compareMode);
-}
-
-function showCompare() {
-    const ids = [...compareSet];
-    if (ids.length < 2) return;
-
-    const mechs = ids.map(id => allMechs.find(m => getMechId(m) === id)).filter(m => m);
-
-    const headers = mechs.map(m => {
-        const img = m.imageUrl
-            ? `<img src="${m.imageUrl}" alt="${m.name}" onerror="this.style.display='none'">`
-            : '<div style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;background:var(--bg-tertiary);border-radius:4px;">🤖</div>';
-        return `<th><div class="compare-header">${img}<span>${m.name}</span></div></th>`;
-    }).join('');
-
-    const rows = [
-        { label: 'Alt Name', get: m => m.altName || '—' },
-        { label: 'Faction', get: m => m.faction },
-        { label: 'Weight', get: m => m.weightClass || 'Unknown' },
-        { label: 'Model', get: m => m.model || '—' },
-        { label: 'Year', get: m => m.year || '—' },
-        { label: 'Base #', get: m => m.baseNumber || '—' },
-        { label: 'Catalog #', get: m => m.catalogNumber || '—' },
-        { label: 'Manufacturer', get: m => m.manufacturer || '—' },
-        { label: 'Material', get: m => m.material || '—' },
-        { label: 'Source', get: m => m.source || '—' },
-    ];
-
-    const bodyRows = rows.map(row => {
-        const cells = mechs.map(m => `<td>${row.get(m)}</td>`).join('');
-        return `<tr><th>${row.label}</th>${cells}</tr>`;
-    }).join('');
-
-    compareBody.innerHTML = `
-        <h2 style="margin-bottom: 16px;">Compare Mechs</h2>
-        <div style="overflow-x: auto;">
-            <table class="compare-table">
-                <thead><tr><th></th>${headers}</tr></thead>
-                <tbody>${bodyRows}</tbody>
-            </table>
-        </div>
-        <div style="margin-top: 16px; display: flex; gap: 8px;">
-            <button class="btn-compare" onclick="clearCompare()">Clear Selection</button>
-        </div>
-    `;
-
-    compareModal.classList.add('active');
-}
-
-function clearCompare() {
-    compareSet.clear();
-    compareMode = false;
-    updateCompareButton();
-    renderCards();
-    compareModal.classList.remove('active');
-}
-
 // Event Listeners
 searchInput.addEventListener('input', applyFilters);
 factionFilter.addEventListener('change', applyFilters);
@@ -417,30 +327,15 @@ sourceFilter.addEventListener('change', applyFilters);
 sortSelect.addEventListener('change', applyFilters);
 ownedOnlyFilter.addEventListener('change', applyFilters);
 
-compareBtn.addEventListener('click', () => {
-    if (compareSet.size >= 2) {
-        showCompare();
-    } else if (compareSet.size === 1) {
-        // Need at least 2
-        compareMode = !compareMode;
-        compareBtn.classList.toggle('active', compareMode);
-    }
-});
-
 modalClose.addEventListener('click', () => detailModal.classList.remove('active'));
-compareClose.addEventListener('click', () => compareModal.classList.remove('active'));
 
 detailModal.addEventListener('click', e => {
     if (e.target === detailModal) detailModal.classList.remove('active');
-});
-compareModal.addEventListener('click', e => {
-    if (e.target === compareModal) compareModal.classList.remove('active');
 });
 
 document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
         detailModal.classList.remove('active');
-        compareModal.classList.remove('active');
     }
     // Variant navigation
     if (!detailModal.classList.contains('active') || !currentDetailId) return;
@@ -456,20 +351,6 @@ document.addEventListener('keydown', e => {
         showDetail(getMechId(variants[nextIdx]));
     }
 });
-
-// Long press on card for compare mode on mobile
-let pressTimer = null;
-cardGrid.addEventListener('touchstart', e => {
-    const card = e.target.closest('.card');
-    if (!card) return;
-    pressTimer = setTimeout(() => {
-        compareMode = true;
-        compareBtn.classList.add('active');
-        toggleCompare(card.dataset.mechId);
-    }, 500);
-});
-cardGrid.addEventListener('touchend', () => clearTimeout(pressTimer));
-cardGrid.addEventListener('touchmove', () => clearTimeout(pressTimer));
 
 // Init
 loadData();
