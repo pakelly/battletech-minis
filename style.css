@@ -1,4 +1,4 @@
-/* BattleTech Mini Collection - Dark Theme */
+/* BattleTech Minis - Dark Theme */
 
 :root {
     --bg-primary: #0d1117;
@@ -10,13 +10,6 @@
     --text-secondary: #8b949e;
     --accent: #58a6ff;
     --accent-hover: #79c0ff;
-    --clan-color: #f85149;
-    --is-color: #58a6ff;
-    --light: #d29922;
-    --medium: #56d364;
-    --heavy: #f85149;
-    --assault: #bc8cff;
-    --na: #8b949e;
     --radius: 8px;
     --shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
@@ -139,15 +132,6 @@ select:focus {
     border-color: var(--accent);
 }
 
-.view-toggles {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-
-
-
 /* Card Grid */
 .card-grid {
     display: grid;
@@ -173,8 +157,6 @@ select:focus {
     border-color: var(--bg-hover);
 }
 
-
-
 .card-image {
     width: 100%;
     height: 160px;
@@ -191,12 +173,7 @@ select:focus {
     object-fit: contain;
 }
 
-.card-image .no-image {
-    color: var(--text-secondary);
-    font-size: 2rem;
-}
-
-.card-body {
+.card-info {
     padding: 10px 12px;
 }
 
@@ -213,44 +190,6 @@ select:focus {
     margin-bottom: 6px;
     line-height: 1.3;
 }
-
-.card-tags {
-    display: flex;
-    gap: 4px;
-    flex-wrap: wrap;
-    margin-bottom: 6px;
-}
-
-.tag {
-    font-size: 0.7rem;
-    padding: 2px 8px;
-    border-radius: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.tag-faction-clan {
-    background: rgba(248, 81, 73, 0.15);
-    color: var(--clan-color);
-}
-
-.tag-faction-is {
-    background: rgba(88, 166, 255, 0.15);
-    color: var(--is-color);
-}
-
-.tag-weight-light { background: rgba(210, 153, 34, 0.15); color: var(--light); }
-.tag-weight-medium { background: rgba(86, 211, 100, 0.15); color: var(--medium); }
-.tag-weight-heavy { background: rgba(248, 81, 73, 0.15); color: var(--heavy); }
-.tag-weight-assault { background: rgba(188, 140, 255, 0.15); color: var(--assault); }
-.tag-weight-na { background: rgba(139, 148, 158, 0.15); color: var(--na); }
-
-.card-year {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-}
-
 
 /* Modal */
 .modal-overlay {
@@ -284,54 +223,6 @@ select:focus {
     position: relative;
 }
 
-
-.variant-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    margin-bottom: 12px;
-}
-
-.variant-btn {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    border: 1px solid var(--border);
-    background: var(--bg-tertiary);
-    color: var(--text-primary);
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.15s;
-}
-
-.variant-btn:hover {
-    background: var(--bg-hover);
-    border-color: var(--accent);
-}
-
-.variant-count {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    min-width: 50px;
-    text-align: center;
-}
-
-.detail-no-image {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--bg-tertiary);
-    border-radius: var(--radius);
-    font-size: 3rem;
-    margin-bottom: 16px;
-}
-
 .modal-close {
     position: absolute;
     top: 12px;
@@ -343,6 +234,7 @@ select:focus {
     cursor: pointer;
     padding: 4px 8px;
     line-height: 1;
+    z-index: 10;
 }
 
 .modal-close:hover {
@@ -350,13 +242,6 @@ select:focus {
 }
 
 /* Detail Modal Content */
-.detail-name {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 4px;
-}
-
-/* Detail navigation */
 .detail-nav {
     display: flex;
     align-items: center;
@@ -399,12 +284,24 @@ select:focus {
     justify-content: center;
     margin-bottom: 16px;
     background: var(--bg-tertiary);
+    border-radius: var(--radius);
 }
 
 .detail-image {
     max-width: 100%;
     max-height: 400px;
     object-fit: contain;
+    border-radius: var(--radius);
+}
+
+.detail-no-image {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--text-secondary);
 }
 
 .side-nav {
@@ -433,12 +330,13 @@ select:focus {
     cursor: default;
 }
 
-.side-nav-prev {
-    left: 8px;
-}
+.side-nav-prev { left: 8px; }
+.side-nav-next { right: 8px; }
 
-.side-nav-next {
-    right: 8px;
+.detail-header h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 4px;
 }
 
 .detail-source {
@@ -447,25 +345,24 @@ select:focus {
     margin-bottom: 8px;
 }
 
-.detail-section {
-    margin-bottom: 16px;
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
 }
 
 .detail-label {
-    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     color: var(--text-secondary);
-    margin-bottom: 4px;
-}
-
-.detail-value {
-    font-size: 0.95rem;
-    color: var(--text-primary);
+    font-size: 0.75rem;
 }
 
 .detail-sources {
     list-style: none;
+    margin-top: 12px;
 }
 
 .detail-sources li {
@@ -478,23 +375,12 @@ select:focus {
     border-bottom: none;
 }
 
-    height: 40px;
-    object-fit: contain;
-    border-radius: 4px;
-    background: var(--bg-tertiary);
-}
-
 /* Empty State */
 .empty-state {
     grid-column: 1 / -1;
     text-align: center;
     padding: 48px 24px;
     color: var(--text-secondary);
-}
-
-.empty-state h3 {
-    font-size: 1.1rem;
-    margin-bottom: 8px;
 }
 
 /* Responsive */
@@ -515,12 +401,9 @@ select:focus {
     }
     .filters select {
         max-width: none;
-        flex: 1 1 calc(50% - 4px);
+        flex: 1;
         font-size: 0.72rem;
         padding: 6px 24px 6px 8px;
-    }
-    .view-toggles {
-        justify-content: space-between;
     }
     .search-box {
         min-width: auto;
