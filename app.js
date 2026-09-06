@@ -42,11 +42,11 @@ function getMechId(m) {
 }
 
 function escapeAttr(s) {
-    return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/'/g,'&#39;');
 }
 
 function unescapeAttr(s) {
-    return s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+    return s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'");
 }
 
 let filteredMechs = [];
@@ -109,17 +109,17 @@ function showDetail(id) {
 
     modalBody.innerHTML = `
         <div class="detail-nav">
-            ${prevMech ? `<button class="nav-btn nav-prev" onclick="showDetail('${escapeAttr(getMechId(prevMech))}')">‹ Prev</button>` : `<button class="nav-btn nav-prev" disabled>‹ Prev</button>`}
+            ${prevMech ? `<button class="nav-btn nav-prev" data-nav-id="${escapeAttr(getMechId(prevMech))}">‹ Prev</button>` : `<button class="nav-btn nav-prev" disabled>‹ Prev</button>`}
             <span class="nav-counter">${currentIdx + 1} / ${filteredMechs.length}</span>
-            ${nextMech ? `<button class="nav-btn nav-next" onclick="showDetail('${escapeAttr(getMechId(nextMech))}')">Next ›</button>` : `<button class="nav-btn nav-next" disabled>Next ›</button>`}
+            ${nextMech ? `<button class="nav-btn nav-next" data-nav-id="${escapeAttr(getMechId(nextMech))}">Next ›</button>` : `<button class="nav-btn nav-next" disabled>Next ›</button>`}
         </div>
         <div class="detail-header">
             <h2>${mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name}</h2>
         </div>
         <div class="detail-image-wrapper">
-            ${prevMech ? `<button class="side-nav side-nav-prev" onclick="showDetail('${escapeAttr(getMechId(prevMech))}')">‹</button>` : ''}
+            ${prevMech ? `<button class="side-nav side-nav-prev" data-nav-id="${escapeAttr(getMechId(prevMech))}">‹</button>` : ''}
             ${imgSrc ? `<img src="${imgSrc}" alt="${mech.name}" class="detail-image" onerror="this.style.display='none'">` : '<div class="detail-no-image">No image</div>'}
-            ${nextMech ? `<button class="side-nav side-nav-next" onclick="showDetail('${escapeAttr(getMechId(nextMech))}')">›</button>` : ''}
+            ${nextMech ? `<button class="side-nav side-nav-next" data-nav-id="${escapeAttr(getMechId(nextMech))}">›</button>` : ''}
         </div>
         <div class="detail-meta">
             <div class="detail-row"><span class="detail-label">Model</span><span>${mech.model || '—'}</span></div>
@@ -180,6 +180,15 @@ document.addEventListener('keydown', (e) => {
         if (next) next.click();
     } else if (e.key === 'Escape') {
         detailModal.classList.remove('active');
+    }
+});
+
+// Nav button delegation (avoids inline onclick with apostrophe issues)
+modalBody.addEventListener('click', (e) => {
+    const navBtn = e.target.closest('[data-nav-id]');
+    if (navBtn) {
+        const navId = navBtn.getAttribute('data-nav-id');
+        if (navId) showDetail(navId);
     }
 });
 
