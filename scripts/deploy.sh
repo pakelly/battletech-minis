@@ -20,6 +20,7 @@ if [ -f "paint-mixer.html" ]; then
   WEB_FILES="paint-mixer.html"
 elif [ -f "index.html" ] && [ -f "app.js" ]; then
   WEB_FILES="index.html app.js style.css data.json $(ls images/*.jpg 2>/dev/null | tr '\n' ' ')"
+  mkdir -p images
 elif [ -f "index.html" ]; then
   WEB_FILES="index.html"
 fi
@@ -52,6 +53,7 @@ git checkout gh-pages
 
 echo ""
 echo "=== Step 3: Copy web files from main ==="
+mkdir -p images
 for f in $WEB_FILES; do
   if [ -f "$f" ]; then
     git checkout main -- "$f"
