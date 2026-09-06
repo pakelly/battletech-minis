@@ -19,7 +19,7 @@ WEB_FILES=""
 if [ -f "paint-mixer.html" ]; then
   WEB_FILES="paint-mixer.html"
 elif [ -f "index.html" ] && [ -f "app.js" ]; then
-  WEB_FILES="index.html app.js style.css data.json"
+  WEB_FILES="index.html app.js style.css data.json $(ls images/*.jpg 2>/dev/null | tr '\n' ' ')"
 elif [ -f "index.html" ]; then
   WEB_FILES="index.html"
 fi
