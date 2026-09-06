@@ -42,11 +42,15 @@ function getMechId(m) {
 }
 
 function escapeAttr(s) {
-    return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/'/g,'&#39;');
+    return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/'/g,'&#39;');
 }
 
 function unescapeAttr(s) {
-    return s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'");
+    return String(s).replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#39;/g,"'");
+}
+
+function escapeHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
 }
 
 let filteredMechs = [];
@@ -83,11 +87,11 @@ function renderCards(mechs) {
         return `
             <div class="card" data-mech-id="${escapeAttr(id)}">
                 <div class="card-image">
-                    ${imgSrc ? `<img src="${imgSrc}" alt="${mech.name}" loading="lazy" onerror="this.style.display='none'">` : ''}
+                    ${imgSrc ? `<img src="${escapeAttr(imgSrc)}" alt="${escapeAttr(mech.name)}" loading="lazy" onerror="this.style.display='none'">` : ''}
                 </div>
                 <div class="card-info">
-                    <div class="card-name">${mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name}</div>
-                    <div class="card-source">${sourceLabel}</div>
+                    <div class="card-name">${escapeHtml(mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name)}</div>
+                    <div class="card-source">${escapeHtml(sourceLabel)}</div>
                 </div>
             </div>
         `;
@@ -105,7 +109,7 @@ function showDetail(id) {
 
     const imgSrc = mech.imageUrl || '';
     const sources = [mech.source].filter(s => s);
-    const sourcesHtml = sources.map(s => `<li>${s}</li>`).join('');
+    const sourcesHtml = sources.map(s => `<li>${escapeHtml(s)}</li>`).join('');
 
     modalBody.innerHTML = `
         <div class="detail-nav">
@@ -114,24 +118,24 @@ function showDetail(id) {
             ${nextMech ? `<button class="nav-btn nav-next" data-nav-id="${escapeAttr(getMechId(nextMech))}">Next ›</button>` : `<button class="nav-btn nav-next" disabled>Next ›</button>`}
         </div>
         <div class="detail-header">
-            <h2>${mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name}</h2>
+            <h2>${escapeHtml(mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name)}</h2>
         </div>
         <div class="detail-image-wrapper">
             ${prevMech ? `<button class="side-nav side-nav-prev" data-nav-id="${escapeAttr(getMechId(prevMech))}">‹</button>` : ''}
-            ${imgSrc ? `<img src="${imgSrc}" alt="${mech.name}" class="detail-image" onerror="this.style.display='none'">` : '<div class="detail-no-image">No image</div>'}
+            ${imgSrc ? `<img src="${escapeAttr(imgSrc)}" alt="${escapeAttr(mech.name)}" class="detail-image" onerror="this.style.display='none'">` : '<div class="detail-no-image">No image</div>'}
             ${nextMech ? `<button class="side-nav side-nav-next" data-nav-id="${escapeAttr(getMechId(nextMech))}">›</button>` : ''}
         </div>
         <div class="detail-meta">
-            <div class="detail-row"><span class="detail-label">Model</span><span>${mech.model || '—'}</span></div>
-            <div class="detail-row"><span class="detail-label">Faction</span><span>${mech.faction || '—'}</span></div>
-            <div class="detail-row"><span class="detail-label">Weight</span><span>${mech.weightClass || '—'}</span></div>
-            <div class="detail-row"><span class="detail-label">Year</span><span>${mech.year || '—'}</span></div>
-            <div class="detail-row"><span class="detail-label">Base #</span><span>${mech.baseNumber || '—'}</span></div>
-            <div class="detail-row"><span class="detail-label">Catalog #</span><span>${mech.catalogNumber || '—'}</span></div>
-            <div class="detail-row"><span class="detail-label">Manufacturer</span><span>${mech.manufacturer || '—'}</span></div>
-            <div class="detail-row"><span class="detail-label">Material</span><span>${mech.material || '—'}</span></div>
-            <div class="detail-row"><span class="detail-label">Parts</span><span>${mech.parts || '—'}</span></div>
-            ${mech.source ? `<div class="detail-source">${mech.source}</div>` : ''}
+            <div class="detail-row"><span class="detail-label">Model</span><span>${escapeHtml(mech.model || '—')}</span></div>
+            <div class="detail-row"><span class="detail-label">Faction</span><span>${escapeHtml(mech.faction || '—')}</span></div>
+            <div class="detail-row"><span class="detail-label">Weight</span><span>${escapeHtml(mech.weightClass || '—')}</span></div>
+            <div class="detail-row"><span class="detail-label">Year</span><span>${escapeHtml(mech.year || '—')}</span></div>
+            <div class="detail-row"><span class="detail-label">Base #</span><span>${escapeHtml(mech.baseNumber || '—')}</span></div>
+            <div class="detail-row"><span class="detail-label">Catalog #</span><span>${escapeHtml(mech.catalogNumber || '—')}</span></div>
+            <div class="detail-row"><span class="detail-label">Manufacturer</span><span>${escapeHtml(mech.manufacturer || '—')}</span></div>
+            <div class="detail-row"><span class="detail-label">Material</span><span>${escapeHtml(mech.material || '—')}</span></div>
+            <div class="detail-row"><span class="detail-label">Parts</span><span>${escapeHtml(mech.parts || '—')}</span></div>
+            ${mech.source ? `<div class="detail-source">${escapeHtml(mech.source)}</div>` : ''}
             <ul class="detail-sources">${sourcesHtml || '<li>—</li>'}</ul>
         </div>
     `;
