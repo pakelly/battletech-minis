@@ -103,10 +103,6 @@ function renderCards(mechs) {
                 </div>
                 <div class="card-info">
                     <div class="card-name">${mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name}</div>
-                    <div class="card-meta">
-                        <span class="badge ${mech.faction === 'Clan' ? 'clan' : 'is'}">${mech.faction || '—'}</span>
-                        <span class="badge weight">${mech.weightClass || '—'}</span>
-                    </div>
                     <div class="card-source">${sourceLabel}</div>
                 </div>
             </div>
