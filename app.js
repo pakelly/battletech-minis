@@ -1,6 +1,6 @@
 /* BattleTech Mini Collection App v1.5 */
 const APP_VERSION = 'v1.5';
-const DEPLOY_TIME = '20260906.1744';
+const DEPLOY_TIME = '20260905.1733';
 
 let allMechs = [];
 
@@ -49,6 +49,8 @@ function unescapeAttr(s) {
     return s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 }
 
+let filteredMechs = [];
+
 function applyFilters() {
     const search = searchInput.value.toLowerCase().trim();
     const source = sourceFilter.value;
@@ -66,6 +68,7 @@ function applyFilters() {
     // Sort by name
     filtered.sort((a, b) => a.name.localeCompare(b.name));
 
+    filteredMechs = filtered;
     renderCards(filtered);
     totalCount.textContent = `${filtered.length} minis`;
 }
@@ -96,11 +99,20 @@ function showDetail(id) {
     const mech = allMechs.find(m => getMechId(m) === id);
     if (!mech) return;
 
+    const currentIdx = filteredMechs.findIndex(m => getMechId(m) === id);
+    const prevMech = currentIdx > 0 ? filteredMechs[currentIdx - 1] : null;
+    const nextMech = currentIdx < filteredMechs.length - 1 ? filteredMechs[currentIdx + 1] : null;
+
     const imgSrc = mech.imageUrl || '';
     const sources = [mech.source].filter(s => s);
     const sourcesHtml = sources.map(s => `<li>${s}</li>`).join('');
 
     modalBody.innerHTML = `
+        <div class="detail-nav">
+            ${prevMech ? `<button class="nav-btn nav-prev" onclick="showDetail('${escapeAttr(getMechId(prevMech))}')">‹ Prev</button>` : `<button class="nav-btn nav-prev" disabled>‹ Prev</button>`}
+            <span class="nav-counter">${currentIdx + 1} / ${filteredMechs.length}</span>
+            ${nextMech ? `<button class="nav-btn nav-next" onclick="showDetail('${escapeAttr(getMechId(nextMech))}')">Next ›</button>` : `<button class="nav-btn nav-next" disabled>Next ›</button>`}
+        </div>
         <div class="detail-header">
             <h2>${mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name}</h2>
         </div>
@@ -121,6 +133,7 @@ function showDetail(id) {
     `;
 
     detailModal.classList.add('active');
+    modalBody.scrollTop = 0;
 }
 
 modalClose.addEventListener('click', () => {
@@ -149,6 +162,20 @@ cardGrid.addEventListener('click', (e) => {
     if (card) {
         const id = card.getAttribute('data-mech-id');
         if (id) showDetail(id);
+    }
+});
+
+// Keyboard navigation in detail view
+document.addEventListener('keydown', (e) => {
+    if (!detailModal.classList.contains('active')) return;
+    if (e.key === 'ArrowLeft') {
+        const prev = document.querySelector('.nav-prev');
+        if (prev && !prev.disabled) prev.click();
+    } else if (e.key === 'ArrowRight') {
+        const next = document.querySelector('.nav-next');
+        if (next && !next.disabled) next.click();
+    } else if (e.key === 'Escape') {
+        detailModal.classList.remove('active');
     }
 });
 
