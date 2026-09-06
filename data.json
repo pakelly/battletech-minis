@@ -443,8 +443,8 @@
       "weightClass": "Heavy"
     },
     {
-      "name": "Behemoth",
-      "altName": "",
+      "name": "Stone Rhino",
+      "altName": "Behemoth",
       "title": "Behemoth (Clan Heavy Star)",
       "model": "1",
       "baseNumber": "50",
@@ -460,8 +460,8 @@
       "weightClass": "Assault"
     },
     {
-      "name": "Behemoth",
-      "altName": "",
+      "name": "Stone Rhino",
+      "altName": "Behemoth",
       "title": "Behemoth (Battlefield Support: Recon & Hunter Lance)",
       "model": "Standard / Refit / Davion",
       "baseNumber": "3-27",
@@ -4592,7 +4592,7 @@
     },
     {
       "name": "Timber Wolf",
-      "altName": "",
+      "altName": "Mad Cat",
       "title": "Timber Wolf (Wolf's Dragoons Assault Star)",
       "model": "Prime Config / T Config",
       "baseNumber": "3-5",
