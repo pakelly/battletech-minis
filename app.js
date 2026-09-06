@@ -6,11 +6,7 @@ let allMechs = [];
 
 // Filter elements
 const searchInput = document.getElementById('searchInput');
-const factionFilter = document.getElementById('factionFilter');
-const weightFilter = document.getElementById('weightFilter');
-const yearFilter = document.getElementById('yearFilter');
 const sourceFilter = document.getElementById('sourceFilter');
-const sortSelect = document.getElementById('sortSelect');
 const cardGrid = document.getElementById('cardGrid');
 const totalCount = document.getElementById('totalCount');
 
@@ -24,15 +20,6 @@ async function loadData() {
         const response = await fetch('data.json');
         const data = await response.json();
         allMechs = data.mechs;
-
-        // Populate year filter
-        const years = [...new Set(allMechs.map(m => m.year).filter(y => y))].sort((a, b) => a - b);
-        years.forEach(y => {
-            const opt = document.createElement('option');
-            opt.value = y;
-            opt.textContent = y;
-            yearFilter.appendChild(opt);
-        });
 
         // Populate source filter
         const sources = [...new Set(allMechs.map(m => m.source).filter(s => s))].sort();
@@ -56,11 +43,7 @@ function getMechId(m) {
 
 function applyFilters() {
     const search = searchInput.value.toLowerCase().trim();
-    const faction = factionFilter.value;
-    const weight = weightFilter.value;
-    const year = yearFilter.value;
     const source = sourceFilter.value;
-    const sort = sortSelect.value;
 
     let filtered = allMechs.filter(m => {
         const nameMatch = m.name.toLowerCase().includes(search);
@@ -68,22 +51,12 @@ function applyFilters() {
         const titleMatch = m.title && m.title.toLowerCase().includes(search);
         const sourceMatch = (m.source || '').toLowerCase().includes(search);
         if (!nameMatch && !altMatch && !titleMatch && !sourceMatch) return false;
-        if (faction && m.faction !== faction) return false;
-        if (weight && m.weightClass !== weight) return false;
-        if (year && m.year != year) return false;
         if (source && m.source !== source) return false;
         return true;
     });
 
-    // Sort
-    const weightOrder = { Light: 0, Medium: 1, Heavy: 2, Assault: 3, 'N/A': 4 };
-    filtered.sort((a, b) => {
-        if (sort === 'name') return a.name.localeCompare(b.name);
-        if (sort === 'year') return (a.year || 0) - (b.year || 0);
-        if (sort === 'weightClass') return (weightOrder[a.weightClass] ?? 5) - (weightOrder[b.weightClass] ?? 5);
-        if (sort === 'faction') return (a.faction || '').localeCompare(b.faction || '');
-        return 0;
-    });
+    // Sort by name
+    filtered.sort((a, b) => a.name.localeCompare(b.name));
 
     renderCards(filtered);
     totalCount.textContent = `${filtered.length} minis`;
@@ -159,11 +132,7 @@ document.addEventListener('keydown', (e) => {
 
 // Event listeners
 searchInput.addEventListener('input', applyFilters);
-factionFilter.addEventListener('change', applyFilters);
-weightFilter.addEventListener('change', applyFilters);
-yearFilter.addEventListener('change', applyFilters);
 sourceFilter.addEventListener('change', applyFilters);
-sortSelect.addEventListener('change', applyFilters);
 
 // Init
 loadData();
