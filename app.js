@@ -1,6 +1,6 @@
 /* BattleTech Mini Collection App v1.5 */
 const APP_VERSION = 'v1.5';
-const DEPLOY_TIME = '20260906.1600';
+const DEPLOY_TIME = '20260906.1605';
 
 let allMechs = [];
 
@@ -102,8 +102,7 @@ function renderCards(mechs) {
                     ${imgSrc ? `<img src="${imgSrc}" alt="${mech.name}" loading="lazy" onerror="this.style.display='none'">` : ''}
                 </div>
                 <div class="card-info">
-                    <div class="card-name">${mech.name}</div>
-                    ${mech.altName ? `<div class="card-alt">${mech.altName}</div>` : ''}
+                    <div class="card-name">${mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name}</div>
                     <div class="card-meta">
                         <span class="badge ${mech.faction === 'Clan' ? 'clan' : 'is'}">${mech.faction || '—'}</span>
                         <span class="badge weight">${mech.weightClass || '—'}</span>
@@ -125,8 +124,7 @@ function showDetail(id) {
 
     modalBody.innerHTML = `
         <div class="detail-header">
-            <h2>${mech.name}</h2>
-            ${mech.altName ? `<div class="detail-alt">aka ${mech.altName}</div>` : ''}
+            <h2>${mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name}</h2>
         </div>
         ${imgSrc ? `<img src="${imgSrc}" alt="${mech.name}" class="detail-image" onerror="this.style.display='none'">` : ''}
         <div class="detail-meta">
