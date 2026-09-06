@@ -116,7 +116,11 @@ function showDetail(id) {
         <div class="detail-header">
             <h2>${mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name}</h2>
         </div>
-        ${imgSrc ? `<img src="${imgSrc}" alt="${mech.name}" class="detail-image" onerror="this.style.display='none'">` : ''}
+        <div class="detail-image-wrapper">
+            ${prevMech ? `<button class="side-nav side-nav-prev" onclick="showDetail('${escapeAttr(getMechId(prevMech))}')">‹</button>` : ''}
+            ${imgSrc ? `<img src="${imgSrc}" alt="${mech.name}" class="detail-image" onerror="this.style.display='none'">` : '<div class="detail-no-image">No image</div>'}
+            ${nextMech ? `<button class="side-nav side-nav-next" onclick="showDetail('${escapeAttr(getMechId(nextMech))}')">›</button>` : ''}
+        </div>
         <div class="detail-meta">
             <div class="detail-row"><span class="detail-label">Model</span><span>${mech.model || '—'}</span></div>
             <div class="detail-row"><span class="detail-label">Faction</span><span>${mech.faction || '—'}</span></div>
@@ -169,11 +173,11 @@ cardGrid.addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
     if (!detailModal.classList.contains('active')) return;
     if (e.key === 'ArrowLeft') {
-        const prev = document.querySelector('.nav-prev');
-        if (prev && !prev.disabled) prev.click();
+        const prev = document.querySelector('.side-nav-prev');
+        if (prev) prev.click();
     } else if (e.key === 'ArrowRight') {
-        const next = document.querySelector('.nav-next');
-        if (next && !next.disabled) next.click();
+        const next = document.querySelector('.side-nav-next');
+        if (next) next.click();
     } else if (e.key === 'Escape') {
         detailModal.classList.remove('active');
     }
