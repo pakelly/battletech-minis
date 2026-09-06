@@ -75,10 +75,6 @@ header h1 {
     color: var(--text-secondary);
 }
 
-#ownedCount {
-    color: var(--accent);
-}
-
 /* Controls */
 .controls {
     background: var(--bg-secondary);
@@ -149,19 +145,6 @@ select:focus {
     gap: 12px;
 }
 
-.owned-only {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    cursor: pointer;
-    white-space: nowrap;
-}
-
-.owned-only input {
-    cursor: pointer;
-}
 
 
 
@@ -190,10 +173,6 @@ select:focus {
     border-color: var(--bg-hover);
 }
 
-.card.owned {
-    border-color: var(--accent);
-    border-width: 2px;
-}
 
 
 .card-image {
@@ -276,20 +255,6 @@ select:focus {
 .card-year {
     font-size: 0.75rem;
     color: var(--text-secondary);
-}
-
-.card-checkbox {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    z-index: 10;
-}
-
-.card-checkbox input {
-    width: 18px;
-    height: 18px;
-    cursor: pointer;
-    accent-color: var(--accent);
 }
 
 
