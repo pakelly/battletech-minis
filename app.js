@@ -1,6 +1,6 @@
 /* BattleTech Mini Collection App v1.5 */
 const APP_VERSION = 'v1.5';
-const DEPLOY_TIME = '20260906.1634';
+const DEPLOY_TIME = '20260906.1652';
 
 let allMechs = [];
 
@@ -41,6 +41,14 @@ function getMechId(m) {
     return `${m.name}|${m.source || ''}|${m.model || ''}`;
 }
 
+function escapeAttr(s) {
+    return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function unescapeAttr(s) {
+    return s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
+}
+
 function applyFilters() {
     const search = searchInput.value.toLowerCase().trim();
     const source = sourceFilter.value;
@@ -70,7 +78,7 @@ function renderCards(mechs) {
         const sourceLabel = mech.source || '';
 
         return `
-            <div class="card" data-mech-id="${id}" onclick="showDetail('${id}')">
+            <div class="card" data-mech-id="${escapeAttr(id)}">
                 <div class="card-image">
                     ${imgSrc ? `<img src="${imgSrc}" alt="${mech.name}" loading="lazy" onerror="this.style.display='none'">` : ''}
                 </div>
@@ -84,6 +92,7 @@ function renderCards(mechs) {
 }
 
 function showDetail(id) {
+    id = unescapeAttr(id);
     const mech = allMechs.find(m => getMechId(m) === id);
     if (!mech) return;
 
@@ -133,6 +142,15 @@ document.addEventListener('keydown', (e) => {
 // Event listeners
 searchInput.addEventListener('input', applyFilters);
 sourceFilter.addEventListener('change', applyFilters);
+
+// Card click delegation (avoids inline onclick with apostrophe issues)
+cardGrid.addEventListener('click', (e) => {
+    const card = e.target.closest('.card');
+    if (card) {
+        const id = card.getAttribute('data-mech-id');
+        if (id) showDetail(id);
+    }
+});
 
 // Init
 loadData();
