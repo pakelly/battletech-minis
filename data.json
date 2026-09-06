@@ -240,7 +240,7 @@
     },
     {
       "name": "Avatar",
-      "altName": "OmniMech",
+      "altName": "",
       "title": "Avatar (BattleTech: House Kurita Ranger Lance)",
       "model": "AV1-O",
       "baseNumber": "4-67",
@@ -359,7 +359,7 @@
     },
     {
       "name": "Banshee",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Banshee (Inner Sphere Heavy Lance)",
       "model": "BNC-3S / -12S",
       "baseNumber": "44",
@@ -376,7 +376,7 @@
     },
     {
       "name": "Banshee",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Banshee (Eridani Light Horse Hunter Lance)",
       "model": "BNC-3S / -12S",
       "baseNumber": "4-5",
@@ -444,7 +444,7 @@
     },
     {
       "name": "Behemoth",
-      "altName": "Behemoth",
+      "altName": "",
       "title": "Behemoth (Clan Heavy Star)",
       "model": "1",
       "baseNumber": "50",
@@ -461,7 +461,7 @@
     },
     {
       "name": "Behemoth",
-      "altName": "Combat Vehicle",
+      "altName": "",
       "title": "Behemoth (Battlefield Support: Recon & Hunter Lance)",
       "model": "Standard / Refit / Davion",
       "baseNumber": "3-27",
@@ -546,7 +546,7 @@
     },
     {
       "name": "Blackjack",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Blackjack (Inner Sphere Striker Lance)",
       "model": "BJ-1 / -5",
       "baseNumber": "58",
@@ -563,7 +563,7 @@
     },
     {
       "name": "Blackjack",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Blackjack (Wolf's Dragoons Assault Star)",
       "model": "BJ-2 / C",
       "baseNumber": "3-3",
@@ -580,7 +580,7 @@
     },
     {
       "name": "Blackjack",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Blackjack (Alpha Strike Boxed Set)",
       "model": "BJ-3",
       "baseNumber": "a9",
@@ -682,7 +682,7 @@
     },
     {
       "name": "Caesar",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Caesar (Mercenaries Box Set)",
       "model": "CES-3R / -5R",
       "baseNumber": "3-12",
@@ -699,7 +699,7 @@
     },
     {
       "name": "Caesar",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Caesar (Legendary MechWarriors II Pack)",
       "model": "CSR-3R Archangel",
       "baseNumber": "3-64",
@@ -767,7 +767,7 @@
     },
     {
       "name": "Centurion",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Centurion (Inner Sphere Heavy Lance)",
       "model": "CN9-A / CN9-D / CN9-D3 CN10-B / CN10-D",
       "baseNumber": "45",
@@ -784,7 +784,7 @@
     },
     {
       "name": "Centurion",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Centurion (BattleTech: Essentials)",
       "model": "Yen-Lo-Wang",
       "baseNumber": "4-25",
@@ -852,7 +852,7 @@
     },
     {
       "name": "Chimera",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Chimera (BattleTech: House Kurita Ranger Lance)",
       "model": "CMA-1S",
       "baseNumber": "4-68",
@@ -920,7 +920,7 @@
     },
     {
       "name": "Condor",
-      "altName": "Combat Vehicle",
+      "altName": "",
       "title": "Condor (Battlefield Support: Assault & Cavalry Lances)",
       "model": "Standard / LAC / Ultra",
       "baseNumber": "3-38",
@@ -1039,7 +1039,7 @@
     },
     {
       "name": "Crossbow",
-      "altName": "OmniMech",
+      "altName": "",
       "title": "Crossbow (Clan Heavy Battle Star)",
       "model": "Prime Config / T Config",
       "baseNumber": "86",
@@ -1328,7 +1328,7 @@
     },
     {
       "name": "Elemental Battle Armor",
-      "altName": "Battle Armor",
+      "altName": "",
       "title": "Elemental Battle Armor (Clan Invasion Box Set or Clan Elemental Star)",
       "model": "Standard / Fire Elemental III",
       "baseNumber": "16",
@@ -1413,7 +1413,7 @@
     },
     {
       "name": "Excalibur",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Excalibur (Third Star League Battle Group)",
       "model": "EXC-B2 / -B2b / -B2-RISC",
       "baseNumber": "4-44",
@@ -1702,7 +1702,7 @@
     },
     {
       "name": "Gladiator",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Gladiator (Proliferation Cycle Pack)",
       "model": "GLD-4R / -7R/SF",
       "baseNumber": "4-34",
@@ -1923,7 +1923,7 @@
     },
     {
       "name": "Gunslinger",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Gunslinger (Northwind Highlanders Command Lance)",
       "model": "GUN-1ERD / -3ERD",
       "baseNumber": "4-14",
@@ -1957,7 +1957,7 @@
     },
     {
       "name": "Hammerhead",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Hammerhead (Third Star League Strike Team)",
       "model": "1",
       "baseNumber": "4-38",
@@ -2025,7 +2025,7 @@
     },
     {
       "name": "Havoc",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Havoc (Third Star League Strike Team)",
       "model": "HVC-P6 / -P7",
       "baseNumber": "4-39",
@@ -2042,7 +2042,7 @@
     },
     {
       "name": "Helios",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Helios (Second Star League Assault Lance)",
       "model": "HEL-3D / -6RISC",
       "baseNumber": "4-18",
@@ -2382,7 +2382,7 @@
     },
     {
       "name": "Inner Sphere Standard Battle Armor",
-      "altName": "Battle Armor",
+      "altName": "",
       "title": "Inner Sphere Standard Battle Armor (Inner Sphere Battle Armor Platoon)",
       "model": "Standard / Magnetic",
       "baseNumber": "3-58",
@@ -2671,7 +2671,7 @@
     },
     {
       "name": "Legionnaire",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Legionnaire (BattleTech: House Davion Cavalry Lance)",
       "model": "LGN-2D / -2K / -2K-RISC",
       "baseNumber": "4-33A",
@@ -3062,7 +3062,7 @@
     },
     {
       "name": "Mercury",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Mercury (ComStar Command Level II)",
       "model": "MCY-99 / -98 / -97 / -105",
       "baseNumber": "65",
@@ -3079,7 +3079,7 @@
     },
     {
       "name": "Merlin",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Merlin (Inner Sphere Heavy Recon Lance)",
       "model": "MLN-1A / -1D / C",
       "baseNumber": "3-46",
@@ -3266,7 +3266,7 @@
     },
     {
       "name": "Nova Cat",
-      "altName": "OmniMech",
+      "altName": "",
       "title": "Nova Cat (Clan Fire Star)",
       "model": "Prime Config / T Config",
       "baseNumber": "33",
@@ -3504,7 +3504,7 @@
     },
     {
       "name": "Peacekeeper",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Peacekeeper (Third Star League Battle Group)",
       "model": "PKP-1A",
       "baseNumber": "4-46",
@@ -3623,7 +3623,7 @@
     },
     {
       "name": "Pike",
-      "altName": "Combat Vehicle",
+      "altName": "",
       "title": "Pike (Battlefield Support: Heavy Battle & Sweep Lances)",
       "model": "Standard / LB-X",
       "baseNumber": "3-81",
@@ -3980,7 +3980,7 @@
     },
     {
       "name": "Scorpion",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Scorpion (Inner Sphere Security Lance)",
       "model": "SCP-1N / -1BR / -1O SCP-2N / -12S / C",
       "baseNumber": "3-30",
@@ -4116,7 +4116,7 @@
     },
     {
       "name": "Shiro",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Shiro (BattleTech: House Kurita Command Lance)",
       "model": "SH-1V",
       "baseNumber": "4-74",
@@ -4167,7 +4167,7 @@
     },
     {
       "name": "Skulker",
-      "altName": "Combat Vehicle",
+      "altName": "",
       "title": "Skulker (Battlefield Support: Recon & Hunter Lance)",
       "model": "Standard / X-5 / Mk. II / C",
       "baseNumber": "3-24",
@@ -4966,7 +4966,7 @@
     },
     {
       "name": "Vulcan",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Vulcan (Inner Sphere Security Lance)",
       "model": "VT-2T / -5M / -5S VT-5Sr / -6M / -7T",
       "baseNumber": "3-28",
@@ -5102,7 +5102,7 @@
     },
     {
       "name": "Warrior",
-      "altName": "Combat Vehicle",
+      "altName": "",
       "title": "Warrior (Battlefield Support: Recon & Hunter Lance)",
       "model": "H-7 / -7F",
       "baseNumber": "3-25",
@@ -5153,7 +5153,7 @@
     },
     {
       "name": "Wendigo",
-      "altName": "OmniMech",
+      "altName": "",
       "title": "Wendigo (Third Star League Battle Group)",
       "model": "Prime Config / Wendigo-XR",
       "baseNumber": "4-49",
@@ -5238,7 +5238,7 @@
     },
     {
       "name": "Wolverine",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Wolverine (BattleTech Beginner Box or BattleTech: A Game of Armored Combat)",
       "model": "WVR-6R / -3R / -9R / -10R",
       "baseNumber": "2",
@@ -5255,7 +5255,7 @@
     },
     {
       "name": "Wraith",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Wraith (Alpha Strike Boxed Set)",
       "model": "TR1 / TR2 / TR5",
       "baseNumber": "a6",
@@ -5272,7 +5272,7 @@
     },
     {
       "name": "Ymir",
-      "altName": "BattleMech",
+      "altName": "",
       "title": "Ymir (Proliferation Cycle Pack)",
       "model": "BWP-2B",
       "baseNumber": "4-37",
