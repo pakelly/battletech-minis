@@ -55,9 +55,10 @@ echo ""
 echo "=== Step 3: Copy web files from main ==="
 mkdir -p images
 for f in $WEB_FILES; do
-  if [ -f "$f" ]; then
-    git checkout main -- "$f"
+  if git show main:"$f" > "$f" 2>/dev/null; then
     echo "  ✓ $f"
+  else
+    echo "  ⚠ Skip $f (not on main)"
   fi
 done
 
