@@ -1,6 +1,6 @@
 /* BattleTech Mini Collection App v1.5 */
 const APP_VERSION = 'v2.0';
-const DEPLOY_TIME = '20260907.0033';
+const DEPLOY_TIME = '20260907.0056';
 
 let allMechs = [];
 
@@ -127,14 +127,10 @@ function showDetail(id) {
         </div>
         <div class="detail-meta">
             <div class="detail-row"><span class="detail-label">Model</span><span>${escapeHtml(mech.model || '—')}</span></div>
-            <div class="detail-row"><span class="detail-label">Faction</span><span>${escapeHtml(mech.faction || '—')}</span></div>
-            <div class="detail-row"><span class="detail-label">Weight</span><span>${escapeHtml(mech.weightClass || '—')}</span></div>
             <div class="detail-row"><span class="detail-label">Year</span><span>${escapeHtml(mech.year || '—')}</span></div>
             <div class="detail-row"><span class="detail-label">Base #</span><span>${escapeHtml(mech.baseNumber || '—')}</span></div>
             <div class="detail-row"><span class="detail-label">Catalog #</span><span>${escapeHtml(mech.catalogNumber || '—')}</span></div>
             <div class="detail-row"><span class="detail-label">Manufacturer</span><span>${escapeHtml(mech.manufacturer || '—')}</span></div>
-            <div class="detail-row"><span class="detail-label">Material</span><span>${escapeHtml(mech.material || '—')}</span></div>
-            <div class="detail-row"><span class="detail-label">Parts</span><span>${escapeHtml(mech.parts || '—')}</span></div>
             ${mech.source ? `<div class="detail-source">${escapeHtml(mech.source)}</div>` : ''}
             <ul class="detail-sources">${sourcesHtml || '<li>—</li>'}</ul>
         </div>
