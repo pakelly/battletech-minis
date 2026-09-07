@@ -1,6 +1,6 @@
 /* BattleTech Mini Collection App v1.5 */
-const APP_VERSION = 'v1.5';
-const DEPLOY_TIME = '20260907.0032';
+const APP_VERSION = 'v2.0';
+const DEPLOY_TIME = '20260907.0033';
 
 let allMechs = [];
 
