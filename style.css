@@ -339,12 +339,6 @@ select:focus {
     margin-bottom: 4px;
 }
 
-.detail-source {
-    font-size: 0.9rem;
-    color: var(--accent);
-    margin-bottom: 8px;
-}
-
 .detail-row {
     display: flex;
     justify-content: space-between;
