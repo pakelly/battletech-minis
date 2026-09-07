@@ -131,7 +131,6 @@ function showDetail(id) {
             <div class="detail-row"><span class="detail-label">Base #</span><span>${escapeHtml(mech.baseNumber || '—')}</span></div>
             <div class="detail-row"><span class="detail-label">Catalog #</span><span>${escapeHtml(mech.catalogNumber || '—')}</span></div>
             <div class="detail-row"><span class="detail-label">Manufacturer</span><span>${escapeHtml(mech.manufacturer || '—')}</span></div>
-            ${mech.source ? `<div class="detail-source">${escapeHtml(mech.source)}</div>` : ''}
             <ul class="detail-sources">${sourcesHtml || '<li>—</li>'}</ul>
         </div>
     `;
