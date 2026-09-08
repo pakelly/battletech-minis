@@ -1,11 +1,12 @@
 /* BattleTech Mini Collection App v1.5 */
 const APP_VERSION = 'v2.0';
-const DEPLOY_TIME = '20260907.0117';
+const DEPLOY_TIME = '20260908.1730';
 
 let allMechs = [];
 
 // Filter elements
 const searchInput = document.getElementById('searchInput');
+const baseNumberSearch = document.getElementById('baseNumberSearch');
 const sourceFilter = document.getElementById('sourceFilter');
 const cardGrid = document.getElementById('cardGrid');
 const totalCount = document.getElementById('totalCount');
@@ -57,6 +58,7 @@ let filteredMechs = [];
 
 function applyFilters() {
     const search = searchInput.value.toLowerCase().trim();
+    const baseQuery = baseNumberSearch.value.toLowerCase().trim();
     const source = sourceFilter.value;
 
     let filtered = allMechs.filter(m => {
@@ -65,6 +67,7 @@ function applyFilters() {
         const titleMatch = m.title && m.title.toLowerCase().includes(search);
         const sourceMatch = (m.source || '').toLowerCase().includes(search);
         if (!nameMatch && !altMatch && !titleMatch && !sourceMatch) return false;
+        if (baseQuery && !(m.baseNumber && String(m.baseNumber).includes(baseQuery))) return false;
         if (source && m.source !== source) return false;
         return true;
     });
@@ -157,6 +160,7 @@ document.addEventListener('keydown', (e) => {
 
 // Event listeners
 searchInput.addEventListener('input', applyFilters);
+baseNumberSearch.addEventListener('input', applyFilters);
 sourceFilter.addEventListener('change', applyFilters);
 
 // Card click delegation (avoids inline onclick with apostrophe issues)

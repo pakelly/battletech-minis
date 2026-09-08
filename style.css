@@ -102,6 +102,11 @@ header h1 {
     border-color: var(--accent);
 }
 
+.base-search {
+    max-width: 100px;
+    flex: 0 0 100px;
+}
+
 .filters {
     display: flex;
     gap: 6px;
