@@ -104,6 +104,7 @@ function renderCards(mechs, baseQuery) {
                 </div>
                 <div class="card-info">
                     <div class="card-name">${escapeHtml(mech.altName ? mech.name + ' (' + mech.altName + ')' : mech.name)}</div>
+                    ${mech.baseNumber ? `<div class="card-base">#${escapeHtml(mech.baseNumber)}</div>` : ''}
                     <div class="card-source">${escapeHtml(sourceLabel)}</div>
                 </div>
             </div>
