@@ -72,23 +72,33 @@ function applyFilters() {
         return true;
     });
 
-    // Sort by name
-    filtered.sort((a, b) => a.name.localeCompare(b.name));
+    // Sort: exact base number matches first, then alphabetical
+    if (baseQuery) {
+        filtered.sort((a, b) => {
+            const aExact = String(a.baseNumber || '') === baseQuery ? 0 : 1;
+            const bExact = String(b.baseNumber || '') === baseQuery ? 0 : 1;
+            if (aExact !== bExact) return aExact - bExact;
+            return a.name.localeCompare(b.name);
+        });
+    } else {
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
+    }
 
     filteredMechs = filtered;
-    renderCards(filtered);
+    renderCards(filtered, baseQuery);
     totalCount.textContent = `${filtered.length} minis`;
 }
 
-function renderCards(mechs) {
+function renderCards(mechs, baseQuery) {
     cardGrid.innerHTML = mechs.map(mech => {
         const id = getMechId(mech);
         const imgSrc = mech.imageUrl || '';
         const imgFallback = mech.imageFile || '';
+        const isExactBaseMatch = baseQuery && String(mech.baseNumber || '') === baseQuery;
         const sourceLabel = mech.source || '';
 
         return `
-            <div class="card" data-mech-id="${escapeAttr(id)}">
+            <div class="card${isExactBaseMatch ? ' card-exact-match' : ''}" data-mech-id="${escapeAttr(id)}">
                 <div class="card-image">
                     ${imgSrc ? `<img src="${escapeAttr(imgSrc)}" alt="${escapeAttr(mech.name)}" loading="lazy" onerror="this.style.display='none'">` : ''}
                 </div>
